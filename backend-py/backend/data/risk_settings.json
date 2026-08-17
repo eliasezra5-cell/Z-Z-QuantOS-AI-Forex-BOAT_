@@ -1,0 +1,52 @@
+[
+  {
+    "id": "max_risk_per_trade",
+    "value": 2,
+    "enabled": true,
+    "description": "Max risk per trade (% of equity)",
+    "createdAt": "2026-08-07T14:48:35.501606+00:00",
+    "updatedAt": "2026-08-15T23:15:31.035549+00:00"
+  },
+  {
+    "id": "max_daily_loss",
+    "value": 5,
+    "enabled": true,
+    "description": "Max daily loss (% of equity)",
+    "createdAt": "2026-08-07T14:48:35.501625+00:00"
+  },
+  {
+    "id": "max_total_exposure",
+    "value": 30,
+    "enabled": true,
+    "description": "Max total exposure (% of equity)",
+    "createdAt": "2026-08-07T14:48:35.501631+00:00"
+  },
+  {
+    "id": "max_open_positions",
+    "value": 10,
+    "enabled": true,
+    "description": "Max open positions",
+    "createdAt": "2026-08-07T14:48:35.501636+00:00"
+  },
+  {
+    "id": "max_correlation",
+    "value": 3,
+    "enabled": true,
+    "description": "Max correlated pairs exposure",
+    "createdAt": "2026-08-07T14:48:35.501641+00:00"
+  },
+  {
+    "id": "stop_loss_required",
+    "value": true,
+    "enabled": true,
+    "description": "Stop loss required on all trades",
+    "createdAt": "2026-08-07T14:48:35.501646+00:00"
+  },
+  {
+    "id": "take_profit_required",
+    "value": false,
+    "enabled": true,
+    "description": "Take profit recommended",
+    "createdAt": "2026-08-07T14:48:35.501651+00:00"
+  }
+]

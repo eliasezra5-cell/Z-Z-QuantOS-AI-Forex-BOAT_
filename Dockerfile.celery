@@ -1,0 +1,42 @@
+# syntax=docker/dockerfile:1
+# ---------------------------------------------------------------------------
+# QuantOS AI BOAT — Celery Worker (and Beat)
+# Multi-stage build sharing the backend dependency set, runs as non-root.
+# ---------------------------------------------------------------------------
+FROM python:3.11-slim AS builder
+
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    PIP_NO_CACHE_DIR=1
+
+WORKDIR /build
+
+COPY backend-py/requirements.txt ./requirements.txt
+RUN pip install --no-cache-dir --prefix=/opt/venv -r requirements.txt
+
+# ---------------------------------------------------------------------------
+FROM python:3.11-slim AS runtime
+
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    PATH="/opt/venv/bin:$PATH" \
+    APP_HOME=/app
+
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends ca-certificates \
+    && rm -rf /var/lib/apt/lists/* \
+    && useradd --create-home --uid 10001 --shell /usr/sbin/nologin quantos
+
+WORKDIR ${APP_HOME}
+
+COPY --from=builder /opt/venv /opt/venv
+COPY backend-py/ ./backend-py/
+
+RUN mkdir -p ${APP_HOME}/backend-py/backend/data \
+    && chown -R quantos:quantos ${APP_HOME}
+
+USER quantos
+
+WORKDIR ${APP_HOME}/backend-py
+
+CMD ["celery", "-A", "app.tasks.celery_app", "worker", "--loglevel=info", "--concurrency=2"]

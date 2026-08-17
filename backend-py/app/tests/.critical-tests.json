@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "failedSuites": [],
+  "timestamp": 1786197517265,
+  "suites": [
+    "test_safety_gates.py",
+    "test_safety_e2e.py",
+    "test_strict_risk_policy.py",
+    "test_quality_gates.py",
+    "test_phase5_adapters.py",
+    "test_risk_analyzers.py"
+  ],
+  "generatedBy": "write_critical_test_marker"
+}

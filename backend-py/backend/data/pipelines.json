@@ -1,0 +1,62 @@
+[
+  {
+    "id": "p1",
+    "name": "Market OHLC ETL",
+    "type": "batch",
+    "source": "market-providers",
+    "target": "ohlc-store",
+    "enabled": true,
+    "lastRun": 1786928703307,
+    "status": "completed",
+    "createdAt": "2026-08-07T14:48:35.483131+00:00",
+    "startedAt": 1786928681994,
+    "updatedAt": "2026-08-17T01:05:03.307072+00:00",
+    "lastResult": {
+      "records": 600
+    }
+  },
+  {
+    "id": "p2",
+    "name": "News Ingest Stream",
+    "type": "streaming",
+    "source": "news-sources",
+    "target": "news-store",
+    "enabled": true,
+    "lastRun": null,
+    "status": "idle",
+    "createdAt": "2026-08-07T14:48:35.483143+00:00"
+  },
+  {
+    "id": "p3",
+    "name": "Economic Data Sync",
+    "type": "batch",
+    "source": "economic-calendar",
+    "target": "events-store",
+    "enabled": true,
+    "lastRun": null,
+    "status": "idle",
+    "createdAt": "2026-08-07T14:48:35.483148+00:00"
+  },
+  {
+    "id": "p4",
+    "name": "Feature Engineering",
+    "type": "batch",
+    "source": "raw-market",
+    "target": "feature-store",
+    "enabled": true,
+    "lastRun": null,
+    "status": "idle",
+    "createdAt": "2026-08-07T14:48:35.483152+00:00"
+  },
+  {
+    "id": "p5",
+    "name": "AI Model Retraining",
+    "type": "batch",
+    "source": "learning-log",
+    "target": "ai-model",
+    "enabled": true,
+    "lastRun": null,
+    "status": "idle",
+    "createdAt": "2026-08-07T14:48:35.483157+00:00"
+  }
+]

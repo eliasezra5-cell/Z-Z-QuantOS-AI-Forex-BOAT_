@@ -1,0 +1,37 @@
+[
+  {
+    "id": "5d23c214-5b7d-433e-80be-04aecf60eae4",
+    "key": "exchange",
+    "value": "ICMarkets-Demo",
+    "type": "string",
+    "createdAt": "2026-08-08T16:15:37.568616+00:00"
+  },
+  {
+    "id": "7ed8e590-7fc1-4ebe-8433-7556956c1679",
+    "key": "defaultLeverage",
+    "value": "1:500",
+    "type": "string",
+    "createdAt": "2026-08-08T16:15:37.568666+00:00"
+  },
+  {
+    "id": "ca52b5d0-09e0-49fd-b4e2-5de44378425b",
+    "key": "maxLotSize",
+    "value": 5,
+    "type": "number",
+    "createdAt": "2026-08-08T16:15:37.568688+00:00"
+  },
+  {
+    "id": "38d9fb84-9ea0-4133-8c48-415ef2a69915",
+    "key": "newsSentimentThreshold",
+    "value": 0.15,
+    "type": "number",
+    "createdAt": "2026-08-08T16:15:37.568714+00:00"
+  },
+  {
+    "id": "6476ccfa-2d76-4eae-9970-ac1d53e78466",
+    "key": "decisionConfidenceThreshold",
+    "value": 0.6,
+    "type": "number",
+    "createdAt": "2026-08-08T16:15:37.568735+00:00"
+  }
+]

@@ -1,0 +1,263 @@
+[
+  {
+    "id": "2243faab-3dff-4704-9f26-451df630b749",
+    "type": "hardening",
+    "status": "completed",
+    "startedAt": 1786209297475,
+    "checks": [
+      {
+        "id": "sec-1",
+        "category": "Authentication",
+        "check": "JWT auth on admin/trading routes",
+        "passed": true,
+        "severity": "critical"
+      },
+      {
+        "id": "sec-2",
+        "category": "Authentication",
+        "check": "Rate limiting active",
+        "passed": true,
+        "severity": "high"
+      },
+      {
+        "id": "sec-3",
+        "category": "Secrets",
+        "check": "No hardcoded secrets in code",
+        "passed": true,
+        "severity": "critical"
+      },
+      {
+        "id": "sec-4",
+        "category": "Secrets",
+        "check": "MT5 credentials via environment/secrets",
+        "passed": true,
+        "severity": "critical"
+      },
+      {
+        "id": "sec-5",
+        "category": "Headers",
+        "check": "Helmet security headers",
+        "passed": true,
+        "severity": "medium"
+      },
+      {
+        "id": "sec-6",
+        "category": "Transport",
+        "check": "HTTPS/TLS enforced",
+        "passed": true,
+        "severity": "high"
+      },
+      {
+        "id": "sec-7",
+        "category": "Audit",
+        "check": "Audit logging enabled",
+        "passed": true,
+        "severity": "medium"
+      },
+      {
+        "id": "sec-8",
+        "category": "Input",
+        "check": "Input validation on API bodies",
+        "passed": true,
+        "severity": "high"
+      },
+      {
+        "id": "sec-9",
+        "category": "RBAC",
+        "check": "Role-based access control",
+        "passed": true,
+        "severity": "high"
+      },
+      {
+        "id": "sec-10",
+        "category": "Data",
+        "check": "Sensitive data encrypted at rest",
+        "passed": true,
+        "severity": "high"
+      }
+    ],
+    "createdAt": "2026-08-08T17:14:57.475149+00:00",
+    "completedAt": 1786209299476,
+    "summary": {
+      "total": 10,
+      "passed": 10,
+      "failed": 0,
+      "score": 100
+    },
+    "updatedAt": "2026-08-08T17:14:59.476090+00:00"
+  },
+  {
+    "id": "0ba47946-2ea6-48a0-98d6-4bc63b168aec",
+    "type": "hardening",
+    "status": "completed",
+    "startedAt": 1786209346883,
+    "checks": [
+      {
+        "id": "sec-1",
+        "category": "Authentication",
+        "check": "JWT auth on admin/trading routes",
+        "passed": true,
+        "severity": "critical"
+      },
+      {
+        "id": "sec-2",
+        "category": "Authentication",
+        "check": "Rate limiting active",
+        "passed": true,
+        "severity": "high"
+      },
+      {
+        "id": "sec-3",
+        "category": "Secrets",
+        "check": "No hardcoded secrets in code",
+        "passed": true,
+        "severity": "critical"
+      },
+      {
+        "id": "sec-4",
+        "category": "Secrets",
+        "check": "MT5 credentials via environment/secrets",
+        "passed": true,
+        "severity": "critical"
+      },
+      {
+        "id": "sec-5",
+        "category": "Headers",
+        "check": "Helmet security headers",
+        "passed": true,
+        "severity": "medium"
+      },
+      {
+        "id": "sec-6",
+        "category": "Transport",
+        "check": "HTTPS/TLS enforced",
+        "passed": true,
+        "severity": "high"
+      },
+      {
+        "id": "sec-7",
+        "category": "Audit",
+        "check": "Audit logging enabled",
+        "passed": true,
+        "severity": "medium"
+      },
+      {
+        "id": "sec-8",
+        "category": "Input",
+        "check": "Input validation on API bodies",
+        "passed": true,
+        "severity": "high"
+      },
+      {
+        "id": "sec-9",
+        "category": "RBAC",
+        "check": "Role-based access control",
+        "passed": true,
+        "severity": "high"
+      },
+      {
+        "id": "sec-10",
+        "category": "Data",
+        "check": "Sensitive data encrypted at rest",
+        "passed": true,
+        "severity": "high"
+      }
+    ],
+    "createdAt": "2026-08-08T17:15:46.883509+00:00",
+    "completedAt": 1786209348886,
+    "summary": {
+      "total": 10,
+      "passed": 10,
+      "failed": 0,
+      "score": 100
+    },
+    "updatedAt": "2026-08-08T17:15:48.886408+00:00"
+  },
+  {
+    "id": "7f7512ae-4bc9-4788-8c82-232fcbadcfc5",
+    "type": "hardening",
+    "status": "completed",
+    "startedAt": 1786210309710,
+    "checks": [
+      {
+        "id": "sec-1",
+        "category": "Authentication",
+        "check": "JWT auth on admin/trading routes",
+        "passed": true,
+        "severity": "critical"
+      },
+      {
+        "id": "sec-2",
+        "category": "Authentication",
+        "check": "Rate limiting active",
+        "passed": true,
+        "severity": "high"
+      },
+      {
+        "id": "sec-3",
+        "category": "Secrets",
+        "check": "No hardcoded secrets in code",
+        "passed": true,
+        "severity": "critical"
+      },
+      {
+        "id": "sec-4",
+        "category": "Secrets",
+        "check": "MT5 credentials via environment/secrets",
+        "passed": true,
+        "severity": "critical"
+      },
+      {
+        "id": "sec-5",
+        "category": "Headers",
+        "check": "Helmet security headers",
+        "passed": true,
+        "severity": "medium"
+      },
+      {
+        "id": "sec-6",
+        "category": "Transport",
+        "check": "HTTPS/TLS enforced",
+        "passed": true,
+        "severity": "high"
+      },
+      {
+        "id": "sec-7",
+        "category": "Audit",
+        "check": "Audit logging enabled",
+        "passed": true,
+        "severity": "medium"
+      },
+      {
+        "id": "sec-8",
+        "category": "Input",
+        "check": "Input validation on API bodies",
+        "passed": true,
+        "severity": "high"
+      },
+      {
+        "id": "sec-9",
+        "category": "RBAC",
+        "check": "Role-based access control",
+        "passed": true,
+        "severity": "high"
+      },
+      {
+        "id": "sec-10",
+        "category": "Data",
+        "check": "Sensitive data encrypted at rest",
+        "passed": true,
+        "severity": "high"
+      }
+    ],
+    "createdAt": "2026-08-08T17:31:49.710671+00:00",
+    "completedAt": 1786210311714,
+    "summary": {
+      "total": 10,
+      "passed": 10,
+      "failed": 0,
+      "score": 100
+    },
+    "updatedAt": "2026-08-08T17:31:51.714610+00:00"
+  }
+]

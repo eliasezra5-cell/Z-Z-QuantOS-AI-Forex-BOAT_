@@ -1,0 +1,198 @@
+[
+  {
+    "id": "b0f9b97d-6a33-4dc8-9984-5d58f8c16882",
+    "title": "TP hit: EURUSD",
+    "message": "Profit 0.0",
+    "type": "take_profit",
+    "severity": "info",
+    "channels": [
+      "web",
+      "push"
+    ],
+    "symbol": "EURUSD",
+    "timestamp": 1786204629902,
+    "read": false,
+    "delivered": {
+      "push": true
+    },
+    "createdAt": "2026-08-08T15:57:09.902614+00:00",
+    "updatedAt": "2026-08-08T15:57:09.903567+00:00"
+  },
+  {
+    "id": "eb564938-3e87-46bd-b771-ee6a4e1ffa12",
+    "title": "t",
+    "message": "m",
+    "type": "notification",
+    "severity": "info",
+    "channels": [
+      "web"
+    ],
+    "timestamp": 1786209292008,
+    "read": false,
+    "delivered": {
+      "web": true
+    },
+    "createdAt": "2026-08-08T17:14:52.008821+00:00",
+    "updatedAt": "2026-08-08T17:14:52.009442+00:00"
+  },
+  {
+    "id": "8bffdb67-7389-4aca-a980-2d3a486ba030",
+    "title": "t",
+    "message": "m",
+    "type": "notification",
+    "severity": "info",
+    "channels": [
+      "web"
+    ],
+    "timestamp": 1786209341469,
+    "read": false,
+    "delivered": {
+      "web": true
+    },
+    "createdAt": "2026-08-08T17:15:41.469495+00:00",
+    "updatedAt": "2026-08-08T17:15:41.470732+00:00"
+  },
+  {
+    "id": "5d7fa331-584f-42c7-bdac-9281965a7dde",
+    "title": "t",
+    "message": "m",
+    "type": "notification",
+    "severity": "info",
+    "channels": [
+      "web"
+    ],
+    "timestamp": 1786210304020,
+    "read": false,
+    "delivered": {
+      "web": true
+    },
+    "createdAt": "2026-08-08T17:31:44.020075+00:00",
+    "updatedAt": "2026-08-08T17:31:44.021266+00:00"
+  },
+  {
+    "id": "405829b1-b2c2-48ad-ae0f-842dd62bd6bc",
+    "title": "Manual Test Alert",
+    "message": "Notification channels are operational",
+    "type": "notification",
+    "severity": "info",
+    "channels": [
+      "web",
+      "telegram"
+    ],
+    "timestamp": 1786232049320,
+    "read": false,
+    "delivered": {
+      "telegram": true
+    },
+    "createdAt": "2026-08-08T23:34:09.320436+00:00",
+    "updatedAt": "2026-08-08T23:34:09.336438+00:00"
+  },
+  {
+    "id": "3a4ab194-2bda-4236-8b37-863ade17284d",
+    "title": "Manual Test Alert",
+    "message": "Notification channels are operational",
+    "type": "notification",
+    "severity": "info",
+    "channels": [
+      "web",
+      "telegram"
+    ],
+    "timestamp": 1786232052674,
+    "read": false,
+    "delivered": {
+      "telegram": true
+    },
+    "createdAt": "2026-08-08T23:34:12.674186+00:00",
+    "updatedAt": "2026-08-08T23:34:12.689723+00:00"
+  },
+  {
+    "id": "891204f8-fabf-454d-ac10-31bcd4d82dbc",
+    "title": "Manual Test Alert",
+    "message": "Notification channels are operational",
+    "type": "notification",
+    "severity": "info",
+    "channels": [
+      "web",
+      "telegram"
+    ],
+    "timestamp": 1786232053304,
+    "read": false,
+    "delivered": {
+      "telegram": true
+    },
+    "createdAt": "2026-08-08T23:34:13.304380+00:00",
+    "updatedAt": "2026-08-08T23:34:13.329874+00:00"
+  },
+  {
+    "id": "cfa7d209-b9a5-4613-991f-902d0d44309b",
+    "title": "Manual Test Alert",
+    "message": "Notification channels are operational",
+    "type": "notification",
+    "severity": "info",
+    "channels": [
+      "web",
+      "telegram"
+    ],
+    "timestamp": 1786232053305,
+    "read": false,
+    "delivered": {
+      "telegram": true
+    },
+    "createdAt": "2026-08-08T23:34:13.305858+00:00",
+    "updatedAt": "2026-08-08T23:34:13.336640+00:00"
+  },
+  {
+    "id": "e150ecfb-7581-47da-99b2-c1180987b17b",
+    "title": "Manual Test Alert",
+    "message": "Notification channels are operational",
+    "type": "notification",
+    "severity": "info",
+    "channels": [
+      "web",
+      "telegram"
+    ],
+    "timestamp": 1786233608040,
+    "read": false,
+    "delivered": {
+      "telegram": true
+    },
+    "createdAt": "2026-08-09T00:00:08.040480+00:00",
+    "updatedAt": "2026-08-09T00:00:08.057381+00:00"
+  },
+  {
+    "id": "9a31d5b8-a950-4ee4-ab1f-245d731b5ed4",
+    "title": "Manual Test Alert",
+    "message": "Notification channels are operational",
+    "type": "notification",
+    "severity": "info",
+    "channels": [
+      "web",
+      "telegram"
+    ],
+    "timestamp": 1786233608517,
+    "read": false,
+    "delivered": {
+      "telegram": true
+    },
+    "createdAt": "2026-08-09T00:00:08.517184+00:00",
+    "updatedAt": "2026-08-09T00:00:08.529153+00:00"
+  },
+  {
+    "id": "ada25943-9d4c-4b23-bf7f-3aafe67b28cc",
+    "title": "Manual Test",
+    "message": "test",
+    "type": "notification",
+    "severity": "info",
+    "channels": [
+      "web",
+      "telegram"
+    ],
+    "timestamp": 1786237536741,
+    "read": false,
+    "delivered": {
+      "telegram": true
+    },
+    "createdAt": "2026-08-09T01:05:36.741070+00:00",
+    "updatedAt": "2026-08-09T01:05:36.743208+00:00"
+  }
+]

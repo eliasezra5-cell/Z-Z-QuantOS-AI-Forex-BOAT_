@@ -1,0 +1,442 @@
+[
+  {
+    "id": "b61ec3f7-df07-474a-b150-f46c5c0074b2",
+    "kind": "kill-switch",
+    "condition": "market_data_stale",
+    "detail": "no fresh quote in 30s",
+    "timestamp": 1786114218275,
+    "createdAt": "2026-08-07T14:50:18.275727+00:00"
+  },
+  {
+    "id": "fafab7f2-84d8-4f38-849c-3526c243a4df",
+    "kind": "pause",
+    "condition": "major_news_in_30m",
+    "detail": "paused until 1786118015437",
+    "timestamp": 1786115918610,
+    "createdAt": "2026-08-07T15:18:38.610087+00:00"
+  },
+  {
+    "id": "e9d3f7d7-85f5-429e-9365-8a465ddf8576",
+    "kind": "unpause",
+    "condition": "major_news_in_30m",
+    "detail": "window expired",
+    "timestamp": 1786118018911,
+    "createdAt": "2026-08-07T15:53:38.911878+00:00"
+  },
+  {
+    "id": "ea3213c6-c786-4f23-bd9e-4a4218fb26a4",
+    "kind": "pause",
+    "condition": "major_news_in_30m",
+    "detail": "paused until 1786143215437",
+    "timestamp": 1786141119021,
+    "createdAt": "2026-08-07T22:18:39.022110+00:00"
+  },
+  {
+    "id": "313803ba-528a-4c87-bbe0-101768e68563",
+    "kind": "unpause",
+    "condition": "major_news_in_30m",
+    "detail": "window expired",
+    "timestamp": 1786143219415,
+    "createdAt": "2026-08-07T22:53:39.415588+00:00"
+  },
+  {
+    "id": "8d5be53f-469d-472a-b3f6-066af0713305",
+    "kind": "pause",
+    "condition": "major_news_in_30m",
+    "detail": "paused until 1786218815437",
+    "timestamp": 1786216719686,
+    "createdAt": "2026-08-08T19:18:39.686224+00:00"
+  },
+  {
+    "id": "b6a7bd46-1197-4ad4-8bab-4547bbfd8e3b",
+    "kind": "unpause",
+    "condition": "major_news_in_30m",
+    "detail": "window expired",
+    "timestamp": 1786218820216,
+    "createdAt": "2026-08-08T19:53:40.216077+00:00"
+  },
+  {
+    "id": "d9e8b585-d8a5-4a32-be77-ff37fa6ec050",
+    "kind": "pause",
+    "condition": "weekend",
+    "detail": "paused until 1786312800000",
+    "timestamp": 1786226403502,
+    "createdAt": "2026-08-08T22:00:03.502592+00:00"
+  },
+  {
+    "id": "09730b54-030f-4d87-ab25-4db9d54641b3",
+    "kind": "pause",
+    "condition": "weekend",
+    "detail": "paused until 1786312800000",
+    "timestamp": 1786227843863,
+    "createdAt": "2026-08-08T22:24:03.863617+00:00"
+  },
+  {
+    "id": "a4fb6858-2295-4277-9e91-b2f8cf5c6173",
+    "kind": "pause",
+    "condition": "weekend",
+    "detail": "paused until 1786312800000",
+    "timestamp": 1786237099407,
+    "createdAt": "2026-08-09T00:58:19.407956+00:00"
+  },
+  {
+    "id": "aa063308-b29d-4903-a363-100daa463abc",
+    "kind": "pause",
+    "condition": "weekend",
+    "detail": "paused until 1786312800000",
+    "timestamp": 1786237128621,
+    "createdAt": "2026-08-09T00:58:48.621923+00:00"
+  },
+  {
+    "id": "39a9d7e6-e61a-4357-9f3d-db0165e0a755",
+    "kind": "pause",
+    "condition": "weekend",
+    "detail": "paused until 1786312800000",
+    "timestamp": 1786237404242,
+    "createdAt": "2026-08-09T01:03:24.242483+00:00"
+  },
+  {
+    "id": "1eff936f-2f60-44ab-bc3c-12adb455da4d",
+    "kind": "kill-switch",
+    "condition": "market_data_stale",
+    "detail": "no fresh quote in 30s",
+    "timestamp": 1786237434258,
+    "createdAt": "2026-08-09T01:03:54.258367+00:00"
+  },
+  {
+    "id": "e20fff35-241c-4904-92c5-6b013c36e7bc",
+    "kind": "pause",
+    "condition": "weekend",
+    "detail": "paused until 1786312800000",
+    "timestamp": 1786237496813,
+    "createdAt": "2026-08-09T01:04:56.813730+00:00"
+  },
+  {
+    "id": "bf067fc3-0ae8-4d32-9cd8-e0e90cc416a2",
+    "kind": "kill-switch",
+    "condition": "market_data_stale",
+    "detail": "no fresh quote in 30s",
+    "timestamp": 1786237626854,
+    "createdAt": "2026-08-09T01:07:06.854539+00:00"
+  },
+  {
+    "id": "1b90a0f1-89ec-42fc-ba7e-20f3b8e390aa",
+    "kind": "kill-switch",
+    "condition": "market_data_stale",
+    "detail": "no fresh quote in 30s",
+    "timestamp": 1786237721877,
+    "createdAt": "2026-08-09T01:08:41.877796+00:00"
+  },
+  {
+    "id": "0bd03505-2bf5-43ef-8734-f7f9a7934a20",
+    "kind": "pause",
+    "condition": "weekend",
+    "detail": "paused until 1786312800000",
+    "timestamp": 1786240213599,
+    "createdAt": "2026-08-09T01:50:13.599114+00:00"
+  },
+  {
+    "id": "18e2d0fc-5082-49e6-8573-5887c61cf3f9",
+    "kind": "pause",
+    "condition": "weekend",
+    "detail": "paused until 1786312800000",
+    "timestamp": 1786240260172,
+    "createdAt": "2026-08-09T01:51:00.172670+00:00"
+  },
+  {
+    "id": "639684b6-b2d4-416d-8135-16bdbc258324",
+    "kind": "kill-switch",
+    "condition": "market_data_stale",
+    "detail": "no fresh quote in 30s",
+    "timestamp": 1786242005632,
+    "createdAt": "2026-08-09T02:20:05.632132+00:00"
+  },
+  {
+    "id": "68d25575-40b7-4fb9-861f-3b996ead26fd",
+    "kind": "kill-switch",
+    "condition": "market_data_stale",
+    "detail": "no fresh quote in 30s",
+    "timestamp": 1786242165690,
+    "createdAt": "2026-08-09T02:22:45.690381+00:00"
+  },
+  {
+    "id": "a8311fe9-84c8-4648-984b-0fb2f223608c",
+    "kind": "pause",
+    "condition": "weekend",
+    "detail": "paused until 1786312800000",
+    "timestamp": 1786272237663,
+    "createdAt": "2026-08-09T10:43:57.663330+00:00"
+  },
+  {
+    "id": "efe1c74f-445b-41ed-ab4f-f0606b6a3d83",
+    "kind": "kill-switch",
+    "condition": "market_data_stale",
+    "detail": "no fresh quote in 30s",
+    "timestamp": 1786273503006,
+    "createdAt": "2026-08-09T11:05:03.006166+00:00"
+  },
+  {
+    "id": "e2aa7377-e5fb-4c65-bc36-728e277325ae",
+    "kind": "pause",
+    "condition": "weekend",
+    "detail": "paused until 1786312800000",
+    "timestamp": 1786283939357,
+    "createdAt": "2026-08-09T13:58:59.357410+00:00"
+  },
+  {
+    "id": "af09f9aa-323d-47a6-b996-42266462d393",
+    "kind": "pause",
+    "condition": "weekend",
+    "detail": "paused until 1786312800000",
+    "timestamp": 1786283997262,
+    "createdAt": "2026-08-09T13:59:57.262632+00:00"
+  },
+  {
+    "id": "a4ac6140-ca9e-4405-8f2c-daea041d590f",
+    "kind": "pause",
+    "condition": "weekend",
+    "detail": "paused until 1786312800000",
+    "timestamp": 1786284354804,
+    "createdAt": "2026-08-09T14:05:54.804410+00:00"
+  },
+  {
+    "id": "3ded481e-68d0-4c6c-a617-cdd378074693",
+    "kind": "pause",
+    "condition": "weekend",
+    "detail": "paused until 1786312800000",
+    "timestamp": 1786301852067,
+    "createdAt": "2026-08-09T18:57:32.067832+00:00"
+  },
+  {
+    "id": "fb83cee4-d65c-4cb9-bc17-5e36a9cda61b",
+    "kind": "pause",
+    "condition": "weekend",
+    "detail": "paused until 1786312800000",
+    "timestamp": 1786306517479,
+    "createdAt": "2026-08-09T20:15:17.479869+00:00"
+  },
+  {
+    "id": "cb4bcd23-8989-4865-a1cf-63b5a2687ebe",
+    "kind": "pause",
+    "condition": "major_news_in_30m",
+    "detail": "paused until 1786312415437",
+    "timestamp": 1786310318771,
+    "createdAt": "2026-08-09T21:18:38.772045+00:00"
+  },
+  {
+    "id": "a50539d8-53ec-4e4a-aa25-65c643e1b7de",
+    "kind": "unpause",
+    "condition": "major_news_in_30m",
+    "detail": "window expired",
+    "timestamp": 1786312419530,
+    "createdAt": "2026-08-09T21:53:39.530821+00:00"
+  },
+  {
+    "id": "d54716ae-4bd5-45f9-a6cd-3bbb9e8b56bc",
+    "kind": "unpause",
+    "condition": "weekend",
+    "detail": "window expired",
+    "timestamp": 1786312804653,
+    "createdAt": "2026-08-09T22:00:04.653505+00:00"
+  },
+  {
+    "id": "e7f6b664-ef16-4f7f-826c-69c4a5061d40",
+    "kind": "kill-switch",
+    "condition": "market_data_stale",
+    "detail": "no fresh quote in 30s",
+    "timestamp": 1786321421286,
+    "createdAt": "2026-08-10T00:23:41.286648+00:00"
+  },
+  {
+    "id": "39400d78-373a-4e14-8f2f-52325b2f3de8",
+    "kind": "kill-switch",
+    "condition": "market_data_stale",
+    "detail": "no fresh quote in 30s",
+    "timestamp": 1786321486451,
+    "createdAt": "2026-08-10T00:24:46.451201+00:00"
+  },
+  {
+    "id": "0b4c1380-e595-4db5-b0b3-4b6842816793",
+    "kind": "kill-switch",
+    "condition": "market_data_stale",
+    "detail": "no fresh quote in 30s",
+    "timestamp": 1786321616510,
+    "createdAt": "2026-08-10T00:26:56.510085+00:00"
+  },
+  {
+    "id": "1bfa67ce-5628-4b7e-bdd1-b397c44ee2c1",
+    "kind": "kill-switch",
+    "condition": "market_data_stale",
+    "detail": "no fresh quote in 30s",
+    "timestamp": 1786389432513,
+    "createdAt": "2026-08-10T19:17:12.513854+00:00"
+  },
+  {
+    "id": "fdf86220-4012-4b14-9768-e5c50dd47bf9",
+    "kind": "kill-switch",
+    "condition": "ai_provider_failure",
+    "detail": "AI provider failure event",
+    "timestamp": 1786464397200,
+    "createdAt": "2026-08-11T16:06:37.201039+00:00"
+  },
+  {
+    "id": "46fabd60-ec9c-437e-a356-796ea5af82b7",
+    "kind": "kill-switch",
+    "condition": "market_data_stale",
+    "detail": "no fresh quote in 30s",
+    "timestamp": 1786466377559,
+    "createdAt": "2026-08-11T16:39:37.559776+00:00"
+  },
+  {
+    "id": "81c1e511-17f1-4b9b-99b9-4cb4b304b764",
+    "kind": "kill-switch",
+    "condition": "market_data_stale",
+    "detail": "no fresh quote in 30s",
+    "timestamp": 1786732269573,
+    "createdAt": "2026-08-14T18:31:09.573710+00:00"
+  },
+  {
+    "id": "d5912419-0dd3-4072-89fe-993a00e3f243",
+    "kind": "kill-switch",
+    "condition": "market_data_stale",
+    "detail": "no fresh quote in 30s",
+    "timestamp": 1786748162773,
+    "createdAt": "2026-08-14T22:56:02.773612+00:00"
+  },
+  {
+    "id": "2a42cc18-fcfd-4b3a-94a5-d35fb1c63e66",
+    "kind": "pause",
+    "condition": "major_news_in_30m",
+    "detail": "paused until 1786758815437",
+    "timestamp": 1786756716898,
+    "createdAt": "2026-08-15T01:18:36.898532+00:00"
+  },
+  {
+    "id": "b09a82f5-8656-4c33-9264-baed133fe9b5",
+    "kind": "pause",
+    "condition": "major_news_in_30m",
+    "detail": "paused until 1786758815437",
+    "timestamp": 1786757382018,
+    "createdAt": "2026-08-15T01:29:42.018927+00:00"
+  },
+  {
+    "id": "f690c85a-a1a6-43d6-8e07-87beb63fefc2",
+    "kind": "pause",
+    "condition": "major_news_in_30m",
+    "detail": "paused until 1786758815437",
+    "timestamp": 1786757744931,
+    "createdAt": "2026-08-15T01:35:44.931376+00:00"
+  },
+  {
+    "id": "3d4fc759-71f5-4ba5-beb7-47568adc77b5",
+    "kind": "pause",
+    "condition": "major_news_in_30m",
+    "detail": "paused until 1786758815437",
+    "timestamp": 1786757896479,
+    "createdAt": "2026-08-15T01:38:16.479655+00:00"
+  },
+  {
+    "id": "dfcd3ee9-fbf5-42e6-a6c2-8853a7f09c06",
+    "kind": "pause",
+    "condition": "major_news_in_30m",
+    "detail": "paused until 1786758815437",
+    "timestamp": 1786757972023,
+    "createdAt": "2026-08-15T01:39:32.023269+00:00"
+  },
+  {
+    "id": "0b7466ec-e9bf-4093-9431-76b5a81087ca",
+    "kind": "pause",
+    "condition": "major_news_in_30m",
+    "detail": "paused until 1786758815437",
+    "timestamp": 1786758026182,
+    "createdAt": "2026-08-15T01:40:26.182232+00:00"
+  },
+  {
+    "id": "8cd1716c-3730-48c3-a10a-b957a75b4799",
+    "kind": "pause",
+    "condition": "major_news_in_30m",
+    "detail": "paused until 1786758815437",
+    "timestamp": 1786758221342,
+    "createdAt": "2026-08-15T01:43:41.342134+00:00"
+  },
+  {
+    "id": "052ac96b-22d7-45c6-a475-60e5a0e10f59",
+    "kind": "pause",
+    "condition": "major_news_in_30m",
+    "detail": "paused until 1786758815437",
+    "timestamp": 1786758294724,
+    "createdAt": "2026-08-15T01:44:54.724598+00:00"
+  },
+  {
+    "id": "2b4006b5-1264-472b-84c3-ee76fb8e5fc2",
+    "kind": "unpause",
+    "condition": "major_news_in_30m",
+    "detail": "window expired",
+    "timestamp": 1786758820266,
+    "createdAt": "2026-08-15T01:53:40.267041+00:00"
+  },
+  {
+    "id": "7a612412-d9b4-4296-b093-b85749559b99",
+    "kind": "pause",
+    "condition": "weekend",
+    "detail": "paused until 1786917600000",
+    "timestamp": 1786832358071,
+    "createdAt": "2026-08-15T22:19:18.071671+00:00"
+  },
+  {
+    "id": "61d31eef-01fe-4e6a-870b-984d7f4ae43e",
+    "kind": "pause",
+    "condition": "weekend",
+    "detail": "paused until 1786917600000",
+    "timestamp": 1786835400863,
+    "createdAt": "2026-08-15T23:10:00.863118+00:00"
+  },
+  {
+    "id": "a1dcb49c-1187-4e66-9b00-2c284916eb21",
+    "kind": "pause",
+    "condition": "weekend",
+    "detail": "paused until 1786917600000",
+    "timestamp": 1786835495806,
+    "createdAt": "2026-08-15T23:11:35.807030+00:00"
+  },
+  {
+    "id": "f2e9d439-b72b-4872-a789-d17bcd07c8a3",
+    "kind": "pause",
+    "condition": "weekend",
+    "detail": "paused until 1786917600000",
+    "timestamp": 1786917172176,
+    "createdAt": "2026-08-16T21:52:52.176864+00:00"
+  },
+  {
+    "id": "751c2ae3-fae7-484c-abf2-8c3c63f1eb9a",
+    "kind": "pause",
+    "condition": "weekend",
+    "detail": "paused until 1786917600000",
+    "timestamp": 1786917239111,
+    "createdAt": "2026-08-16T21:53:59.112033+00:00"
+  },
+  {
+    "id": "e99b43c0-8ca7-40c1-8c04-f2bc2eb1ffbe",
+    "kind": "unpause",
+    "condition": "weekend",
+    "detail": "window expired",
+    "timestamp": 1786917604448,
+    "createdAt": "2026-08-16T22:00:04.448128+00:00"
+  },
+  {
+    "id": "cd280bc9-a69f-4858-80c2-5e659c6ad622",
+    "kind": "pause",
+    "condition": "major_news_in_30m",
+    "detail": "paused until 1786920815437",
+    "timestamp": 1786918719239,
+    "createdAt": "2026-08-16T22:18:39.239286+00:00"
+  },
+  {
+    "id": "419bcf51-067a-4d7f-a1c5-65307123aff2",
+    "kind": "unpause",
+    "condition": "major_news_in_30m",
+    "detail": "window expired",
+    "timestamp": 1786920816277,
+    "createdAt": "2026-08-16T22:53:36.277563+00:00"
+  }
+]

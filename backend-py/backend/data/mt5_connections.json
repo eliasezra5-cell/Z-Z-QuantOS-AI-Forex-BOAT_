@@ -1,0 +1,13 @@
+[
+  {
+    "id": "4e50ea47-25bc-4598-84bf-33f664624246",
+    "provider_name": "mt5",
+    "login": "5054166055",
+    "server": "MetaQuotes-Demo",
+    "bridgeUrl": "http://host.docker.internal:5001",
+    "mode": "live",
+    "password": "UeEIJp_8",
+    "updatedAt": 1786240802358,
+    "createdAt": 1786240802358
+  }
+]

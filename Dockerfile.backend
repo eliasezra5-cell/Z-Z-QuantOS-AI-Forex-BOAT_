@@ -1,0 +1,51 @@
+# syntax=docker/dockerfile:1
+# ---------------------------------------------------------------------------
+# QuantOS AI BOAT — Backend (FastAPI + Uvicorn)
+# Multi-stage build: builder installs deps, runtime runs as non-root.
+# ---------------------------------------------------------------------------
+FROM python:3.11-slim AS builder
+
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    PIP_NO_CACHE_DIR=1
+
+WORKDIR /build
+
+# System deps needed to compile/run (psycopg2-binary & asyncpg ship wheels, so
+# only curl is required at runtime for health checks).
+COPY backend-py/requirements.txt ./requirements.txt
+RUN python -m venv /opt/venv \
+    && /opt/venv/bin/pip install --no-cache-dir -r requirements.txt
+
+# ---------------------------------------------------------------------------
+FROM python:3.11-slim AS runtime
+
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    PATH="/opt/venv/bin:$PATH" \
+    APP_HOME=/app \
+    VIRTUAL_ENV=/opt/venv
+
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends curl ca-certificates \
+    && rm -rf /var/lib/apt/lists/* \
+    && useradd --create-home --uid 10001 --shell /usr/sbin/nologin quantos
+
+WORKDIR ${APP_HOME}
+
+COPY --from=builder /opt/venv /opt/venv
+COPY backend-py/ ./backend-py/
+
+RUN mkdir -p ${APP_HOME}/backend-py/backend/data \
+    && chown -R quantos:quantos ${APP_HOME}
+
+USER quantos
+
+EXPOSE 3001
+
+HEALTHCHECK --interval=30s --timeout=5s --retries=3 \
+    CMD curl -fsS http://127.0.0.1:3001/api/health >/dev/null || exit 1
+
+WORKDIR ${APP_HOME}/backend-py
+
+CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "3001"]

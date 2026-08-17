@@ -1,0 +1,304 @@
+[
+  {
+    "id": "prov-aws",
+    "provider": "aws",
+    "name": "AWS",
+    "regions": [
+      "us-east-1",
+      "us-west-2",
+      "eu-west-1",
+      "ap-southeast-1"
+    ],
+    "services": [
+      "EC2",
+      "S3",
+      "ELB",
+      "CloudFront",
+      "RDS",
+      "EKS"
+    ],
+    "status": "healthy",
+    "connected": true,
+    "costPerInstance": 0.046,
+    "latency": 67,
+    "instances": 4,
+    "autoScaling": {
+      "enabled": true,
+      "min": 2,
+      "max": 6,
+      "targetCpu": 65
+    },
+    "loadBalancers": [
+      {
+        "id": "lb-aws-1",
+        "name": "aws-lb-1",
+        "region": "us-east-1",
+        "type": "application",
+        "nodes": 2,
+        "healthyNodes": 2,
+        "requestsPerSec": 546,
+        "status": "active"
+      },
+      {
+        "id": "lb-aws-2",
+        "name": "aws-lb-2",
+        "region": "us-west-2",
+        "type": "network",
+        "nodes": 2,
+        "healthyNodes": 2,
+        "requestsPerSec": 420,
+        "status": "active"
+      },
+      {
+        "id": "lb-aws-3",
+        "name": "aws-lb-3",
+        "region": "eu-west-1",
+        "type": "application",
+        "nodes": 2,
+        "healthyNodes": 2,
+        "requestsPerSec": 903,
+        "status": "active"
+      },
+      {
+        "id": "lb-aws-4",
+        "name": "aws-lb-4",
+        "region": "ap-southeast-1",
+        "type": "network",
+        "nodes": 2,
+        "healthyNodes": 2,
+        "requestsPerSec": 874,
+        "status": "active"
+      }
+    ],
+    "cdn": {
+      "enabled": true,
+      "edgeLocations": 89,
+      "cacheHitRate": 80,
+      "bandwidth": 37
+    },
+    "storage": [
+      {
+        "id": "bkt-aws-data",
+        "name": "aws-market-data",
+        "region": "us-east-1",
+        "sizeGb": 801,
+        "objects": 361070,
+        "encrypted": true,
+        "tier": "hot"
+      },
+      {
+        "id": "bkt-aws-backup",
+        "name": "aws-backups",
+        "region": "us-west-2",
+        "sizeGb": 163,
+        "objects": 26784,
+        "encrypted": true,
+        "tier": "cold"
+      }
+    ],
+    "createdAt": "2026-08-07T14:48:35.493856+00:00",
+    "lastScaleAction": {
+      "delta": 1,
+      "target": 4,
+      "at": 1786439226798
+    },
+    "updatedAt": "2026-08-11T09:07:06.798425+00:00",
+    "lastEvent": "simulated recovery"
+  },
+  {
+    "id": "prov-azure",
+    "provider": "azure",
+    "name": "Azure",
+    "regions": [
+      "eastus",
+      "westus2",
+      "westeurope",
+      "southeastasia"
+    ],
+    "services": [
+      "Virtual Machines",
+      "Blob Storage",
+      "Application Gateway",
+      "Front Door",
+      "AKS"
+    ],
+    "status": "healthy",
+    "connected": true,
+    "costPerInstance": 0.044,
+    "latency": 27,
+    "instances": 2,
+    "autoScaling": {
+      "enabled": true,
+      "min": 2,
+      "max": 6,
+      "targetCpu": 65
+    },
+    "loadBalancers": [
+      {
+        "id": "lb-azure-1",
+        "name": "azure-lb-1",
+        "region": "eastus",
+        "type": "application",
+        "nodes": 2,
+        "healthyNodes": 2,
+        "requestsPerSec": 570,
+        "status": "active"
+      },
+      {
+        "id": "lb-azure-2",
+        "name": "azure-lb-2",
+        "region": "westus2",
+        "type": "network",
+        "nodes": 2,
+        "healthyNodes": 2,
+        "requestsPerSec": 356,
+        "status": "active"
+      },
+      {
+        "id": "lb-azure-3",
+        "name": "azure-lb-3",
+        "region": "westeurope",
+        "type": "application",
+        "nodes": 2,
+        "healthyNodes": 2,
+        "requestsPerSec": 523,
+        "status": "active"
+      },
+      {
+        "id": "lb-azure-4",
+        "name": "azure-lb-4",
+        "region": "southeastasia",
+        "type": "network",
+        "nodes": 2,
+        "healthyNodes": 2,
+        "requestsPerSec": 926,
+        "status": "active"
+      }
+    ],
+    "cdn": {
+      "enabled": true,
+      "edgeLocations": 62,
+      "cacheHitRate": 73,
+      "bandwidth": 13
+    },
+    "storage": [
+      {
+        "id": "bkt-azure-data",
+        "name": "azure-market-data",
+        "region": "eastus",
+        "sizeGb": 647,
+        "objects": 457471,
+        "encrypted": true,
+        "tier": "hot"
+      },
+      {
+        "id": "bkt-azure-backup",
+        "name": "azure-backups",
+        "region": "westus2",
+        "sizeGb": 162,
+        "objects": 28446,
+        "encrypted": true,
+        "tier": "cold"
+      }
+    ],
+    "createdAt": "2026-08-07T14:48:35.493864+00:00"
+  },
+  {
+    "id": "prov-gcp",
+    "provider": "gcp",
+    "name": "Google Cloud",
+    "regions": [
+      "us-central1",
+      "us-west1",
+      "europe-west1",
+      "asia-southeast1"
+    ],
+    "services": [
+      "Compute Engine",
+      "Cloud Storage",
+      "Cloud Load Balancing",
+      "Cloud CDN",
+      "GKE"
+    ],
+    "status": "healthy",
+    "connected": true,
+    "costPerInstance": 0.042,
+    "latency": 22,
+    "instances": 2,
+    "autoScaling": {
+      "enabled": true,
+      "min": 2,
+      "max": 6,
+      "targetCpu": 65
+    },
+    "loadBalancers": [
+      {
+        "id": "lb-gcp-1",
+        "name": "gcp-lb-1",
+        "region": "us-central1",
+        "type": "application",
+        "nodes": 2,
+        "healthyNodes": 2,
+        "requestsPerSec": 767,
+        "status": "active"
+      },
+      {
+        "id": "lb-gcp-2",
+        "name": "gcp-lb-2",
+        "region": "us-west1",
+        "type": "network",
+        "nodes": 2,
+        "healthyNodes": 2,
+        "requestsPerSec": 548,
+        "status": "active"
+      },
+      {
+        "id": "lb-gcp-3",
+        "name": "gcp-lb-3",
+        "region": "europe-west1",
+        "type": "application",
+        "nodes": 2,
+        "healthyNodes": 2,
+        "requestsPerSec": 261,
+        "status": "active"
+      },
+      {
+        "id": "lb-gcp-4",
+        "name": "gcp-lb-4",
+        "region": "asia-southeast1",
+        "type": "network",
+        "nodes": 2,
+        "healthyNodes": 2,
+        "requestsPerSec": 622,
+        "status": "active"
+      }
+    ],
+    "cdn": {
+      "enabled": true,
+      "edgeLocations": 86,
+      "cacheHitRate": 92,
+      "bandwidth": 42
+    },
+    "storage": [
+      {
+        "id": "bkt-gcp-data",
+        "name": "gcp-market-data",
+        "region": "us-central1",
+        "sizeGb": 463,
+        "objects": 477352,
+        "encrypted": true,
+        "tier": "hot"
+      },
+      {
+        "id": "bkt-gcp-backup",
+        "name": "gcp-backups",
+        "region": "us-west1",
+        "sizeGb": 200,
+        "objects": 48742,
+        "encrypted": true,
+        "tier": "cold"
+      }
+    ],
+    "createdAt": "2026-08-07T14:48:35.493870+00:00"
+  }
+]

@@ -1,0 +1,152 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: quantos
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: quantos-backend
+  namespace: quantos
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: quantos-backend
+  template:
+    metadata:
+      labels:
+        app: quantos-backend
+    spec:
+      containers:
+        - name: backend
+          image: registry.example.com/quantos/backend:latest
+          ports:
+            - containerPort: 3001
+          env:
+            - name: ENVIRONMENT
+              value: production
+            - name: JWT_SECRET
+              valueFrom:
+                secretKeyRef:
+                  name: quantos-secrets
+                  key: jwt-secret
+          livenessProbe:
+            httpGet:
+              path: /api/health
+              port: 3001
+            initialDelaySeconds: 10
+            periodSeconds: 15
+          readinessProbe:
+            httpGet:
+              path: /api/health
+              port: 3001
+            initialDelaySeconds: 5
+            periodSeconds: 10
+          resources:
+            requests:
+              cpu: 200m
+              memory: 256Mi
+            limits:
+              cpu: 1000m
+              memory: 1Gi
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: quantos-frontend
+  namespace: quantos
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: quantos-frontend
+  template:
+    metadata:
+      labels:
+        app: quantos-frontend
+    spec:
+      containers:
+        - name: frontend
+          image: registry.example.com/quantos/frontend:latest
+          ports:
+            - containerPort: 80
+          livenessProbe:
+            httpGet:
+              path: /
+              port: 80
+            initialDelaySeconds: 10
+            periodSeconds: 15
+          readinessProbe:
+            httpGet:
+              path: /
+              port: 80
+            initialDelaySeconds: 5
+            periodSeconds: 10
+          resources:
+            requests:
+              cpu: 100m
+              memory: 128Mi
+            limits:
+              cpu: 500m
+              memory: 512Mi
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: quantos-backend-svc
+  namespace: quantos
+spec:
+  selector:
+    app: quantos-backend
+  ports:
+    - port: 3001
+      targetPort: 3001
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: quantos-frontend-svc
+  namespace: quantos
+spec:
+  selector:
+    app: quantos-frontend
+  ports:
+    - port: 80
+      targetPort: 80
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: quantos-ingress
+  namespace: quantos
+  annotations:
+    nginx.ingress.kubernetes.io/proxy-read-timeout: "3600"
+spec:
+  rules:
+    - host: quantos.example.com
+      http:
+        paths:
+          - path: /api
+            pathType: Prefix
+            backend:
+              service:
+                name: quantos-backend-svc
+                port:
+                  number: 3001
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: quantos-frontend-svc
+                port:
+                  number: 80
+---
+apiVersion: v1
+kind: Secret
+metadata:
+  name: quantos-secrets
+  namespace: quantos
+type: Opaque
+stringData:
+  jwt-secret: CHANGE_ME_IN_PRODUCTION

@@ -1,0 +1,1368 @@
+[
+  {
+    "id": "523d4c6a-dd4f-4c72-9d82-38b9b8c58be6",
+    "integrationId": "telegram",
+    "kind": "message",
+    "status": "pending",
+    "direction": "outbound",
+    "chatId": "",
+    "detail": "no TELEGRAM_BOT_TOKEN configured",
+    "createdAt": 1786197188393
+  },
+  {
+    "id": "2cfc4c2f-e104-431c-82d2-d9ab962e6e1d",
+    "integrationId": "discord",
+    "kind": "webhook",
+    "status": "failed",
+    "direction": "outbound",
+    "url": "https://discord.com/api/webhooks/1/x",
+    "content": "hello",
+    "detail": "http-404",
+    "createdAt": 1786197188917
+  },
+  {
+    "id": "ac3fd677-42b5-4a32-be1f-ba333518c263",
+    "integrationId": "telegram",
+    "kind": "message",
+    "status": "pending",
+    "direction": "outbound",
+    "chatId": "",
+    "detail": "no chat_id configured",
+    "createdAt": 1786197588206
+  },
+  {
+    "id": "6bb19014-0485-4f23-93d7-7d26236afe12",
+    "integrationId": "discord",
+    "kind": "webhook",
+    "status": "pending",
+    "direction": "outbound",
+    "url": "",
+    "content": "test",
+    "detail": "empty-url",
+    "createdAt": 1786197588322
+  },
+  {
+    "id": "eec96dcb-b457-461f-b14f-a6c4126c472e",
+    "integrationId": "telegram",
+    "kind": "message",
+    "status": "failed",
+    "direction": "outbound",
+    "chatId": "6430292859",
+    "detail": "Not Found",
+    "createdAt": 1786240547986
+  },
+  {
+    "id": "41b5e44f-b44f-4ec1-ac3c-942a2d301a27",
+    "integrationId": "telegram",
+    "kind": "message",
+    "status": "sent",
+    "direction": "outbound",
+    "chatId": "6430292859",
+    "detail": {
+      "message_id": 3,
+      "from": {
+        "id": 8744850030,
+        "is_bot": true,
+        "first_name": "Z&Z QuantOS AI Trading Boat",
+        "username": "my_quantos_bot"
+      },
+      "chat": {
+        "id": 6430292859,
+        "first_name": "Zuhair",
+        "last_name": "Zia",
+        "type": "private"
+      },
+      "date": 1786240565,
+      "text": "Test message from QuantOS AI BOAT \u2014 connection OK."
+    },
+    "createdAt": 1786240564927
+  },
+  {
+    "id": "4bae82a1-4d20-4ae8-89d1-70f87ff68db5",
+    "integrationId": "telegram",
+    "kind": "message",
+    "status": "sent",
+    "direction": "outbound",
+    "chatId": "6430292859",
+    "detail": {
+      "message_id": 6,
+      "from": {
+        "id": 8744850030,
+        "is_bot": true,
+        "first_name": "Z&Z QuantOS AI Trading Boat",
+        "username": "my_quantos_bot"
+      },
+      "chat": {
+        "id": 6430292859,
+        "first_name": "Zuhair",
+        "last_name": "Zia",
+        "type": "private"
+      },
+      "date": 1786240900,
+      "text": "Test message from QuantOS AI BOAT \u2014 connection OK."
+    },
+    "createdAt": 1786240899855
+  },
+  {
+    "id": "fb61c9d9-8d13-4dca-8e4c-66db77568dfb",
+    "integrationId": "telegram",
+    "kind": "message",
+    "status": "sent",
+    "direction": "outbound",
+    "chatId": "6430292859",
+    "detail": {
+      "message_id": 7,
+      "from": {
+        "id": 8744850030,
+        "is_bot": true,
+        "first_name": "Z&Z QuantOS AI Trading Boat",
+        "username": "my_quantos_bot"
+      },
+      "chat": {
+        "id": 6430292859,
+        "first_name": "Zuhair",
+        "last_name": "Zia",
+        "type": "private"
+      },
+      "date": 1786240922,
+      "text": "Test message from QuantOS AI BOAT \u2014 connection OK."
+    },
+    "createdAt": 1786240922594
+  },
+  {
+    "id": "0f07acd3-af8e-4573-a816-1b72c6fe1d7f",
+    "integrationId": "telegram",
+    "kind": "message",
+    "status": "failed",
+    "direction": "outbound",
+    "chatId": "6430292859",
+    "detail": "Unauthorized",
+    "createdAt": 1786241515900
+  },
+  {
+    "id": "a4dbf87b-08e1-4154-926a-cfe9fdc6c8b5",
+    "integrationId": "telegram",
+    "kind": "message",
+    "status": "failed",
+    "direction": "outbound",
+    "chatId": "6430292859",
+    "detail": "Unauthorized",
+    "createdAt": 1786241524200
+  },
+  {
+    "id": "a9458758-3b14-4ea0-b66b-4c58772797c7",
+    "integrationId": "telegram",
+    "kind": "message",
+    "status": "failed",
+    "direction": "outbound",
+    "chatId": "6430292859",
+    "detail": "Unauthorized",
+    "createdAt": 1786241530368
+  },
+  {
+    "id": "fcb2d60b-56b6-4426-b381-c90f2be007a8",
+    "integrationId": "telegram",
+    "kind": "message",
+    "status": "failed",
+    "direction": "outbound",
+    "chatId": "987654321",
+    "detail": "Unauthorized",
+    "createdAt": 1786241530881
+  },
+  {
+    "id": "4c0b2ba3-815a-4254-87d3-9ed78024ff65",
+    "integrationId": "telegram",
+    "kind": "message",
+    "status": "failed",
+    "direction": "outbound",
+    "chatId": "6430292859",
+    "detail": "Unauthorized",
+    "createdAt": 1786241530967
+  },
+  {
+    "id": "891ca150-d836-4e51-9b7e-492b2bb7248e",
+    "integrationId": "telegram",
+    "kind": "message",
+    "status": "sent",
+    "direction": "outbound",
+    "chatId": "6430292859",
+    "detail": {
+      "message_id": 9,
+      "from": {
+        "id": 8744850030,
+        "is_bot": true,
+        "first_name": "Z&Z QuantOS AI Trading Boat",
+        "username": "my_quantos_bot"
+      },
+      "chat": {
+        "id": 6430292859,
+        "first_name": "Zuhair",
+        "last_name": "Zia",
+        "type": "private"
+      },
+      "date": 1786241555,
+      "text": "Test message from QuantOS AI BOAT \u2014 connection OK."
+    },
+    "createdAt": 1786241555534
+  },
+  {
+    "id": "f72fd869-ad3a-4fa3-b5ff-3189a5e5c2a4",
+    "integrationId": "telegram",
+    "kind": "message",
+    "status": "sent",
+    "direction": "outbound",
+    "chatId": "6430292859",
+    "detail": {
+      "message_id": 12,
+      "from": {
+        "id": 8744850030,
+        "is_bot": true,
+        "first_name": "Z&Z QuantOS AI Trading Boat",
+        "username": "my_quantos_bot"
+      },
+      "chat": {
+        "id": 6430292859,
+        "first_name": "Zuhair",
+        "last_name": "Zia",
+        "type": "private"
+      },
+      "date": 1786312041,
+      "text": "Test message from QuantOS AI BOAT \u2014 connection OK."
+    },
+    "createdAt": 1786312041286
+  },
+  {
+    "id": "d1dae464-6fa8-4474-982a-5212ce99681f",
+    "integrationId": "telegram",
+    "kind": "message",
+    "status": "sent",
+    "direction": "outbound",
+    "chatId": "6430292859",
+    "detail": {
+      "message_id": 13,
+      "from": {
+        "id": 8744850030,
+        "is_bot": true,
+        "first_name": "Z&Z QuantOS AI Trading Boat",
+        "username": "my_quantos_bot"
+      },
+      "chat": {
+        "id": 6430292859,
+        "first_name": "Zuhair",
+        "last_name": "Zia",
+        "type": "private"
+      },
+      "date": 1786312044,
+      "text": "Test message from QuantOS AI BOAT \u2014 connection OK."
+    },
+    "createdAt": 1786312044558
+  },
+  {
+    "id": "4498e191-6e21-4849-a3c2-42fa474e779d",
+    "integrationId": "telegram",
+    "kind": "message",
+    "status": "sent",
+    "direction": "outbound",
+    "chatId": "6430292859",
+    "detail": {
+      "message_id": 14,
+      "from": {
+        "id": 8744850030,
+        "is_bot": true,
+        "first_name": "Z&Z QuantOS AI Trading Boat",
+        "username": "my_quantos_bot"
+      },
+      "chat": {
+        "id": 6430292859,
+        "first_name": "Zuhair",
+        "last_name": "Zia",
+        "type": "private"
+      },
+      "date": 1786312044,
+      "text": "Test message from QuantOS AI BOAT \u2014 connection OK."
+    },
+    "createdAt": 1786312044599
+  },
+  {
+    "id": "e511f725-56fa-4cc4-8ec9-823dd5ac9825",
+    "integrationId": "telegram",
+    "kind": "message",
+    "status": "sent",
+    "direction": "outbound",
+    "chatId": "6430292859",
+    "detail": {
+      "message_id": 15,
+      "from": {
+        "id": 8744850030,
+        "is_bot": true,
+        "first_name": "Z&Z QuantOS AI Trading Boat",
+        "username": "my_quantos_bot"
+      },
+      "chat": {
+        "id": 6430292859,
+        "first_name": "Zuhair",
+        "last_name": "Zia",
+        "type": "private"
+      },
+      "date": 1786312045,
+      "text": "Test message from QuantOS AI BOAT \u2014 connection OK."
+    },
+    "createdAt": 1786312045092
+  },
+  {
+    "id": "21cce93c-03cc-4a13-a63a-8a97401afcd5",
+    "integrationId": "telegram",
+    "kind": "message",
+    "status": "sent",
+    "direction": "outbound",
+    "chatId": "6430292859",
+    "detail": {
+      "message_id": 16,
+      "from": {
+        "id": 8744850030,
+        "is_bot": true,
+        "first_name": "Z&Z QuantOS AI Trading Boat",
+        "username": "my_quantos_bot"
+      },
+      "chat": {
+        "id": 6430292859,
+        "first_name": "Zuhair",
+        "last_name": "Zia",
+        "type": "private"
+      },
+      "date": 1786312053,
+      "text": "Test message from QuantOS AI BOAT \u2014 connection OK."
+    },
+    "createdAt": 1786312052991
+  },
+  {
+    "id": "f4de9353-d316-4bbc-b1ab-7921c4e2067a",
+    "integrationId": "telegram",
+    "kind": "message",
+    "status": "sent",
+    "direction": "outbound",
+    "chatId": "6430292859",
+    "detail": {
+      "message_id": 17,
+      "from": {
+        "id": 8744850030,
+        "is_bot": true,
+        "first_name": "Z&Z QuantOS AI Trading Boat",
+        "username": "my_quantos_bot"
+      },
+      "chat": {
+        "id": 6430292859,
+        "first_name": "Zuhair",
+        "last_name": "Zia",
+        "type": "private"
+      },
+      "date": 1786312053,
+      "text": "Test message from QuantOS AI BOAT \u2014 connection OK."
+    },
+    "createdAt": 1786312053230
+  },
+  {
+    "id": "6afe54b8-d6f2-447a-8b2a-6ae957c5c4fd",
+    "integrationId": "telegram",
+    "kind": "message",
+    "status": "sent",
+    "direction": "outbound",
+    "chatId": "6430292859",
+    "detail": {
+      "message_id": 18,
+      "from": {
+        "id": 8744850030,
+        "is_bot": true,
+        "first_name": "Z&Z QuantOS AI Trading Boat",
+        "username": "my_quantos_bot"
+      },
+      "chat": {
+        "id": 6430292859,
+        "first_name": "Zuhair",
+        "last_name": "Zia",
+        "type": "private"
+      },
+      "date": 1786312053,
+      "text": "Test message from QuantOS AI BOAT \u2014 connection OK."
+    },
+    "createdAt": 1786312053276
+  },
+  {
+    "id": "46a39e1c-4dab-412c-8a70-b461a9da3fb0",
+    "integrationId": "telegram",
+    "kind": "message",
+    "status": "sent",
+    "direction": "outbound",
+    "chatId": "6430292859",
+    "detail": {
+      "message_id": 19,
+      "from": {
+        "id": 8744850030,
+        "is_bot": true,
+        "first_name": "Z&Z QuantOS AI Trading Boat",
+        "username": "my_quantos_bot"
+      },
+      "chat": {
+        "id": 6430292859,
+        "first_name": "Zuhair",
+        "last_name": "Zia",
+        "type": "private"
+      },
+      "date": 1786312822,
+      "text": "Test message from QuantOS AI BOAT \u2014 connection OK."
+    },
+    "createdAt": 1786312822168
+  },
+  {
+    "id": "6d0bdec0-4f53-4c67-a0ed-fba3efe7dcf2",
+    "integrationId": "telegram",
+    "kind": "message",
+    "status": "sent",
+    "direction": "outbound",
+    "chatId": "6430292859",
+    "detail": {
+      "message_id": 20,
+      "from": {
+        "id": 8744850030,
+        "is_bot": true,
+        "first_name": "Z&Z QuantOS AI Trading Boat",
+        "username": "my_quantos_bot"
+      },
+      "chat": {
+        "id": 6430292859,
+        "first_name": "Zuhair",
+        "last_name": "Zia",
+        "type": "private"
+      },
+      "date": 1786312870,
+      "text": "Test message from QuantOS AI BOAT \u2014 connection OK."
+    },
+    "createdAt": 1786312869950
+  },
+  {
+    "id": "4b522121-c24b-4a45-b2d9-6bcee58ef9f4",
+    "integrationId": "telegram",
+    "kind": "message",
+    "status": "sent",
+    "direction": "outbound",
+    "chatId": "6430292859",
+    "detail": {
+      "message_id": 21,
+      "from": {
+        "id": 8744850030,
+        "is_bot": true,
+        "first_name": "Z&Z QuantOS AI Trading Boat",
+        "username": "my_quantos_bot"
+      },
+      "chat": {
+        "id": 6430292859,
+        "first_name": "Zuhair",
+        "last_name": "Zia",
+        "type": "private"
+      },
+      "date": 1786312879,
+      "text": "Test message from QuantOS AI BOAT \u2014 connection OK."
+    },
+    "createdAt": 1786312878990
+  },
+  {
+    "id": "87416d4b-e92d-4cee-bd9e-e036f768cfdb",
+    "integrationId": "telegram",
+    "kind": "message",
+    "status": "sent",
+    "direction": "outbound",
+    "chatId": "6430292859",
+    "detail": {
+      "message_id": 22,
+      "from": {
+        "id": 8744850030,
+        "is_bot": true,
+        "first_name": "Z&Z QuantOS AI Trading Boat",
+        "username": "my_quantos_bot"
+      },
+      "chat": {
+        "id": 6430292859,
+        "first_name": "Zuhair",
+        "last_name": "Zia",
+        "type": "private"
+      },
+      "date": 1786321522,
+      "text": "Test message from QuantOS AI BOAT \u2014 connection OK."
+    },
+    "createdAt": 1786321522311
+  },
+  {
+    "id": "cedf40f2-296c-4353-96bf-9d768335a697",
+    "integrationId": "telegram",
+    "kind": "message",
+    "status": "sent",
+    "direction": "outbound",
+    "chatId": "6430292859",
+    "detail": {
+      "message_id": 23,
+      "from": {
+        "id": 8744850030,
+        "is_bot": true,
+        "first_name": "Z&Z QuantOS AI Trading Boat",
+        "username": "my_quantos_bot"
+      },
+      "chat": {
+        "id": 6430292859,
+        "first_name": "Zuhair",
+        "last_name": "Zia",
+        "type": "private"
+      },
+      "date": 1786321532,
+      "text": "Test message from QuantOS AI BOAT \u2014 connection OK."
+    },
+    "createdAt": 1786321532374
+  },
+  {
+    "id": "b228442f-a240-4c78-90bf-1d9b35af3319",
+    "integrationId": "telegram",
+    "kind": "message",
+    "status": "sent",
+    "direction": "outbound",
+    "chatId": "6430292859",
+    "detail": {
+      "message_id": 24,
+      "from": {
+        "id": 8744850030,
+        "is_bot": true,
+        "first_name": "Z&Z QuantOS AI Trading Boat",
+        "username": "my_quantos_bot"
+      },
+      "chat": {
+        "id": 6430292859,
+        "first_name": "Zuhair",
+        "last_name": "Zia",
+        "type": "private"
+      },
+      "date": 1786321548,
+      "text": "Test message from QuantOS AI BOAT \u2014 connection OK."
+    },
+    "createdAt": 1786321548131
+  },
+  {
+    "id": "b2291ba8-f081-40ae-bf3b-3c7e42c72e72",
+    "integrationId": "telegram",
+    "kind": "message",
+    "status": "sent",
+    "direction": "outbound",
+    "chatId": "6430292859",
+    "detail": {
+      "message_id": 35,
+      "from": {
+        "id": 8744850030,
+        "is_bot": true,
+        "first_name": "Z&Z QuantOS AI Trading Boat",
+        "username": "my_quantos_bot"
+      },
+      "chat": {
+        "id": 6430292859,
+        "first_name": "Zuhair",
+        "last_name": "Zia",
+        "type": "private"
+      },
+      "date": 1786389502,
+      "text": "Test message from QuantOS AI BOAT \u2014 connection OK."
+    },
+    "createdAt": 1786389501939
+  },
+  {
+    "id": "c80a825a-1c62-43c6-93c7-1d13bf093937",
+    "integrationId": "telegram",
+    "kind": "message",
+    "status": "sent",
+    "direction": "outbound",
+    "chatId": "6430292859",
+    "detail": {
+      "message_id": 36,
+      "from": {
+        "id": 8744850030,
+        "is_bot": true,
+        "first_name": "Z&Z QuantOS AI Trading Boat",
+        "username": "my_quantos_bot"
+      },
+      "chat": {
+        "id": 6430292859,
+        "first_name": "Zuhair",
+        "last_name": "Zia",
+        "type": "private"
+      },
+      "date": 1786389502,
+      "text": "Test message from QuantOS AI BOAT \u2014 connection OK."
+    },
+    "createdAt": 1786389501943
+  },
+  {
+    "id": "bcd2d74a-0deb-4765-b3b5-be5b13c0757a",
+    "integrationId": "telegram",
+    "kind": "message",
+    "status": "sent",
+    "direction": "outbound",
+    "chatId": "6430292859",
+    "detail": {
+      "message_id": 37,
+      "from": {
+        "id": 8744850030,
+        "is_bot": true,
+        "first_name": "Z&Z QuantOS AI Trading Boat",
+        "username": "my_quantos_bot"
+      },
+      "chat": {
+        "id": 6430292859,
+        "first_name": "Zuhair",
+        "last_name": "Zia",
+        "type": "private"
+      },
+      "date": 1786389502,
+      "text": "Test message from QuantOS AI BOAT \u2014 connection OK."
+    },
+    "createdAt": 1786389501979
+  },
+  {
+    "id": "942b56ce-58ae-4511-be9d-186bd9335e89",
+    "integrationId": "telegram",
+    "kind": "message",
+    "status": "sent",
+    "direction": "outbound",
+    "chatId": "6430292859",
+    "detail": {
+      "message_id": 38,
+      "from": {
+        "id": 8744850030,
+        "is_bot": true,
+        "first_name": "Z&Z QuantOS AI Trading Boat",
+        "username": "my_quantos_bot"
+      },
+      "chat": {
+        "id": 6430292859,
+        "first_name": "Zuhair",
+        "last_name": "Zia",
+        "type": "private"
+      },
+      "date": 1786389503,
+      "text": "Test message from QuantOS AI BOAT \u2014 connection OK."
+    },
+    "createdAt": 1786389503568
+  },
+  {
+    "id": "b3ff3913-61e6-48a8-b872-50eb231bb82d",
+    "integrationId": "telegram",
+    "kind": "message",
+    "status": "sent",
+    "direction": "outbound",
+    "chatId": "6430292859",
+    "detail": {
+      "message_id": 39,
+      "from": {
+        "id": 8744850030,
+        "is_bot": true,
+        "first_name": "Z&Z QuantOS AI Trading Boat",
+        "username": "my_quantos_bot"
+      },
+      "chat": {
+        "id": 6430292859,
+        "first_name": "Zuhair",
+        "last_name": "Zia",
+        "type": "private"
+      },
+      "date": 1786389519,
+      "text": "Test message from QuantOS AI BOAT \u2014 connection OK."
+    },
+    "createdAt": 1786389519656
+  },
+  {
+    "id": "f57629ea-ae9c-4b5d-9ad1-f33209936930",
+    "integrationId": "telegram",
+    "kind": "message",
+    "status": "sent",
+    "direction": "outbound",
+    "chatId": "6430292859",
+    "detail": {
+      "message_id": 40,
+      "from": {
+        "id": 8744850030,
+        "is_bot": true,
+        "first_name": "Z&Z QuantOS AI Trading Boat",
+        "username": "my_quantos_bot"
+      },
+      "chat": {
+        "id": 6430292859,
+        "first_name": "Zuhair",
+        "last_name": "Zia",
+        "type": "private"
+      },
+      "date": 1786389520,
+      "text": "Test message from QuantOS AI BOAT \u2014 connection OK."
+    },
+    "createdAt": 1786389519721
+  },
+  {
+    "id": "6861aa88-93a8-4675-9335-b16db56ab7ec",
+    "integrationId": "telegram",
+    "kind": "message",
+    "status": "sent",
+    "direction": "outbound",
+    "chatId": "6430292859",
+    "detail": {
+      "message_id": 41,
+      "from": {
+        "id": 8744850030,
+        "is_bot": true,
+        "first_name": "Z&Z QuantOS AI Trading Boat",
+        "username": "my_quantos_bot"
+      },
+      "chat": {
+        "id": 6430292859,
+        "first_name": "Zuhair",
+        "last_name": "Zia",
+        "type": "private"
+      },
+      "date": 1786389520,
+      "text": "Test message from QuantOS AI BOAT \u2014 connection OK."
+    },
+    "createdAt": 1786389520426
+  },
+  {
+    "id": "82257b59-4e1e-48a9-8ab6-f26d0acdd8d3",
+    "integrationId": "telegram",
+    "kind": "message",
+    "status": "sent",
+    "direction": "outbound",
+    "chatId": "6430292859",
+    "detail": {
+      "message_id": 42,
+      "from": {
+        "id": 8744850030,
+        "is_bot": true,
+        "first_name": "Z&Z QuantOS AI Trading Boat",
+        "username": "my_quantos_bot"
+      },
+      "chat": {
+        "id": 6430292859,
+        "first_name": "Zuhair",
+        "last_name": "Zia",
+        "type": "private"
+      },
+      "date": 1786389521,
+      "text": "Test message from QuantOS AI BOAT \u2014 connection OK."
+    },
+    "createdAt": 1786389521258
+  },
+  {
+    "id": "dd62712e-9924-47eb-a146-1943986d762d",
+    "integrationId": "telegram",
+    "kind": "message",
+    "status": "sent",
+    "direction": "outbound",
+    "chatId": "6430292859",
+    "detail": {
+      "message_id": 43,
+      "from": {
+        "id": 8744850030,
+        "is_bot": true,
+        "first_name": "Z&Z QuantOS AI Trading Boat",
+        "username": "my_quantos_bot"
+      },
+      "chat": {
+        "id": 6430292859,
+        "first_name": "Zuhair",
+        "last_name": "Zia",
+        "type": "private"
+      },
+      "date": 1786389523,
+      "text": "Test message from QuantOS AI BOAT \u2014 connection OK."
+    },
+    "createdAt": 1786389523239
+  },
+  {
+    "id": "596005ed-7ece-4a0f-b8fd-96181544c2ec",
+    "integrationId": "telegram",
+    "kind": "message",
+    "status": "sent",
+    "direction": "outbound",
+    "chatId": "6430292859",
+    "detail": {
+      "message_id": 44,
+      "from": {
+        "id": 8744850030,
+        "is_bot": true,
+        "first_name": "Z&Z QuantOS AI Trading Boat",
+        "username": "my_quantos_bot"
+      },
+      "chat": {
+        "id": 6430292859,
+        "first_name": "Zuhair",
+        "last_name": "Zia",
+        "type": "private"
+      },
+      "date": 1786389524,
+      "text": "Test message from QuantOS AI BOAT \u2014 connection OK."
+    },
+    "createdAt": 1786389524457
+  },
+  {
+    "id": "dc11f075-72f4-4da9-b79b-e9a12e821349",
+    "integrationId": "telegram",
+    "kind": "message",
+    "status": "sent",
+    "direction": "outbound",
+    "chatId": "6430292859",
+    "detail": {
+      "message_id": 45,
+      "from": {
+        "id": 8744850030,
+        "is_bot": true,
+        "first_name": "Z&Z QuantOS AI Trading Boat",
+        "username": "my_quantos_bot"
+      },
+      "chat": {
+        "id": 6430292859,
+        "first_name": "Zuhair",
+        "last_name": "Zia",
+        "type": "private"
+      },
+      "date": 1786389530,
+      "text": "Test message from QuantOS AI BOAT \u2014 connection OK."
+    },
+    "createdAt": 1786389530013
+  },
+  {
+    "id": "98fcfd81-8241-4277-b7c9-dbfe506709ac",
+    "integrationId": "telegram",
+    "kind": "message",
+    "status": "sent",
+    "direction": "outbound",
+    "chatId": "6430292859",
+    "detail": {
+      "message_id": 46,
+      "from": {
+        "id": 8744850030,
+        "is_bot": true,
+        "first_name": "Z&Z QuantOS AI Trading Boat",
+        "username": "my_quantos_bot"
+      },
+      "chat": {
+        "id": 6430292859,
+        "first_name": "Zuhair",
+        "last_name": "Zia",
+        "type": "private"
+      },
+      "date": 1786389536,
+      "text": "Test message from QuantOS AI BOAT \u2014 connection OK."
+    },
+    "createdAt": 1786389536511
+  },
+  {
+    "id": "8571c3f9-47eb-4c0f-b2e5-935f54baf297",
+    "integrationId": "telegram",
+    "kind": "message",
+    "status": "sent",
+    "direction": "outbound",
+    "chatId": "6430292859",
+    "detail": {
+      "message_id": 47,
+      "from": {
+        "id": 8744850030,
+        "is_bot": true,
+        "first_name": "Z&Z QuantOS AI Trading Boat",
+        "username": "my_quantos_bot"
+      },
+      "chat": {
+        "id": 6430292859,
+        "first_name": "Zuhair",
+        "last_name": "Zia",
+        "type": "private"
+      },
+      "date": 1786389545,
+      "text": "Test message from QuantOS AI BOAT \u2014 connection OK."
+    },
+    "createdAt": 1786389545483
+  },
+  {
+    "id": "3b8de3f4-d945-4383-b1bf-aaa5aca0b249",
+    "integrationId": "telegram",
+    "kind": "message",
+    "status": "sent",
+    "direction": "outbound",
+    "chatId": "6430292859",
+    "detail": {
+      "message_id": 48,
+      "from": {
+        "id": 8744850030,
+        "is_bot": true,
+        "first_name": "Z&Z QuantOS AI Trading Boat",
+        "username": "my_quantos_bot"
+      },
+      "chat": {
+        "id": 6430292859,
+        "first_name": "Zuhair",
+        "last_name": "Zia",
+        "type": "private"
+      },
+      "date": 1786393429,
+      "text": "Test message from QuantOS AI BOAT \u2014 connection OK."
+    },
+    "createdAt": 1786393429004
+  },
+  {
+    "id": "331e213c-4da9-40a1-a9cc-d71b8ae9c53a",
+    "integrationId": "telegram",
+    "kind": "message",
+    "status": "sent",
+    "direction": "outbound",
+    "chatId": "6430292859",
+    "detail": {
+      "message_id": 49,
+      "from": {
+        "id": 8744850030,
+        "is_bot": true,
+        "first_name": "Z&Z QuantOS AI Trading Boat",
+        "username": "my_quantos_bot"
+      },
+      "chat": {
+        "id": 6430292859,
+        "first_name": "Zuhair",
+        "last_name": "Zia",
+        "type": "private"
+      },
+      "date": 1786393430,
+      "text": "Test message from QuantOS AI BOAT \u2014 connection OK."
+    },
+    "createdAt": 1786393430345
+  },
+  {
+    "id": "e13d9d55-28ba-4a13-9b6f-2ed53907daa4",
+    "integrationId": "telegram",
+    "kind": "message",
+    "status": "sent",
+    "direction": "outbound",
+    "chatId": "6430292859",
+    "detail": {
+      "message_id": 50,
+      "from": {
+        "id": 8744850030,
+        "is_bot": true,
+        "first_name": "Z&Z QuantOS AI Trading Boat",
+        "username": "my_quantos_bot"
+      },
+      "chat": {
+        "id": 6430292859,
+        "first_name": "Zuhair",
+        "last_name": "Zia",
+        "type": "private"
+      },
+      "date": 1786393441,
+      "text": "Test message from QuantOS AI BOAT \u2014 connection OK."
+    },
+    "createdAt": 1786393440892
+  },
+  {
+    "id": "889cc133-b999-48ac-b340-7723cf9e3b44",
+    "integrationId": "telegram",
+    "kind": "message",
+    "status": "sent",
+    "direction": "outbound",
+    "chatId": "6430292859",
+    "detail": {
+      "message_id": 51,
+      "from": {
+        "id": 8744850030,
+        "is_bot": true,
+        "first_name": "Z&Z QuantOS AI Trading Boat",
+        "username": "my_quantos_bot"
+      },
+      "chat": {
+        "id": 6430292859,
+        "first_name": "Zuhair",
+        "last_name": "Zia",
+        "type": "private"
+      },
+      "date": 1786393447,
+      "text": "Test message from QuantOS AI BOAT \u2014 connection OK."
+    },
+    "createdAt": 1786393447035
+  },
+  {
+    "id": "2c7f6996-aa05-453b-97f6-9adff89a450d",
+    "integrationId": "whatsapp",
+    "kind": "message",
+    "status": "pending",
+    "direction": "outbound",
+    "to": "",
+    "detail": "whatsapp not configured",
+    "createdAt": 1786832416075
+  },
+  {
+    "id": "174ceded-753a-42f1-ab89-cb4a14222ba9",
+    "integrationId": "whatsapp",
+    "kind": "message",
+    "status": "pending",
+    "direction": "outbound",
+    "to": "",
+    "detail": "whatsapp not configured",
+    "createdAt": 1786832416705
+  },
+  {
+    "id": "2d74a639-302b-4cd8-8d6d-41c9037c904e",
+    "integrationId": "whatsapp",
+    "kind": "message",
+    "status": "pending",
+    "direction": "outbound",
+    "to": "",
+    "detail": "whatsapp not configured (WHATSAPP_TOKEN / WHATSAPP_PHONE_NUMBER_ID / WHATSAPP_ADMIN_NUMBER)",
+    "createdAt": 1786832417235
+  },
+  {
+    "id": "b4b01939-dcfa-4929-8fd5-2919db480177",
+    "integrationId": "telegram",
+    "kind": "message",
+    "status": "pending",
+    "direction": "outbound",
+    "chatId": "6430292859",
+    "detail": "no TELEGRAM_BOT_TOKEN configured",
+    "createdAt": 1786832417302
+  },
+  {
+    "id": "3cbea7c3-4400-4c2e-8dbf-9e33b05778ae",
+    "integrationId": "whatsapp",
+    "kind": "message",
+    "status": "pending",
+    "direction": "outbound",
+    "to": "",
+    "detail": "whatsapp not configured (WHATSAPP_TOKEN / WHATSAPP_PHONE_NUMBER_ID / WHATSAPP_ADMIN_NUMBER)",
+    "createdAt": 1786832417307
+  },
+  {
+    "id": "8be566a0-b5d9-484a-a678-fe6094d126dd",
+    "integrationId": "email",
+    "kind": "message",
+    "status": "pending",
+    "direction": "outbound",
+    "to": "",
+    "detail": "SMTP not configured (SMTP_HOST / EMAIL_FROM)",
+    "createdAt": 1786832417315
+  },
+  {
+    "id": "5ace5706-58bf-4ea1-9acb-9be1bd857578",
+    "integrationId": "whatsapp",
+    "kind": "message",
+    "status": "pending",
+    "direction": "outbound",
+    "to": "",
+    "detail": "whatsapp not configured (WHATSAPP_TOKEN / WHATSAPP_PHONE_NUMBER_ID / WHATSAPP_ADMIN_NUMBER)",
+    "createdAt": 1786832420112
+  },
+  {
+    "id": "abc2151b-c0d5-4286-ba5c-a04948785b10",
+    "integrationId": "whatsapp",
+    "kind": "message",
+    "status": "pending",
+    "direction": "outbound",
+    "to": "",
+    "detail": "whatsapp not configured",
+    "createdAt": 1786832437494
+  },
+  {
+    "id": "1d5b5cf6-a3b1-4968-aadf-7ba7cf5f9f66",
+    "integrationId": "telegram",
+    "kind": "message",
+    "status": "pending",
+    "direction": "outbound",
+    "chatId": "6430292859",
+    "detail": "no TELEGRAM_BOT_TOKEN configured",
+    "createdAt": 1786832438216
+  },
+  {
+    "id": "a7f4c5bb-b609-452a-ac4d-b36df7793a1f",
+    "integrationId": "telegram",
+    "kind": "message",
+    "status": "pending",
+    "direction": "outbound",
+    "chatId": "6430292859",
+    "detail": "no TELEGRAM_BOT_TOKEN configured",
+    "createdAt": 1786832438250
+  },
+  {
+    "id": "083a6fd5-aa69-407b-9e31-fa1425aa3cbd",
+    "integrationId": "whatsapp",
+    "kind": "message",
+    "status": "pending",
+    "direction": "outbound",
+    "to": "",
+    "detail": "whatsapp not configured (WHATSAPP_TOKEN / WHATSAPP_PHONE_NUMBER_ID / WHATSAPP_ADMIN_NUMBER)",
+    "createdAt": 1786832438257
+  },
+  {
+    "id": "da6b678c-0cdc-4593-9e8b-7a4cc9d55671",
+    "integrationId": "email",
+    "kind": "message",
+    "status": "pending",
+    "direction": "outbound",
+    "to": "",
+    "detail": "SMTP not configured (SMTP_HOST / EMAIL_FROM)",
+    "createdAt": 1786832438267
+  },
+  {
+    "id": "f0aa93dc-0b32-45fa-bf5a-63fa202e34f6",
+    "integrationId": "telegram",
+    "kind": "message",
+    "status": "pending",
+    "direction": "outbound",
+    "chatId": "6430292859",
+    "detail": "no TELEGRAM_BOT_TOKEN configured",
+    "createdAt": 1786832439621
+  },
+  {
+    "id": "9ad97309-fcaa-4c5d-9439-af257dd95286",
+    "integrationId": "whatsapp",
+    "kind": "message",
+    "status": "pending",
+    "direction": "outbound",
+    "to": "",
+    "detail": "whatsapp not configured (WHATSAPP_TOKEN / WHATSAPP_PHONE_NUMBER_ID / WHATSAPP_ADMIN_NUMBER)",
+    "createdAt": 1786835417361
+  },
+  {
+    "id": "d0be4a96-7682-4d56-ae47-41bac3a2b13a",
+    "integrationId": "whatsapp",
+    "kind": "message",
+    "status": "pending",
+    "direction": "outbound",
+    "to": "",
+    "detail": "whatsapp not configured (WHATSAPP_TOKEN / WHATSAPP_PHONE_NUMBER_ID / WHATSAPP_ADMIN_NUMBER)",
+    "createdAt": 1786835417952
+  },
+  {
+    "id": "2ae5886f-9eea-4727-a384-bdb625943849",
+    "integrationId": "whatsapp",
+    "kind": "message",
+    "status": "pending",
+    "direction": "outbound",
+    "to": "",
+    "detail": "whatsapp not configured (WHATSAPP_TOKEN / WHATSAPP_PHONE_NUMBER_ID / WHATSAPP_ADMIN_NUMBER)",
+    "createdAt": 1786835418521
+  },
+  {
+    "id": "0edd39f1-dd49-40b6-80f5-70eec1bba446",
+    "integrationId": "whatsapp",
+    "kind": "message",
+    "status": "pending",
+    "direction": "outbound",
+    "to": "",
+    "detail": "whatsapp not configured",
+    "createdAt": 1786835419215
+  },
+  {
+    "id": "f060fd81-73f9-41e8-8ac1-3346997de985",
+    "integrationId": "whatsapp",
+    "kind": "message",
+    "status": "pending",
+    "direction": "outbound",
+    "to": "",
+    "detail": "whatsapp not configured (WHATSAPP_TOKEN / WHATSAPP_PHONE_NUMBER_ID / WHATSAPP_ADMIN_NUMBER)",
+    "createdAt": 1786835419780
+  },
+  {
+    "id": "17f09b0b-90a4-4ca4-a4d7-d1e34989911f",
+    "integrationId": "telegram",
+    "kind": "message",
+    "status": "pending",
+    "direction": "outbound",
+    "chatId": "6430292859",
+    "detail": "no TELEGRAM_BOT_TOKEN configured",
+    "createdAt": 1786835419877
+  },
+  {
+    "id": "90d63832-46f7-46f7-8ffd-5fbc362ecc94",
+    "integrationId": "whatsapp",
+    "kind": "message",
+    "status": "pending",
+    "direction": "outbound",
+    "to": "",
+    "detail": "whatsapp not configured (WHATSAPP_TOKEN / WHATSAPP_PHONE_NUMBER_ID / WHATSAPP_ADMIN_NUMBER)",
+    "createdAt": 1786835419881
+  },
+  {
+    "id": "97a4f32c-14ae-4ce3-bda1-ffc108c46655",
+    "integrationId": "email",
+    "kind": "message",
+    "status": "pending",
+    "direction": "outbound",
+    "to": "",
+    "detail": "SMTP not configured (SMTP_HOST / EMAIL_FROM)",
+    "createdAt": 1786835419896
+  },
+  {
+    "id": "01e98643-e253-472d-b867-788b6f06c9a6",
+    "integrationId": "whatsapp",
+    "kind": "message",
+    "status": "pending",
+    "direction": "outbound",
+    "to": "",
+    "detail": "whatsapp not configured (WHATSAPP_TOKEN / WHATSAPP_PHONE_NUMBER_ID / WHATSAPP_ADMIN_NUMBER)",
+    "createdAt": 1786835513356
+  },
+  {
+    "id": "5b00652f-c02f-4dff-9987-d53684f5015f",
+    "integrationId": "whatsapp",
+    "kind": "message",
+    "status": "pending",
+    "direction": "outbound",
+    "to": "",
+    "detail": "whatsapp not configured (WHATSAPP_TOKEN / WHATSAPP_PHONE_NUMBER_ID / WHATSAPP_ADMIN_NUMBER)",
+    "createdAt": 1786835513926
+  },
+  {
+    "id": "b8a7af12-933b-4161-822d-219d750df8ef",
+    "integrationId": "whatsapp",
+    "kind": "message",
+    "status": "pending",
+    "direction": "outbound",
+    "to": "",
+    "detail": "whatsapp not configured (WHATSAPP_TOKEN / WHATSAPP_PHONE_NUMBER_ID / WHATSAPP_ADMIN_NUMBER)",
+    "createdAt": 1786835514614
+  },
+  {
+    "id": "16d277dd-7517-45be-8604-4cf21e0d5b92",
+    "integrationId": "whatsapp",
+    "kind": "message",
+    "status": "pending",
+    "direction": "outbound",
+    "to": "",
+    "detail": "whatsapp not configured (WHATSAPP_TOKEN / WHATSAPP_PHONE_NUMBER_ID / WHATSAPP_ADMIN_NUMBER)",
+    "createdAt": 1786835515182
+  },
+  {
+    "id": "046a591c-6d42-4bc5-94e1-640509dcdccf",
+    "integrationId": "whatsapp",
+    "kind": "message",
+    "status": "pending",
+    "direction": "outbound",
+    "to": "",
+    "detail": "whatsapp not configured",
+    "createdAt": 1786835691636
+  },
+  {
+    "id": "ee46c329-d0f9-4212-805c-3dbc8fe6da1a",
+    "integrationId": "whatsapp",
+    "kind": "message",
+    "status": "pending",
+    "direction": "outbound",
+    "to": "",
+    "detail": "whatsapp not configured (WHATSAPP_TOKEN / WHATSAPP_PHONE_NUMBER_ID / WHATSAPP_ADMIN_NUMBER)",
+    "createdAt": 1786835693211
+  },
+  {
+    "id": "cd6e79c9-d5df-4628-89ab-ad65cac97e2c",
+    "integrationId": "whatsapp",
+    "kind": "message",
+    "status": "pending",
+    "direction": "outbound",
+    "to": "",
+    "detail": "whatsapp not configured (WHATSAPP_TOKEN / WHATSAPP_PHONE_NUMBER_ID / WHATSAPP_ADMIN_NUMBER)",
+    "createdAt": 1786835695970
+  },
+  {
+    "id": "4f2efd57-924a-4485-ae0b-638582aeafa8",
+    "integrationId": "whatsapp",
+    "kind": "message",
+    "status": "pending",
+    "direction": "outbound",
+    "to": "",
+    "detail": "whatsapp not configured (WHATSAPP_TOKEN / WHATSAPP_PHONE_NUMBER_ID / WHATSAPP_ADMIN_NUMBER)",
+    "createdAt": 1786835697847
+  },
+  {
+    "id": "f65f208d-dbe1-4bed-9ea3-f92fabdf5d69",
+    "integrationId": "whatsapp",
+    "kind": "message",
+    "status": "pending",
+    "direction": "outbound",
+    "to": "",
+    "detail": "whatsapp not configured (WHATSAPP_TOKEN / WHATSAPP_PHONE_NUMBER_ID / WHATSAPP_ADMIN_NUMBER)",
+    "createdAt": 1786835699063
+  },
+  {
+    "id": "027fd19d-656a-469c-9b3f-e7036e2685ff",
+    "integrationId": "telegram",
+    "kind": "message",
+    "status": "pending",
+    "direction": "outbound",
+    "chatId": "6430292859",
+    "detail": "no TELEGRAM_BOT_TOKEN configured",
+    "createdAt": 1786835699183
+  },
+  {
+    "id": "854b0e99-1043-4396-899b-d8b1bc6adca4",
+    "integrationId": "whatsapp",
+    "kind": "message",
+    "status": "pending",
+    "direction": "outbound",
+    "to": "",
+    "detail": "whatsapp not configured (WHATSAPP_TOKEN / WHATSAPP_PHONE_NUMBER_ID / WHATSAPP_ADMIN_NUMBER)",
+    "createdAt": 1786835699204
+  },
+  {
+    "id": "b665e45e-82ca-4827-aaaf-898c5e0064f1",
+    "integrationId": "email",
+    "kind": "message",
+    "status": "pending",
+    "direction": "outbound",
+    "to": "",
+    "detail": "SMTP not configured (SMTP_HOST / EMAIL_FROM)",
+    "createdAt": 1786835699226
+  },
+  {
+    "id": "9858605b-fb7f-4fc3-bf85-7e923b1bc4d2",
+    "integrationId": "whatsapp",
+    "kind": "message",
+    "status": "pending",
+    "direction": "outbound",
+    "to": "",
+    "detail": "whatsapp not configured (WHATSAPP_TOKEN / WHATSAPP_PHONE_NUMBER_ID / WHATSAPP_ADMIN_NUMBER)",
+    "createdAt": 1786835700394
+  },
+  {
+    "id": "59d36dda-1074-4984-8acd-604490679ee2",
+    "integrationId": "whatsapp",
+    "kind": "message",
+    "status": "pending",
+    "direction": "outbound",
+    "to": "",
+    "detail": "whatsapp not configured (WHATSAPP_TOKEN / WHATSAPP_PHONE_NUMBER_ID / WHATSAPP_ADMIN_NUMBER)",
+    "createdAt": 1786835703166
+  },
+  {
+    "id": "0d7f372a-3b55-49a4-9c36-e617522c7a02",
+    "integrationId": "whatsapp",
+    "kind": "message",
+    "status": "pending",
+    "direction": "outbound",
+    "to": "",
+    "detail": "whatsapp not configured (WHATSAPP_TOKEN / WHATSAPP_PHONE_NUMBER_ID / WHATSAPP_ADMIN_NUMBER)",
+    "createdAt": 1786835705205
+  },
+  {
+    "id": "faf8b850-5f2d-47af-be10-b91bab574fbb",
+    "integrationId": "whatsapp",
+    "kind": "message",
+    "status": "pending",
+    "direction": "outbound",
+    "to": "",
+    "detail": "whatsapp not configured (WHATSAPP_TOKEN / WHATSAPP_PHONE_NUMBER_ID / WHATSAPP_ADMIN_NUMBER)",
+    "createdAt": 1786835708323
+  },
+  {
+    "id": "ab81707d-29ff-4af2-b496-99aec9f238a2",
+    "integrationId": "whatsapp",
+    "kind": "message",
+    "status": "pending",
+    "direction": "outbound",
+    "to": "",
+    "detail": "whatsapp not configured (WHATSAPP_TOKEN / WHATSAPP_PHONE_NUMBER_ID / WHATSAPP_ADMIN_NUMBER)",
+    "createdAt": 1786835710360
+  }
+]

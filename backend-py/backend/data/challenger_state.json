@@ -1,0 +1,18 @@
+[
+  {
+    "id": "6da4bddd-190a-410d-b512-4123da153b58",
+    "version": 1,
+    "weights": {
+      "trend": 1.02,
+      "indicators": 1.02,
+      "patterns": 1.02,
+      "smc": 1.02,
+      "news": 1.02,
+      "macro": 1.02
+    },
+    "wins": 0,
+    "losses": 0,
+    "sampleCount": 0,
+    "createdAt": 1786206125267
+  }
+]

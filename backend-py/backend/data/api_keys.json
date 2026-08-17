@@ -1,0 +1,22 @@
+[
+  {
+    "id": "default-key",
+    "name": "Default Read Key",
+    "keyHash": "fe1ae93d08e91f841688e3146b9f9fa332a6f6cd4961b023193c073b48bb2ca6",
+    "role": "viewer",
+    "whitelist": [],
+    "createdAt": 1786114115492,
+    "revoked": true,
+    "legacyReplaced": true,
+    "updatedAt": "2026-08-08T15:57:08.409100+00:00"
+  },
+  {
+    "id": "2ee27f99-1bd4-404f-b613-f9e25a6a26d1",
+    "name": "Default Read Key",
+    "role": "viewer",
+    "keyHash": "s1$f253ac4c8b292a7ba6158eaba665c601207f5f3ebbadfad11ea99ea5d0f96d01$07173c33f2b3ae656f5d9df8f729aea3f3fa64ac17fa449441b2446f519d98e5",
+    "keySalt": "f253ac4c8b292a7ba6158eaba665c601207f5f3ebbadfad11ea99ea5d0f96d01",
+    "whitelist": [],
+    "createdAt": 1786204628409
+  }
+]

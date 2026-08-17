@@ -1,0 +1,107 @@
+[
+  {
+    "id": "42d08969-19c8-4b11-96b7-71643c496df3",
+    "key": "ai.decisionCenter",
+    "value": true,
+    "description": "",
+    "createdAt": "2026-08-06T21:10:06.532426+00:00"
+  },
+  {
+    "id": "d89ecf11-6513-4e98-b083-5d210997ae85",
+    "key": "ai.autoTrade",
+    "value": false,
+    "description": "",
+    "createdAt": "2026-08-06T21:10:06.533473+00:00"
+  },
+  {
+    "id": "4b4a4882-e23a-4511-a681-d98336dba68e",
+    "key": "alerts.telegram",
+    "value": true,
+    "description": "",
+    "createdAt": "2026-08-06T21:10:06.534129+00:00"
+  },
+  {
+    "id": "1a989248-8df5-4f90-bcdd-cac7e5223095",
+    "key": "alerts.whatsapp",
+    "value": false,
+    "description": "",
+    "createdAt": "2026-08-06T21:10:06.535598+00:00"
+  },
+  {
+    "id": "cf48fc1f-ef2e-4bdb-a358-3aa71d094686",
+    "key": "trading.autoExecute",
+    "value": false,
+    "description": "",
+    "createdAt": "2026-08-06T21:10:06.535985+00:00"
+  },
+  {
+    "id": "8f6c1fe4-1cfb-4868-a332-2e4563fcde48",
+    "key": "trading.dynamicReanalysis",
+    "value": true,
+    "description": "",
+    "createdAt": "2026-08-06T21:10:06.537232+00:00"
+  },
+  {
+    "id": "1debfcb5-db0c-4ca3-a28b-259489f6ea9d",
+    "key": "mt5.liveMode",
+    "value": false,
+    "description": "",
+    "createdAt": "2026-08-06T21:10:06.538034+00:00"
+  },
+  {
+    "id": "723cdae0-8c1c-449d-aaeb-ad234a852f18",
+    "key": "pwa.enabled",
+    "value": true,
+    "description": "",
+    "createdAt": "2026-08-06T21:10:06.539007+00:00"
+  },
+  {
+    "id": "d250eab6-ec1a-44d3-b482-fe21f7535e39",
+    "key": "news.aiAnalysis",
+    "value": true,
+    "description": "",
+    "createdAt": "2026-08-06T21:10:06.539940+00:00"
+  },
+  {
+    "id": "942906f6-973f-4d03-b997-2b9617ca9159",
+    "key": "backtest.enabled",
+    "value": true,
+    "description": "",
+    "createdAt": "2026-08-06T21:10:06.540430+00:00"
+  },
+  {
+    "id": "dbdb7f3d-3423-42fe-ab0c-80a238534c1a",
+    "key": "monitoring.detailed",
+    "value": true,
+    "description": "",
+    "createdAt": "2026-08-06T21:10:06.541093+00:00"
+  },
+  {
+    "id": "1b2d79ab-f833-4f8b-bfaf-351fe5d64b68",
+    "key": "cloud.enabled",
+    "value": true,
+    "description": "",
+    "createdAt": "2026-08-06T21:10:06.541989+00:00"
+  },
+  {
+    "id": "7b50c518-01db-450e-a227-26a7f927714e",
+    "key": "devops.ciEnabled",
+    "value": true,
+    "description": "",
+    "createdAt": "2026-08-06T21:10:06.542496+00:00"
+  },
+  {
+    "id": "a4d2e548-faf6-4008-8265-7500c89d3b20",
+    "key": "production.readiness",
+    "value": true,
+    "description": "",
+    "createdAt": "2026-08-06T21:10:06.543031+00:00"
+  },
+  {
+    "id": "7d871ab7-d333-4093-b8d3-79fbeff44eea",
+    "key": "validation.autoRun",
+    "value": true,
+    "description": "",
+    "createdAt": "2026-08-06T21:10:06.543550+00:00"
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "5adabe5d-2096-49f4-a576-f326af7f53c3",
+    "type": "disaster-recovery",
+    "status": "completed",
+    "at": 1786209297864,
+    "durationSec": 65,
+    "restored": [
+      "market-data",
+      "positions",
+      "ai-memory"
+    ],
+    "passed": true,
+    "createdAt": "2026-08-08T17:14:57.864409+00:00"
+  },
+  {
+    "id": "7fef674e-e7af-4ac3-9f9d-03a429108632",
+    "type": "disaster-recovery",
+    "status": "completed",
+    "at": 1786209347240,
+    "durationSec": 129,
+    "restored": [
+      "market-data",
+      "positions",
+      "ai-memory"
+    ],
+    "passed": true,
+    "createdAt": "2026-08-08T17:15:47.240087+00:00"
+  },
+  {
+    "id": "a50aa301-de3c-4b7c-bd37-1dabea65853e",
+    "type": "disaster-recovery",
+    "status": "completed",
+    "at": 1786210310156,
+    "durationSec": 65,
+    "restored": [
+      "market-data",
+      "positions",
+      "ai-memory"
+    ],
+    "passed": true,
+    "createdAt": "2026-08-08T17:31:50.156325+00:00"
+  }
+]

@@ -1,0 +1,602 @@
+[
+  {
+    "id": "9eaa6f5c-8a98-4ccf-807e-64ef6ba5fa16",
+    "key": "symbol:EURUSD",
+    "value": {
+      "decision": "neutral",
+      "confidence": 0.57,
+      "time": 1786208017842
+    },
+    "ttlMs": 3600000,
+    "rememberedAt": 1786208017842,
+    "createdAt": "2026-08-08T16:53:37.842743+00:00"
+  },
+  {
+    "id": "c8b9eb06-f18d-40b7-bc17-53ecd92609a7",
+    "key": "symbol:EURUSD",
+    "value": {
+      "decision": "neutral",
+      "confidence": 0.57,
+      "time": 1786209112676
+    },
+    "ttlMs": 3600000,
+    "rememberedAt": 1786209112676,
+    "createdAt": "2026-08-08T17:11:52.676163+00:00"
+  },
+  {
+    "id": "d69b7e1c-743a-4cba-81a9-250a0aa42d19",
+    "key": "symbol:EURUSD",
+    "value": {
+      "decision": "neutral",
+      "confidence": 0.57,
+      "time": 1786209235944
+    },
+    "ttlMs": 3600000,
+    "rememberedAt": 1786209235944,
+    "createdAt": "2026-08-08T17:13:55.944374+00:00"
+  },
+  {
+    "id": "6c4e169e-3837-4efb-bdfa-5b7eda61bcec",
+    "key": "symbol:EURUSD",
+    "value": {
+      "decision": "neutral",
+      "confidence": 0.57,
+      "time": 1786209292639
+    },
+    "ttlMs": 3600000,
+    "rememberedAt": 1786209292639,
+    "createdAt": "2026-08-08T17:14:52.639583+00:00"
+  },
+  {
+    "id": "60c5672d-29e9-42e7-999b-65664191ed20",
+    "key": "symbol:EURUSD",
+    "value": {
+      "decision": "neutral",
+      "confidence": 0.57,
+      "time": 1786209294021
+    },
+    "ttlMs": 3600000,
+    "rememberedAt": 1786209294021,
+    "createdAt": "2026-08-08T17:14:54.022014+00:00"
+  },
+  {
+    "id": "81f6a5f4-a87b-486c-bbd6-303b4c23dba5",
+    "key": "symbol:EURUSD",
+    "value": {
+      "decision": "neutral",
+      "confidence": 0.57,
+      "time": 1786209342060
+    },
+    "ttlMs": 3600000,
+    "rememberedAt": 1786209342060,
+    "createdAt": "2026-08-08T17:15:42.060347+00:00"
+  },
+  {
+    "id": "77c54505-e3ea-4fcb-a939-f7c4d96ab601",
+    "key": "symbol:EURUSD",
+    "value": {
+      "decision": "neutral",
+      "confidence": 0.57,
+      "time": 1786209343474
+    },
+    "ttlMs": 3600000,
+    "rememberedAt": 1786209343474,
+    "createdAt": "2026-08-08T17:15:43.474420+00:00"
+  },
+  {
+    "id": "4c2fdd5e-282b-4e25-844d-192099a20f31",
+    "key": "symbol:EURUSD",
+    "value": {
+      "decision": "neutral",
+      "confidence": 0.57,
+      "time": 1786210295305
+    },
+    "ttlMs": 3600000,
+    "rememberedAt": 1786210295305,
+    "createdAt": "2026-08-08T17:31:35.305174+00:00"
+  },
+  {
+    "id": "56de7b1c-c041-4f25-bb16-158964e862b2",
+    "key": "symbol:EURUSD",
+    "value": {
+      "decision": "neutral",
+      "confidence": 0.57,
+      "time": 1786210304697
+    },
+    "ttlMs": 3600000,
+    "rememberedAt": 1786210304697,
+    "createdAt": "2026-08-08T17:31:44.697956+00:00"
+  },
+  {
+    "id": "23b82b4d-cb94-4455-92cf-ad66f2e01e1b",
+    "key": "symbol:EURUSD",
+    "value": {
+      "decision": "neutral",
+      "confidence": 0.57,
+      "time": 1786210306200
+    },
+    "ttlMs": 3600000,
+    "rememberedAt": 1786210306200,
+    "createdAt": "2026-08-08T17:31:46.200506+00:00"
+  },
+  {
+    "id": "cd7b9ec1-fb61-4f84-8e11-4c540c6b298f",
+    "key": "symbol:XAUUSD",
+    "value": {
+      "decision": "buy",
+      "confidence": 0.69,
+      "time": 1786210826798
+    },
+    "ttlMs": 3600000,
+    "rememberedAt": 1786210826798,
+    "createdAt": "2026-08-08T17:40:26.798162+00:00"
+  },
+  {
+    "id": "c546b555-1eca-411d-8976-40a22e2a02dc",
+    "key": "symbol:EURUSD",
+    "value": {
+      "decision": "neutral",
+      "confidence": 0.57,
+      "time": 1786211020430
+    },
+    "ttlMs": 3600000,
+    "rememberedAt": 1786211020430,
+    "createdAt": "2026-08-08T17:43:40.430124+00:00"
+  },
+  {
+    "id": "411cd7c6-ec2a-46d7-84b5-7e4e1bc9bd88",
+    "key": "symbol:EURUSD",
+    "value": {
+      "decision": "neutral",
+      "confidence": 0.57,
+      "time": 1786211020732
+    },
+    "ttlMs": 3600000,
+    "rememberedAt": 1786211020732,
+    "createdAt": "2026-08-08T17:43:40.732292+00:00"
+  },
+  {
+    "id": "6b8eaddb-7314-4c6f-a9ab-6725ed1b857f",
+    "key": "symbol:EURUSD",
+    "value": {
+      "decision": "neutral",
+      "confidence": 0.57,
+      "time": 1786211020927
+    },
+    "ttlMs": 3600000,
+    "rememberedAt": 1786211020927,
+    "createdAt": "2026-08-08T17:43:40.927103+00:00"
+  },
+  {
+    "id": "5d6c3880-128e-4be4-9816-3cfee31e1d51",
+    "key": "symbol:EURUSD",
+    "value": {
+      "decision": "neutral",
+      "confidence": 0.57,
+      "time": 1786211021312
+    },
+    "ttlMs": 3600000,
+    "rememberedAt": 1786211021312,
+    "createdAt": "2026-08-08T17:43:41.312559+00:00"
+  },
+  {
+    "id": "342abf4e-1286-48aa-ab27-899f5f41167f",
+    "key": "symbol:EURUSD",
+    "value": {
+      "decision": "neutral",
+      "confidence": 0.57,
+      "time": 1786211021787
+    },
+    "ttlMs": 3600000,
+    "rememberedAt": 1786211021787,
+    "createdAt": "2026-08-08T17:43:41.787776+00:00"
+  },
+  {
+    "id": "cc01ec5b-9989-43ce-b20c-b6875d79e0d9",
+    "key": "symbol:EURUSD",
+    "value": {
+      "decision": "neutral",
+      "confidence": 0.57,
+      "time": 1786211022278
+    },
+    "ttlMs": 3600000,
+    "rememberedAt": 1786211022278,
+    "createdAt": "2026-08-08T17:43:42.279000+00:00"
+  },
+  {
+    "id": "f3d50c91-4e5b-4908-ae76-15777d4ee95a",
+    "key": "symbol:XAUUSD",
+    "value": {
+      "decision": "buy",
+      "confidence": 0.65,
+      "time": 1786211022839
+    },
+    "ttlMs": 3600000,
+    "rememberedAt": 1786211022839,
+    "createdAt": "2026-08-08T17:43:42.839267+00:00"
+  },
+  {
+    "id": "25d605b6-a665-406e-b318-1a54b0ebe421",
+    "key": "symbol:XAUUSD",
+    "value": {
+      "decision": "buy",
+      "confidence": 0.65,
+      "time": 1786211030952
+    },
+    "ttlMs": 3600000,
+    "rememberedAt": 1786211030952,
+    "createdAt": "2026-08-08T17:43:50.952747+00:00"
+  },
+  {
+    "id": "dde53b9d-49c8-441e-ba20-587901d49152",
+    "key": "symbol:XAUUSD",
+    "value": {
+      "decision": "buy",
+      "confidence": 0.69,
+      "time": 1786214616880
+    },
+    "ttlMs": 3600000,
+    "rememberedAt": 1786214616880,
+    "createdAt": "2026-08-08T18:43:36.880448+00:00"
+  },
+  {
+    "id": "4997bdbb-faf6-4c94-ada0-90e786ebbcb1",
+    "key": "symbol:EURUSD",
+    "value": {
+      "decision": "neutral",
+      "confidence": 0.57,
+      "time": 1786215991947
+    },
+    "ttlMs": 3600000,
+    "rememberedAt": 1786215991947,
+    "createdAt": "2026-08-08T19:06:31.947525+00:00"
+  },
+  {
+    "id": "30fe29ca-dba0-4d26-adfe-74c29fc33b63",
+    "key": "symbol:EURUSD",
+    "value": {
+      "decision": "neutral",
+      "confidence": 0.57,
+      "time": 1786215993335
+    },
+    "ttlMs": 3600000,
+    "rememberedAt": 1786215993335,
+    "createdAt": "2026-08-08T19:06:33.335324+00:00"
+  },
+  {
+    "id": "36227bd4-e432-4216-845f-6c2f51b5551a",
+    "key": "symbol:XAUUSD",
+    "value": {
+      "decision": "buy",
+      "confidence": 0.69,
+      "time": 1786218242192
+    },
+    "ttlMs": 3600000,
+    "rememberedAt": 1786218242192,
+    "createdAt": "2026-08-08T19:44:02.192503+00:00"
+  },
+  {
+    "id": "8219e2aa-e734-4537-86e6-0f1c2dddee25",
+    "key": "symbol:EURUSD",
+    "value": {
+      "decision": "neutral",
+      "confidence": 0.57,
+      "time": 1786224964755
+    },
+    "ttlMs": 3600000,
+    "rememberedAt": 1786224964755,
+    "createdAt": "2026-08-08T21:36:04.755548+00:00"
+  },
+  {
+    "id": "c5b999ee-f370-4e2b-ac23-cac0510e5502",
+    "key": "symbol:EURUSD",
+    "value": {
+      "decision": "neutral",
+      "confidence": 0.57,
+      "time": 1786224967370
+    },
+    "ttlMs": 3600000,
+    "rememberedAt": 1786224967370,
+    "createdAt": "2026-08-08T21:36:07.370845+00:00"
+  },
+  {
+    "id": "7f6f7572-c24d-42fa-8151-2abb9e8469da",
+    "key": "symbol:EURUSD",
+    "value": {
+      "decision": "neutral",
+      "confidence": 0.57,
+      "time": 1786225049894
+    },
+    "ttlMs": 3600000,
+    "rememberedAt": 1786225049894,
+    "createdAt": "2026-08-08T21:37:29.894602+00:00"
+  },
+  {
+    "id": "e65de690-160c-4bf1-97f7-e6a677174f7a",
+    "key": "symbol:EURUSD",
+    "value": {
+      "decision": "neutral",
+      "confidence": 0.57,
+      "time": 1786228324796
+    },
+    "ttlMs": 3600000,
+    "rememberedAt": 1786228324796,
+    "createdAt": "2026-08-08T22:32:04.796432+00:00"
+  },
+  {
+    "id": "1a818b63-de0f-4f2a-9662-a8a3e2df53f7",
+    "key": "symbol:EURUSD",
+    "value": {
+      "decision": "neutral",
+      "confidence": 0.57,
+      "time": 1786228325574
+    },
+    "ttlMs": 3600000,
+    "rememberedAt": 1786228325574,
+    "createdAt": "2026-08-08T22:32:05.574895+00:00"
+  },
+  {
+    "id": "3bcc8c15-3814-40f0-8a32-00981cc53dc0",
+    "key": "symbol:EURUSD",
+    "value": {
+      "decision": "neutral",
+      "confidence": 0.57,
+      "time": 1786228326576
+    },
+    "ttlMs": 3600000,
+    "rememberedAt": 1786228326576,
+    "createdAt": "2026-08-08T22:32:06.577018+00:00"
+  },
+  {
+    "id": "eef2c552-69e0-4de2-a8b9-af78f6fc24b0",
+    "key": "symbol:EURUSD",
+    "value": {
+      "decision": "neutral",
+      "confidence": 0.57,
+      "time": 1786228340041
+    },
+    "ttlMs": 3600000,
+    "rememberedAt": 1786228340041,
+    "createdAt": "2026-08-08T22:32:20.041661+00:00"
+  },
+  {
+    "id": "39a1e679-c25c-4c2a-8ac2-1869bf511a26",
+    "key": "symbol:EURUSD",
+    "value": {
+      "decision": "neutral",
+      "confidence": 0.57,
+      "time": 1786228353038
+    },
+    "ttlMs": 3600000,
+    "rememberedAt": 1786228353038,
+    "createdAt": "2026-08-08T22:32:33.038441+00:00"
+  },
+  {
+    "id": "68006a50-90aa-48d9-8475-549241d0a7b5",
+    "key": "symbol:EURUSD",
+    "value": {
+      "decision": "neutral",
+      "confidence": 0.57,
+      "time": 1786228354593
+    },
+    "ttlMs": 3600000,
+    "rememberedAt": 1786228354593,
+    "createdAt": "2026-08-08T22:32:34.593101+00:00"
+  },
+  {
+    "id": "ee1f0806-1011-4b4a-b2df-c10e14396b24",
+    "key": "symbol:EURUSD",
+    "value": {
+      "decision": "neutral",
+      "confidence": 0.57,
+      "time": 1786228355610
+    },
+    "ttlMs": 3600000,
+    "rememberedAt": 1786228355610,
+    "createdAt": "2026-08-08T22:32:35.610624+00:00"
+  },
+  {
+    "id": "ae32a869-ad18-4816-8bbe-f3b9fa647a8b",
+    "key": "symbol:EURUSD",
+    "value": {
+      "decision": "neutral",
+      "confidence": 0.57,
+      "time": 1786228356349
+    },
+    "ttlMs": 3600000,
+    "rememberedAt": 1786228356349,
+    "createdAt": "2026-08-08T22:32:36.349241+00:00"
+  },
+  {
+    "id": "cf4b3559-afe9-4d38-ad4c-3578196c9387",
+    "key": "symbol:EURUSD",
+    "value": {
+      "decision": "neutral",
+      "confidence": 0.57,
+      "time": 1786228357183
+    },
+    "ttlMs": 3600000,
+    "rememberedAt": 1786228357183,
+    "createdAt": "2026-08-08T22:32:37.184032+00:00"
+  },
+  {
+    "id": "3b1ae585-31bd-4931-930f-330de8e50a12",
+    "key": "symbol:EURUSD",
+    "value": {
+      "decision": "neutral",
+      "confidence": 0.57,
+      "time": 1786228358046
+    },
+    "ttlMs": 3600000,
+    "rememberedAt": 1786228358046,
+    "createdAt": "2026-08-08T22:32:38.046507+00:00"
+  },
+  {
+    "id": "2bf91505-41ee-4cce-83fc-2fb9cacd04dc",
+    "key": "symbol:EURUSD",
+    "value": {
+      "decision": "neutral",
+      "confidence": 0.57,
+      "time": 1786228358788
+    },
+    "ttlMs": 3600000,
+    "rememberedAt": 1786228358788,
+    "createdAt": "2026-08-08T22:32:38.788634+00:00"
+  },
+  {
+    "id": "387f8e77-928d-4633-867e-9f638ec32d6a",
+    "key": "symbol:EURUSD",
+    "value": {
+      "decision": "neutral",
+      "confidence": 0.57,
+      "time": 1786228359521
+    },
+    "ttlMs": 3600000,
+    "rememberedAt": 1786228359521,
+    "createdAt": "2026-08-08T22:32:39.521543+00:00"
+  },
+  {
+    "id": "a0478e82-4795-4392-9f74-a967402f918d",
+    "key": "symbol:XAUUSD",
+    "value": {
+      "decision": "buy",
+      "confidence": 0.69,
+      "time": 1786228440609
+    },
+    "ttlMs": 3600000,
+    "rememberedAt": 1786228440609,
+    "createdAt": "2026-08-08T22:34:00.610029+00:00"
+  },
+  {
+    "id": "489861bf-2405-4d44-8253-422f4d5444f7",
+    "key": "symbol:EURUSD",
+    "value": {
+      "decision": "neutral",
+      "confidence": 0.57,
+      "time": 1786231562252
+    },
+    "ttlMs": 3600000,
+    "rememberedAt": 1786231562252,
+    "createdAt": "2026-08-08T23:26:02.252475+00:00"
+  },
+  {
+    "id": "517af308-bc97-4534-a51f-3a0f6c7b4b7b",
+    "key": "symbol:XAUUSD",
+    "value": {
+      "decision": "buy",
+      "confidence": 0.69,
+      "time": 1786231595574
+    },
+    "ttlMs": 3600000,
+    "rememberedAt": 1786231595574,
+    "createdAt": "2026-08-08T23:26:35.574147+00:00"
+  },
+  {
+    "id": "3452c3e8-9be7-45ab-8292-4681572e5b40",
+    "key": "symbol:EURUSD",
+    "value": {
+      "decision": "neutral",
+      "confidence": 0.57,
+      "time": 1786231608392
+    },
+    "ttlMs": 3600000,
+    "rememberedAt": 1786231608392,
+    "createdAt": "2026-08-08T23:26:48.392529+00:00"
+  },
+  {
+    "id": "9abd3086-8644-4837-a10e-a930aad1dd83",
+    "key": "symbol:EURUSD",
+    "value": {
+      "decision": "neutral",
+      "confidence": 0.57,
+      "time": 1786231609420
+    },
+    "ttlMs": 3600000,
+    "rememberedAt": 1786231609420,
+    "createdAt": "2026-08-08T23:26:49.421548+00:00"
+  },
+  {
+    "id": "c35674cf-9253-4f56-be52-943c736c8a6f",
+    "key": "symbol:EURUSD",
+    "value": {
+      "decision": "neutral",
+      "confidence": 0.57,
+      "time": 1786231623869
+    },
+    "ttlMs": 3600000,
+    "rememberedAt": 1786231623869,
+    "createdAt": "2026-08-08T23:27:03.869901+00:00"
+  },
+  {
+    "id": "4a271cfb-a09e-4cba-871f-657554b23290",
+    "key": "symbol:EURUSD",
+    "value": {
+      "decision": "neutral",
+      "confidence": 0.57,
+      "time": 1786231624476
+    },
+    "ttlMs": 3600000,
+    "rememberedAt": 1786231624476,
+    "createdAt": "2026-08-08T23:27:04.476040+00:00"
+  },
+  {
+    "id": "2cb25719-dc7c-4bef-9a08-62eac586fb41",
+    "key": "symbol:EURUSD",
+    "value": {
+      "decision": "neutral",
+      "confidence": 0.57,
+      "time": 1786231625118
+    },
+    "ttlMs": 3600000,
+    "rememberedAt": 1786231625118,
+    "createdAt": "2026-08-08T23:27:05.118620+00:00"
+  },
+  {
+    "id": "2be93a26-d9de-40b4-9a4a-9216911fe97a",
+    "key": "symbol:EURUSD",
+    "value": {
+      "decision": "neutral",
+      "confidence": 0.57,
+      "time": 1786231625731
+    },
+    "ttlMs": 3600000,
+    "rememberedAt": 1786231625731,
+    "createdAt": "2026-08-08T23:27:05.731330+00:00"
+  },
+  {
+    "id": "464ebce6-7743-4613-8ded-45139ecbb4ea",
+    "key": "symbol:EURUSD",
+    "value": {
+      "decision": "neutral",
+      "confidence": 0.57,
+      "time": 1786232090460
+    },
+    "ttlMs": 3600000,
+    "rememberedAt": 1786232090460,
+    "createdAt": "2026-08-08T23:34:50.460904+00:00"
+  },
+  {
+    "id": "bef85ecc-2b1b-4333-ab3d-6abc2cf65a30",
+    "key": "symbol:EURUSD",
+    "value": {
+      "decision": "neutral",
+      "confidence": 0.57,
+      "time": 1786232246404
+    },
+    "ttlMs": 3600000,
+    "rememberedAt": 1786232246404,
+    "createdAt": "2026-08-08T23:37:26.404073+00:00"
+  },
+  {
+    "id": "07c331e9-0aab-4e8e-b64e-467133c289b1",
+    "key": "symbol:XAUUSD",
+    "value": {
+      "decision": "buy",
+      "confidence": 0.69,
+      "time": 1786232907445
+    },
+    "ttlMs": 3600000,
+    "rememberedAt": 1786232907445,
+    "createdAt": "2026-08-08T23:48:27.445490+00:00"
+  }
+]

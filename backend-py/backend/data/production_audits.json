@@ -1,0 +1,306 @@
+[
+  {
+    "id": "705cba25-f6db-4f2e-b1a7-3f5a4c54fd6c",
+    "categories": [
+      {
+        "category": "Architecture",
+        "score": 87,
+        "status": "good",
+        "findings": [
+          {
+            "severity": "info",
+            "item": "Architecture controls reviewed"
+          },
+          {
+            "severity": "low",
+            "item": "Minor recommendations"
+          }
+        ]
+      },
+      {
+        "category": "Security",
+        "score": 91,
+        "status": "excellent",
+        "findings": [
+          {
+            "severity": "info",
+            "item": "Security controls reviewed"
+          },
+          {
+            "severity": "low",
+            "item": "Minor recommendations"
+          }
+        ]
+      },
+      {
+        "category": "Performance",
+        "score": 92,
+        "status": "excellent",
+        "findings": [
+          {
+            "severity": "info",
+            "item": "Performance controls reviewed"
+          },
+          {
+            "severity": "low",
+            "item": "Minor recommendations"
+          }
+        ]
+      },
+      {
+        "category": "Reliability",
+        "score": 86,
+        "status": "good",
+        "findings": [
+          {
+            "severity": "info",
+            "item": "Reliability controls reviewed"
+          },
+          {
+            "severity": "low",
+            "item": "Minor recommendations"
+          }
+        ]
+      },
+      {
+        "category": "Data Integrity",
+        "score": 82,
+        "status": "good",
+        "findings": [
+          {
+            "severity": "info",
+            "item": "Data Integrity controls reviewed"
+          },
+          {
+            "severity": "low",
+            "item": "Minor recommendations"
+          }
+        ]
+      },
+      {
+        "category": "Compliance",
+        "score": 86,
+        "status": "good",
+        "findings": [
+          {
+            "severity": "info",
+            "item": "Compliance controls reviewed"
+          },
+          {
+            "severity": "low",
+            "item": "Minor recommendations"
+          }
+        ]
+      }
+    ],
+    "overallScore": 87,
+    "status": "review",
+    "generatedAt": 1786209298070,
+    "recommendedActions": [
+      "Review high-impact findings before go-live"
+    ],
+    "createdAt": "2026-08-08T17:14:58.070822+00:00"
+  },
+  {
+    "id": "598d3d4b-70ac-435d-bd81-e4976ae5b40b",
+    "categories": [
+      {
+        "category": "Architecture",
+        "score": 91,
+        "status": "excellent",
+        "findings": [
+          {
+            "severity": "info",
+            "item": "Architecture controls reviewed"
+          },
+          {
+            "severity": "low",
+            "item": "Minor recommendations"
+          }
+        ]
+      },
+      {
+        "category": "Security",
+        "score": 94,
+        "status": "excellent",
+        "findings": [
+          {
+            "severity": "info",
+            "item": "Security controls reviewed"
+          },
+          {
+            "severity": "low",
+            "item": "Minor recommendations"
+          }
+        ]
+      },
+      {
+        "category": "Performance",
+        "score": 89,
+        "status": "good",
+        "findings": [
+          {
+            "severity": "info",
+            "item": "Performance controls reviewed"
+          },
+          {
+            "severity": "low",
+            "item": "Minor recommendations"
+          }
+        ]
+      },
+      {
+        "category": "Reliability",
+        "score": 94,
+        "status": "excellent",
+        "findings": [
+          {
+            "severity": "info",
+            "item": "Reliability controls reviewed"
+          },
+          {
+            "severity": "low",
+            "item": "Minor recommendations"
+          }
+        ]
+      },
+      {
+        "category": "Data Integrity",
+        "score": 94,
+        "status": "excellent",
+        "findings": [
+          {
+            "severity": "info",
+            "item": "Data Integrity controls reviewed"
+          },
+          {
+            "severity": "low",
+            "item": "Minor recommendations"
+          }
+        ]
+      },
+      {
+        "category": "Compliance",
+        "score": 93,
+        "status": "excellent",
+        "findings": [
+          {
+            "severity": "info",
+            "item": "Compliance controls reviewed"
+          },
+          {
+            "severity": "low",
+            "item": "Minor recommendations"
+          }
+        ]
+      }
+    ],
+    "overallScore": 92,
+    "status": "pass",
+    "generatedAt": 1786209347453,
+    "recommendedActions": [],
+    "createdAt": "2026-08-08T17:15:47.453461+00:00"
+  },
+  {
+    "id": "b924fa91-4854-4e2e-8908-75cda0ce4653",
+    "categories": [
+      {
+        "category": "Architecture",
+        "score": 92,
+        "status": "excellent",
+        "findings": [
+          {
+            "severity": "info",
+            "item": "Architecture controls reviewed"
+          },
+          {
+            "severity": "low",
+            "item": "Minor recommendations"
+          }
+        ]
+      },
+      {
+        "category": "Security",
+        "score": 87,
+        "status": "good",
+        "findings": [
+          {
+            "severity": "info",
+            "item": "Security controls reviewed"
+          },
+          {
+            "severity": "low",
+            "item": "Minor recommendations"
+          }
+        ]
+      },
+      {
+        "category": "Performance",
+        "score": 81,
+        "status": "good",
+        "findings": [
+          {
+            "severity": "info",
+            "item": "Performance controls reviewed"
+          },
+          {
+            "severity": "low",
+            "item": "Minor recommendations"
+          }
+        ]
+      },
+      {
+        "category": "Reliability",
+        "score": 89,
+        "status": "good",
+        "findings": [
+          {
+            "severity": "info",
+            "item": "Reliability controls reviewed"
+          },
+          {
+            "severity": "low",
+            "item": "Minor recommendations"
+          }
+        ]
+      },
+      {
+        "category": "Data Integrity",
+        "score": 81,
+        "status": "good",
+        "findings": [
+          {
+            "severity": "info",
+            "item": "Data Integrity controls reviewed"
+          },
+          {
+            "severity": "low",
+            "item": "Minor recommendations"
+          }
+        ]
+      },
+      {
+        "category": "Compliance",
+        "score": 86,
+        "status": "good",
+        "findings": [
+          {
+            "severity": "info",
+            "item": "Compliance controls reviewed"
+          },
+          {
+            "severity": "low",
+            "item": "Minor recommendations"
+          }
+        ]
+      }
+    ],
+    "overallScore": 86,
+    "status": "review",
+    "generatedAt": 1786210310376,
+    "recommendedActions": [
+      "Review high-impact findings before go-live"
+    ],
+    "createdAt": "2026-08-08T17:31:50.376610+00:00"
+  }
+]

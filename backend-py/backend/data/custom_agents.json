@@ -1,0 +1,26 @@
+[
+  {
+    "id": "a4a90a74-4b05-4440-9c12-a9a83e689131",
+    "name": "Gold Sentiment",
+    "provider_type": "free_local",
+    "model_name": "llama",
+    "system_prompt": "You judge gold news",
+    "voting_weight": 0.15,
+    "enabled": true,
+    "template": "",
+    "createdAt": 1786188794420
+  },
+  {
+    "id": "3bae26e8-fa42-41d7-9194-2d268fa16a78",
+    "name": "Test Grok",
+    "provider_type": "xai",
+    "model_name": "grok-3",
+    "system_prompt": "",
+    "voting_weight": 0.1,
+    "api_key_encrypted": "sk-test-demo",
+    "api_key_ref": "enc:287f9e0f4f82",
+    "enabled": false,
+    "template": null,
+    "createdAt": 1786733788034
+  }
+]

@@ -1,0 +1,274 @@
+[
+  {
+    "id": "capital-protection",
+    "shield_level": "GREEN",
+    "emergency_stop": false,
+    "emergency_reason": null,
+    "daily_locked": false,
+    "locked_date": null,
+    "recovery_active": false,
+    "fail_closed": [],
+    "start_equity": null,
+    "peak_equity": null,
+    "history": [
+      {
+        "action": "emergency-stop-cleared",
+        "detail": "cleared by admin",
+        "shield_level": "GREEN",
+        "emergency_stop": false,
+        "timestamp": 1786237414830,
+        "iso": "2026-08-09T01:03:34.830989+00:00"
+      },
+      {
+        "action": "capital-lock-cleared",
+        "detail": "cleared by admin",
+        "shield_level": "GREEN",
+        "emergency_stop": false,
+        "timestamp": 1786237414832,
+        "iso": "2026-08-09T01:03:34.832175+00:00"
+      },
+      {
+        "action": "emergency-stop-cleared",
+        "detail": "cleared by admin",
+        "shield_level": "GREEN",
+        "emergency_stop": false,
+        "timestamp": 1786237611802,
+        "iso": "2026-08-09T01:06:51.802421+00:00"
+      },
+      {
+        "action": "capital-lock-cleared",
+        "detail": "cleared by admin",
+        "shield_level": "GREEN",
+        "emergency_stop": false,
+        "timestamp": 1786237611805,
+        "iso": "2026-08-09T01:06:51.805959+00:00"
+      },
+      {
+        "action": "emergency-stop-cleared",
+        "detail": "cleared by admin",
+        "shield_level": "GREEN",
+        "emergency_stop": false,
+        "timestamp": 1786237623976,
+        "iso": "2026-08-09T01:07:03.976570+00:00"
+      },
+      {
+        "action": "capital-lock-cleared",
+        "detail": "cleared by admin",
+        "shield_level": "GREEN",
+        "emergency_stop": false,
+        "timestamp": 1786237623980,
+        "iso": "2026-08-09T01:07:03.980093+00:00"
+      },
+      {
+        "action": "emergency-stop-cleared",
+        "detail": "cleared by admin",
+        "shield_level": "GREEN",
+        "emergency_stop": false,
+        "timestamp": 1786237641504,
+        "iso": "2026-08-09T01:07:21.504363+00:00"
+      },
+      {
+        "action": "capital-lock-cleared",
+        "detail": "cleared by admin",
+        "shield_level": "GREEN",
+        "emergency_stop": false,
+        "timestamp": 1786237641505,
+        "iso": "2026-08-09T01:07:21.505498+00:00"
+      },
+      {
+        "action": "emergency-stop-cleared",
+        "detail": "cleared by admin",
+        "shield_level": "GREEN",
+        "emergency_stop": false,
+        "timestamp": 1786241985220,
+        "iso": "2026-08-09T02:19:45.220263+00:00"
+      },
+      {
+        "action": "capital-lock-cleared",
+        "detail": "cleared by admin",
+        "shield_level": "GREEN",
+        "emergency_stop": false,
+        "timestamp": 1786241985222,
+        "iso": "2026-08-09T02:19:45.222064+00:00"
+      },
+      {
+        "action": "emergency-stop-cleared",
+        "detail": "cleared by admin",
+        "shield_level": "GREEN",
+        "emergency_stop": false,
+        "timestamp": 1786242098206,
+        "iso": "2026-08-09T02:21:38.206728+00:00"
+      },
+      {
+        "action": "capital-lock-cleared",
+        "detail": "cleared by admin",
+        "shield_level": "GREEN",
+        "emergency_stop": false,
+        "timestamp": 1786242098207,
+        "iso": "2026-08-09T02:21:38.207631+00:00"
+      },
+      {
+        "action": "emergency-stop-cleared",
+        "detail": "cleared by admin",
+        "shield_level": "GREEN",
+        "emergency_stop": false,
+        "timestamp": 1786273477869,
+        "iso": "2026-08-09T11:04:37.869048+00:00"
+      },
+      {
+        "action": "capital-lock-cleared",
+        "detail": "cleared by admin",
+        "shield_level": "GREEN",
+        "emergency_stop": false,
+        "timestamp": 1786273477870,
+        "iso": "2026-08-09T11:04:37.870029+00:00"
+      },
+      {
+        "action": "emergency-stop-cleared",
+        "detail": "cleared by admin",
+        "shield_level": "GREEN",
+        "emergency_stop": false,
+        "timestamp": 1786321417349,
+        "iso": "2026-08-10T00:23:37.349400+00:00"
+      },
+      {
+        "action": "capital-lock-cleared",
+        "detail": "cleared by admin",
+        "shield_level": "GREEN",
+        "emergency_stop": false,
+        "timestamp": 1786321417353,
+        "iso": "2026-08-10T00:23:37.353631+00:00"
+      },
+      {
+        "action": "emergency-stop-cleared",
+        "detail": "cleared by admin",
+        "shield_level": "GREEN",
+        "emergency_stop": false,
+        "timestamp": 1786321425233,
+        "iso": "2026-08-10T00:23:45.233889+00:00"
+      },
+      {
+        "action": "capital-lock-cleared",
+        "detail": "cleared by admin",
+        "shield_level": "GREEN",
+        "emergency_stop": false,
+        "timestamp": 1786321425256,
+        "iso": "2026-08-10T00:23:45.256592+00:00"
+      },
+      {
+        "action": "emergency-stop-cleared",
+        "detail": "cleared by admin",
+        "shield_level": "GREEN",
+        "emergency_stop": false,
+        "timestamp": 1786321428758,
+        "iso": "2026-08-10T00:23:48.758225+00:00"
+      },
+      {
+        "action": "capital-lock-cleared",
+        "detail": "cleared by admin",
+        "shield_level": "GREEN",
+        "emergency_stop": false,
+        "timestamp": 1786321428766,
+        "iso": "2026-08-10T00:23:48.766890+00:00"
+      },
+      {
+        "action": "emergency-stop-cleared",
+        "detail": "cleared by admin",
+        "shield_level": "GREEN",
+        "emergency_stop": false,
+        "timestamp": 1786321581728,
+        "iso": "2026-08-10T00:26:21.728632+00:00"
+      },
+      {
+        "action": "capital-lock-cleared",
+        "detail": "cleared by admin",
+        "shield_level": "GREEN",
+        "emergency_stop": false,
+        "timestamp": 1786321581735,
+        "iso": "2026-08-10T00:26:21.735291+00:00"
+      },
+      {
+        "action": "emergency-stop-cleared",
+        "detail": "cleared by admin",
+        "shield_level": "GREEN",
+        "emergency_stop": false,
+        "timestamp": 1786389396253,
+        "iso": "2026-08-10T19:16:36.253321+00:00"
+      },
+      {
+        "action": "capital-lock-cleared",
+        "detail": "cleared by admin",
+        "shield_level": "GREEN",
+        "emergency_stop": false,
+        "timestamp": 1786389396256,
+        "iso": "2026-08-10T19:16:36.256035+00:00"
+      },
+      {
+        "action": "emergency-stop-cleared",
+        "detail": "cleared by admin",
+        "shield_level": "GREEN",
+        "emergency_stop": false,
+        "timestamp": 1786466368903,
+        "iso": "2026-08-11T16:39:28.903780+00:00"
+      },
+      {
+        "action": "capital-lock-cleared",
+        "detail": "cleared by admin",
+        "shield_level": "GREEN",
+        "emergency_stop": false,
+        "timestamp": 1786466368906,
+        "iso": "2026-08-11T16:39:28.906285+00:00"
+      },
+      {
+        "action": "emergency-stop-cleared",
+        "detail": "cleared by admin",
+        "shield_level": "GREEN",
+        "emergency_stop": false,
+        "timestamp": 1786470846815,
+        "iso": "2026-08-11T17:54:06.815162+00:00"
+      },
+      {
+        "action": "capital-lock-cleared",
+        "detail": "cleared by admin",
+        "shield_level": "GREEN",
+        "emergency_stop": false,
+        "timestamp": 1786470846819,
+        "iso": "2026-08-11T17:54:06.819863+00:00"
+      },
+      {
+        "action": "emergency-stop-cleared",
+        "detail": "cleared by admin",
+        "shield_level": "GREEN",
+        "emergency_stop": false,
+        "timestamp": 1786748150113,
+        "iso": "2026-08-14T22:55:50.113115+00:00"
+      },
+      {
+        "action": "capital-lock-cleared",
+        "detail": "cleared by admin",
+        "shield_level": "GREEN",
+        "emergency_stop": false,
+        "timestamp": 1786748150114,
+        "iso": "2026-08-14T22:55:50.114773+00:00"
+      },
+      {
+        "action": "emergency-stop-cleared",
+        "detail": "cleared by admin",
+        "shield_level": "GREEN",
+        "emergency_stop": false,
+        "timestamp": 1786748154081,
+        "iso": "2026-08-14T22:55:54.081828+00:00"
+      },
+      {
+        "action": "capital-lock-cleared",
+        "detail": "cleared by admin",
+        "shield_level": "GREEN",
+        "emergency_stop": false,
+        "timestamp": 1786748154089,
+        "iso": "2026-08-14T22:55:54.089479+00:00"
+      }
+    ],
+    "createdAt": "2026-08-07T14:48:31.598637+00:00",
+    "updatedAt": "2026-08-17T01:04:37.836611+00:00"
+  }
+]

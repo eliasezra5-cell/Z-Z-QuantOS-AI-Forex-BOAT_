@@ -1,0 +1,17 @@
+[
+  {
+    "id": "d9128dc3-fee0-4d54-991c-8e9c09911a14",
+    "version": 1,
+    "weights": {
+      "trend": 1.0,
+      "indicators": 1.0,
+      "patterns": 1.0,
+      "smc": 1.0,
+      "news": 1.0,
+      "macro": 1.0
+    },
+    "trainedAt": 1786114111479,
+    "sampleCount": 0,
+    "createdAt": "2026-08-07T14:48:31.479896+00:00"
+  }
+]

@@ -1,0 +1,1425 @@
+[
+  {
+    "id": "fed_speech",
+    "name": "Fed Chair Speech",
+    "currency": "USD",
+    "country": "US",
+    "impact": 3,
+    "frequency": "ad-hoc",
+    "time": 1785721715437,
+    "forecast": null,
+    "actual": null,
+    "previous": null,
+    "status": "released",
+    "ai": {
+      "surprise": 0.0,
+      "volatilityExpectation": 0.5,
+      "direction": "neutral",
+      "affectedCurrencies": [
+        "USD"
+      ],
+      "affectedInstruments": [
+        "EURUSD",
+        "GBPUSD",
+        "USDJPY",
+        "XAUUSD",
+        "US500"
+      ],
+      "reasoning": "Actual n/a vs forecast n/a for Fed Chair Speech",
+      "confidence": 0.5
+    },
+    "createdAt": "2026-08-07T14:48:35.437923+00:00"
+  },
+  {
+    "id": "ecb_speech",
+    "name": "ECB President Speech",
+    "currency": "EUR",
+    "country": "EU",
+    "impact": 2,
+    "frequency": "ad-hoc",
+    "time": 1785703715437,
+    "forecast": null,
+    "actual": null,
+    "previous": null,
+    "status": "released",
+    "ai": {
+      "surprise": 0.0,
+      "volatilityExpectation": 0.5,
+      "direction": "neutral",
+      "affectedCurrencies": [
+        "EUR"
+      ],
+      "affectedInstruments": [
+        "EURUSD",
+        "EURJPY"
+      ],
+      "reasoning": "Actual n/a vs forecast n/a for ECB President Speech",
+      "confidence": 0.5
+    },
+    "createdAt": "2026-08-07T14:48:35.437937+00:00"
+  },
+  {
+    "id": "retail_sales",
+    "name": "US Retail Sales",
+    "currency": "USD",
+    "country": "US",
+    "impact": 2,
+    "frequency": "monthly",
+    "time": 1785736115437,
+    "forecast": 0.3,
+    "actual": 0.29,
+    "previous": 0.294,
+    "status": "released",
+    "ai": {
+      "surprise": -0.03,
+      "volatilityExpectation": 0.58,
+      "direction": "bullish-usd",
+      "affectedCurrencies": [
+        "USD"
+      ],
+      "affectedInstruments": [
+        "EURUSD",
+        "GBPUSD",
+        "USDJPY",
+        "XAUUSD",
+        "US500"
+      ],
+      "reasoning": "Actual 0.2903270535899899 vs forecast 0.3 for US Retail Sales",
+      "confidence": 0.53
+    },
+    "createdAt": "2026-08-07T14:48:35.437943+00:00"
+  },
+  {
+    "id": "ppi",
+    "name": "Producer Price Index",
+    "currency": "USD",
+    "country": "US",
+    "impact": 2,
+    "frequency": "monthly",
+    "time": 1785782915437,
+    "forecast": 2.1,
+    "actual": 2.0,
+    "previous": 2.058,
+    "status": "released",
+    "ai": {
+      "surprise": -0.05,
+      "volatilityExpectation": 0.62,
+      "direction": "bullish-usd",
+      "affectedCurrencies": [
+        "USD"
+      ],
+      "affectedInstruments": [
+        "EURUSD",
+        "GBPUSD",
+        "USDJPY",
+        "XAUUSD",
+        "US500"
+      ],
+      "reasoning": "Actual 1.9961392320485987 vs forecast 2.1 for Producer Price Index",
+      "confidence": 0.55
+    },
+    "createdAt": "2026-08-07T14:48:35.437948+00:00"
+  },
+  {
+    "id": "interest_rate_us",
+    "name": "Fed Interest Rate Decision",
+    "currency": "USD",
+    "country": "US",
+    "impact": 3,
+    "frequency": "monthly",
+    "time": 1785894515437,
+    "forecast": 5.5,
+    "actual": 5.62,
+    "previous": 5.39,
+    "status": "released",
+    "ai": {
+      "surprise": 0.02,
+      "volatilityExpectation": 0.55,
+      "direction": "neutral",
+      "affectedCurrencies": [
+        "USD"
+      ],
+      "affectedInstruments": [
+        "EURUSD",
+        "GBPUSD",
+        "USDJPY",
+        "XAUUSD",
+        "US500"
+      ],
+      "reasoning": "Actual 5.619184523939234 vs forecast 5.5 for Fed Interest Rate Decision",
+      "confidence": 0.52
+    },
+    "createdAt": "2026-08-07T14:48:35.437953+00:00"
+  },
+  {
+    "id": "unemployment_us",
+    "name": "US Unemployment Rate",
+    "currency": "USD",
+    "country": "US",
+    "impact": 2,
+    "frequency": "monthly",
+    "time": 1785854915437,
+    "forecast": 3.9,
+    "actual": 3.97,
+    "previous": 3.822,
+    "status": "released",
+    "ai": {
+      "surprise": 0.02,
+      "volatilityExpectation": 0.54,
+      "direction": "neutral",
+      "affectedCurrencies": [
+        "USD"
+      ],
+      "affectedInstruments": [
+        "EURUSD",
+        "GBPUSD",
+        "USDJPY",
+        "XAUUSD",
+        "US500"
+      ],
+      "reasoning": "Actual 3.966241708355664 vs forecast 3.9 for US Unemployment Rate",
+      "confidence": 0.52
+    },
+    "createdAt": "2026-08-07T14:48:35.437959+00:00"
+  },
+  {
+    "id": "inflation_eu",
+    "name": "Eurozone Inflation Rate",
+    "currency": "EUR",
+    "country": "EU",
+    "impact": 3,
+    "frequency": "monthly",
+    "time": 1785908915437,
+    "forecast": 2.4,
+    "actual": 2.49,
+    "previous": 2.352,
+    "status": "released",
+    "ai": {
+      "surprise": 0.04,
+      "volatilityExpectation": 0.6,
+      "direction": "neutral",
+      "affectedCurrencies": [
+        "EUR"
+      ],
+      "affectedInstruments": [
+        "EURUSD",
+        "EURJPY"
+      ],
+      "reasoning": "Actual 2.49487000463345 vs forecast 2.4 for Eurozone Inflation Rate",
+      "confidence": 0.54
+    },
+    "createdAt": "2026-08-07T14:48:35.437964+00:00"
+  },
+  {
+    "id": "ppi",
+    "name": "Producer Price Index",
+    "currency": "USD",
+    "country": "US",
+    "impact": 2,
+    "frequency": "monthly",
+    "time": 1785995315437,
+    "forecast": 2.1,
+    "actual": 2.07,
+    "previous": 2.058,
+    "status": "released",
+    "ai": {
+      "surprise": -0.01,
+      "volatilityExpectation": 0.54,
+      "direction": "bullish-usd",
+      "affectedCurrencies": [
+        "USD"
+      ],
+      "affectedInstruments": [
+        "EURUSD",
+        "GBPUSD",
+        "USDJPY",
+        "XAUUSD",
+        "US500"
+      ],
+      "reasoning": "Actual 2.0689966998781544 vs forecast 2.1 for Producer Price Index",
+      "confidence": 0.51
+    },
+    "createdAt": "2026-08-07T14:48:35.437973+00:00"
+  },
+  {
+    "id": "boe_rate",
+    "name": "BOE Interest Rate Decision",
+    "currency": "GBP",
+    "country": "UK",
+    "impact": 3,
+    "frequency": "monthly",
+    "time": 1785941315437,
+    "forecast": 5.25,
+    "actual": 5.07,
+    "previous": 5.145,
+    "status": "released",
+    "ai": {
+      "surprise": -0.03,
+      "volatilityExpectation": 0.58,
+      "direction": "neutral",
+      "affectedCurrencies": [
+        "GBP"
+      ],
+      "affectedInstruments": [
+        "GBPUSD"
+      ],
+      "reasoning": "Actual 5.072103017106882 vs forecast 5.25 for BOE Interest Rate Decision",
+      "confidence": 0.53
+    },
+    "createdAt": "2026-08-07T14:48:35.437979+00:00"
+  },
+  {
+    "id": "retail_sales",
+    "name": "US Retail Sales",
+    "currency": "USD",
+    "country": "US",
+    "impact": 2,
+    "frequency": "monthly",
+    "time": 1785955715437,
+    "forecast": 0.3,
+    "actual": 0.29,
+    "previous": 0.294,
+    "status": "released",
+    "ai": {
+      "surprise": -0.04,
+      "volatilityExpectation": 0.59,
+      "direction": "bullish-usd",
+      "affectedCurrencies": [
+        "USD"
+      ],
+      "affectedInstruments": [
+        "EURUSD",
+        "GBPUSD",
+        "USDJPY",
+        "XAUUSD",
+        "US500"
+      ],
+      "reasoning": "Actual 0.2888664751068008 vs forecast 0.3 for US Retail Sales",
+      "confidence": 0.54
+    },
+    "createdAt": "2026-08-07T14:48:35.437984+00:00"
+  },
+  {
+    "id": "gdp",
+    "name": "Gross Domestic Product",
+    "currency": "USD",
+    "country": "US",
+    "impact": 3,
+    "frequency": "quarterly",
+    "time": 1786027715437,
+    "forecast": 2.4,
+    "actual": 2.34,
+    "previous": 2.352,
+    "status": "released",
+    "ai": {
+      "surprise": -0.02,
+      "volatilityExpectation": 0.56,
+      "direction": "bullish-usd",
+      "affectedCurrencies": [
+        "USD"
+      ],
+      "affectedInstruments": [
+        "EURUSD",
+        "GBPUSD",
+        "USDJPY",
+        "XAUUSD",
+        "US500"
+      ],
+      "reasoning": "Actual 2.341083705114504 vs forecast 2.4 for Gross Domestic Product",
+      "confidence": 0.52
+    },
+    "createdAt": "2026-08-07T14:48:35.437989+00:00"
+  },
+  {
+    "id": "adp",
+    "name": "ADP Employment Change",
+    "currency": "USD",
+    "country": "US",
+    "impact": 2,
+    "frequency": "monthly",
+    "time": 1786074515437,
+    "forecast": 160,
+    "actual": 160.12,
+    "previous": 156.8,
+    "status": "released",
+    "ai": {
+      "surprise": 0.0,
+      "volatilityExpectation": 0.5,
+      "direction": "neutral",
+      "affectedCurrencies": [
+        "USD"
+      ],
+      "affectedInstruments": [
+        "EURUSD",
+        "GBPUSD",
+        "USDJPY",
+        "XAUUSD",
+        "US500"
+      ],
+      "reasoning": "Actual 160.12230638208123 vs forecast 160 for ADP Employment Change",
+      "confidence": 0.5
+    },
+    "createdAt": "2026-08-07T14:48:35.437994+00:00"
+  },
+  {
+    "id": "fomc",
+    "name": "FOMC Interest Rate Decision",
+    "currency": "USD",
+    "country": "US",
+    "impact": 3,
+    "frequency": "quarterly",
+    "time": 1786081715437,
+    "forecast": 5.5,
+    "actual": 5.42,
+    "previous": 5.39,
+    "status": "released",
+    "ai": {
+      "surprise": -0.02,
+      "volatilityExpectation": 0.54,
+      "direction": "neutral",
+      "affectedCurrencies": [
+        "USD"
+      ],
+      "affectedInstruments": [
+        "EURUSD",
+        "GBPUSD",
+        "USDJPY",
+        "XAUUSD",
+        "US500"
+      ],
+      "reasoning": "Actual 5.416096010549939 vs forecast 5.5 for FOMC Interest Rate Decision",
+      "confidence": 0.52
+    },
+    "createdAt": "2026-08-07T14:48:35.438000+00:00"
+  },
+  {
+    "id": "ecb_rate",
+    "name": "ECB Interest Rate Decision",
+    "currency": "EUR",
+    "country": "EU",
+    "impact": 3,
+    "frequency": "monthly",
+    "time": 1786031315437,
+    "forecast": 4.0,
+    "actual": 3.8,
+    "previous": 3.92,
+    "status": "released",
+    "ai": {
+      "surprise": -0.05,
+      "volatilityExpectation": 0.62,
+      "direction": "neutral",
+      "affectedCurrencies": [
+        "EUR"
+      ],
+      "affectedInstruments": [
+        "EURUSD",
+        "EURJPY"
+      ],
+      "reasoning": "Actual 3.8023576391784926 vs forecast 4.0 for ECB Interest Rate Decision",
+      "confidence": 0.55
+    },
+    "createdAt": "2026-08-07T14:48:35.438005+00:00"
+  },
+  {
+    "id": "boj_rate",
+    "name": "BOJ Interest Rate Decision",
+    "currency": "JPY",
+    "country": "JP",
+    "impact": 3,
+    "frequency": "monthly",
+    "time": 1786067315437,
+    "forecast": 0.0,
+    "actual": 0.0,
+    "previous": 0.0,
+    "status": "released",
+    "ai": {
+      "surprise": 0.0,
+      "volatilityExpectation": 0.5,
+      "direction": "neutral",
+      "affectedCurrencies": [
+        "JPY"
+      ],
+      "affectedInstruments": [
+        "USDJPY",
+        "EURJPY"
+      ],
+      "reasoning": "Actual 0.0 vs forecast 0.0 for BOJ Interest Rate Decision",
+      "confidence": 0.5
+    },
+    "createdAt": "2026-08-07T14:48:35.438010+00:00"
+  },
+  {
+    "id": "inflation_eu",
+    "name": "Eurozone Inflation Rate",
+    "currency": "EUR",
+    "country": "EU",
+    "impact": 3,
+    "frequency": "monthly",
+    "time": 1786081715437,
+    "forecast": 2.4,
+    "actual": 2.31,
+    "previous": 2.352,
+    "status": "released",
+    "ai": {
+      "surprise": -0.04,
+      "volatilityExpectation": 0.6,
+      "direction": "neutral",
+      "affectedCurrencies": [
+        "EUR"
+      ],
+      "affectedInstruments": [
+        "EURUSD",
+        "EURJPY"
+      ],
+      "reasoning": "Actual 2.3051459258232345 vs forecast 2.4 for Eurozone Inflation Rate",
+      "confidence": 0.54
+    },
+    "createdAt": "2026-08-07T14:48:35.438016+00:00"
+  },
+  {
+    "id": "employment_uk",
+    "name": "UK Employment Change",
+    "currency": "GBP",
+    "country": "UK",
+    "impact": 2,
+    "frequency": "monthly",
+    "time": 1786067315437,
+    "forecast": 95,
+    "actual": 94.28,
+    "previous": 93.1,
+    "status": "released",
+    "ai": {
+      "surprise": -0.01,
+      "volatilityExpectation": 0.52,
+      "direction": "neutral",
+      "affectedCurrencies": [
+        "GBP"
+      ],
+      "affectedInstruments": [
+        "GBPUSD"
+      ],
+      "reasoning": "Actual 94.28201860347531 vs forecast 95 for UK Employment Change",
+      "confidence": 0.51
+    },
+    "createdAt": "2026-08-07T14:48:35.438021+00:00"
+  },
+  {
+    "id": "fomc",
+    "name": "FOMC Interest Rate Decision",
+    "currency": "USD",
+    "country": "US",
+    "impact": 3,
+    "frequency": "quarterly",
+    "time": 1786117715437,
+    "forecast": 5.5,
+    "actual": null,
+    "previous": 5.39,
+    "status": "upcoming-today",
+    "ai": {
+      "surprise": 0.0,
+      "volatilityExpectation": 0.5,
+      "direction": "neutral",
+      "affectedCurrencies": [
+        "USD"
+      ],
+      "affectedInstruments": [
+        "EURUSD",
+        "GBPUSD",
+        "USDJPY",
+        "XAUUSD",
+        "US500"
+      ],
+      "reasoning": "Actual n/a vs forecast 5.5 for FOMC Interest Rate Decision",
+      "confidence": 0.5
+    },
+    "createdAt": "2026-08-07T14:48:35.438030+00:00"
+  },
+  {
+    "id": "ecb_rate",
+    "name": "ECB Interest Rate Decision",
+    "currency": "EUR",
+    "country": "EU",
+    "impact": 3,
+    "frequency": "monthly",
+    "time": 1786142915437,
+    "forecast": 4.0,
+    "actual": null,
+    "previous": 3.92,
+    "status": "upcoming-today",
+    "ai": {
+      "surprise": 0.0,
+      "volatilityExpectation": 0.5,
+      "direction": "neutral",
+      "affectedCurrencies": [
+        "EUR"
+      ],
+      "affectedInstruments": [
+        "EURUSD",
+        "EURJPY"
+      ],
+      "reasoning": "Actual n/a vs forecast 4.0 for ECB Interest Rate Decision",
+      "confidence": 0.5
+    },
+    "createdAt": "2026-08-07T14:48:35.438036+00:00"
+  },
+  {
+    "id": "gdp",
+    "name": "Gross Domestic Product",
+    "currency": "USD",
+    "country": "US",
+    "impact": 3,
+    "frequency": "quarterly",
+    "time": 1786222115437,
+    "forecast": 2.4,
+    "actual": null,
+    "previous": 2.352,
+    "status": "upcoming",
+    "ai": {
+      "surprise": 0.0,
+      "volatilityExpectation": 0.5,
+      "direction": "neutral",
+      "affectedCurrencies": [
+        "USD"
+      ],
+      "affectedInstruments": [
+        "EURUSD",
+        "GBPUSD",
+        "USDJPY",
+        "XAUUSD",
+        "US500"
+      ],
+      "reasoning": "Actual n/a vs forecast 2.4 for Gross Domestic Product",
+      "confidence": 0.5
+    },
+    "createdAt": "2026-08-07T14:48:35.438041+00:00"
+  },
+  {
+    "id": "pmi",
+    "name": "Manufacturing PMI",
+    "currency": "USD",
+    "country": "US",
+    "impact": 2,
+    "frequency": "monthly",
+    "time": 1786240115437,
+    "forecast": 51.2,
+    "actual": null,
+    "previous": 50.176,
+    "status": "upcoming",
+    "ai": {
+      "surprise": 0.0,
+      "volatilityExpectation": 0.5,
+      "direction": "neutral",
+      "affectedCurrencies": [
+        "USD"
+      ],
+      "affectedInstruments": [
+        "EURUSD",
+        "GBPUSD",
+        "USDJPY",
+        "XAUUSD",
+        "US500"
+      ],
+      "reasoning": "Actual n/a vs forecast 51.2 for Manufacturing PMI",
+      "confidence": 0.5
+    },
+    "createdAt": "2026-08-07T14:48:35.438046+00:00"
+  },
+  {
+    "id": "nfp",
+    "name": "Non-Farm Payrolls",
+    "currency": "USD",
+    "country": "US",
+    "impact": 3,
+    "frequency": "monthly",
+    "time": 1786218515437,
+    "forecast": 185,
+    "actual": null,
+    "previous": 181.29999999999998,
+    "status": "upcoming",
+    "ai": {
+      "surprise": 0.0,
+      "volatilityExpectation": 0.5,
+      "direction": "neutral",
+      "affectedCurrencies": [
+        "USD"
+      ],
+      "affectedInstruments": [
+        "EURUSD",
+        "GBPUSD",
+        "USDJPY",
+        "XAUUSD",
+        "US500"
+      ],
+      "reasoning": "Actual n/a vs forecast 185 for Non-Farm Payrolls",
+      "confidence": 0.5
+    },
+    "createdAt": "2026-08-07T14:48:35.438051+00:00"
+  },
+  {
+    "id": "fomc",
+    "name": "FOMC Interest Rate Decision",
+    "currency": "USD",
+    "country": "US",
+    "impact": 3,
+    "frequency": "quarterly",
+    "time": 1786247315437,
+    "forecast": 5.5,
+    "actual": null,
+    "previous": 5.39,
+    "status": "upcoming",
+    "ai": {
+      "surprise": 0.0,
+      "volatilityExpectation": 0.5,
+      "direction": "neutral",
+      "affectedCurrencies": [
+        "USD"
+      ],
+      "affectedInstruments": [
+        "EURUSD",
+        "GBPUSD",
+        "USDJPY",
+        "XAUUSD",
+        "US500"
+      ],
+      "reasoning": "Actual n/a vs forecast 5.5 for FOMC Interest Rate Decision",
+      "confidence": 0.5
+    },
+    "createdAt": "2026-08-07T14:48:35.438057+00:00"
+  },
+  {
+    "id": "inflation_eu",
+    "name": "Eurozone Inflation Rate",
+    "currency": "EUR",
+    "country": "EU",
+    "impact": 3,
+    "frequency": "monthly",
+    "time": 1786240115437,
+    "forecast": 2.4,
+    "actual": null,
+    "previous": 2.352,
+    "status": "upcoming",
+    "ai": {
+      "surprise": 0.0,
+      "volatilityExpectation": 0.5,
+      "direction": "neutral",
+      "affectedCurrencies": [
+        "EUR"
+      ],
+      "affectedInstruments": [
+        "EURUSD",
+        "EURJPY"
+      ],
+      "reasoning": "Actual n/a vs forecast 2.4 for Eurozone Inflation Rate",
+      "confidence": 0.5
+    },
+    "createdAt": "2026-08-07T14:48:35.438062+00:00"
+  },
+  {
+    "id": "gdp",
+    "name": "Gross Domestic Product",
+    "currency": "USD",
+    "country": "US",
+    "impact": 3,
+    "frequency": "quarterly",
+    "time": 1786312115437,
+    "forecast": 2.4,
+    "actual": null,
+    "previous": 2.352,
+    "status": "upcoming",
+    "ai": {
+      "surprise": 0.0,
+      "volatilityExpectation": 0.5,
+      "direction": "neutral",
+      "affectedCurrencies": [
+        "USD"
+      ],
+      "affectedInstruments": [
+        "EURUSD",
+        "GBPUSD",
+        "USDJPY",
+        "XAUUSD",
+        "US500"
+      ],
+      "reasoning": "Actual n/a vs forecast 2.4 for Gross Domestic Product",
+      "confidence": 0.5
+    },
+    "createdAt": "2026-08-07T14:48:35.438067+00:00"
+  },
+  {
+    "id": "nfp",
+    "name": "Non-Farm Payrolls",
+    "currency": "USD",
+    "country": "US",
+    "impact": 3,
+    "frequency": "monthly",
+    "time": 1786304915437,
+    "forecast": 185,
+    "actual": null,
+    "previous": 181.29999999999998,
+    "status": "upcoming",
+    "ai": {
+      "surprise": 0.0,
+      "volatilityExpectation": 0.5,
+      "direction": "neutral",
+      "affectedCurrencies": [
+        "USD"
+      ],
+      "affectedInstruments": [
+        "EURUSD",
+        "GBPUSD",
+        "USDJPY",
+        "XAUUSD",
+        "US500"
+      ],
+      "reasoning": "Actual n/a vs forecast 185 for Non-Farm Payrolls",
+      "confidence": 0.5
+    },
+    "createdAt": "2026-08-07T14:48:35.438073+00:00"
+  },
+  {
+    "id": "ecb_speech",
+    "name": "ECB President Speech",
+    "currency": "EUR",
+    "country": "EU",
+    "impact": 2,
+    "frequency": "ad-hoc",
+    "time": 1786301315437,
+    "forecast": null,
+    "actual": null,
+    "previous": null,
+    "status": "upcoming",
+    "ai": {
+      "surprise": 0.0,
+      "volatilityExpectation": 0.5,
+      "direction": "neutral",
+      "affectedCurrencies": [
+        "EUR"
+      ],
+      "affectedInstruments": [
+        "EURUSD",
+        "EURJPY"
+      ],
+      "reasoning": "Actual n/a vs forecast n/a for ECB President Speech",
+      "confidence": 0.5
+    },
+    "createdAt": "2026-08-07T14:48:35.438078+00:00"
+  },
+  {
+    "id": "trade_balance_cn",
+    "name": "China Trade Balance",
+    "currency": "CNY",
+    "country": "CN",
+    "impact": 2,
+    "frequency": "monthly",
+    "time": 1786322915437,
+    "forecast": 68.5,
+    "actual": null,
+    "previous": 67.13,
+    "status": "upcoming",
+    "ai": {
+      "surprise": 0.0,
+      "volatilityExpectation": 0.5,
+      "direction": "neutral",
+      "affectedCurrencies": [
+        "CNY"
+      ],
+      "affectedInstruments": [
+        "USDCNH"
+      ],
+      "reasoning": "Actual n/a vs forecast 68.5 for China Trade Balance",
+      "confidence": 0.5
+    },
+    "createdAt": "2026-08-07T14:48:35.438088+00:00"
+  },
+  {
+    "id": "interest_rate_us",
+    "name": "Fed Interest Rate Decision",
+    "currency": "USD",
+    "country": "US",
+    "impact": 3,
+    "frequency": "monthly",
+    "time": 1786384115437,
+    "forecast": 5.5,
+    "actual": null,
+    "previous": 5.39,
+    "status": "upcoming",
+    "ai": {
+      "surprise": 0.0,
+      "volatilityExpectation": 0.5,
+      "direction": "neutral",
+      "affectedCurrencies": [
+        "USD"
+      ],
+      "affectedInstruments": [
+        "EURUSD",
+        "GBPUSD",
+        "USDJPY",
+        "XAUUSD",
+        "US500"
+      ],
+      "reasoning": "Actual n/a vs forecast 5.5 for Fed Interest Rate Decision",
+      "confidence": 0.5
+    },
+    "createdAt": "2026-08-07T14:48:35.438095+00:00"
+  },
+  {
+    "id": "adp",
+    "name": "ADP Employment Change",
+    "currency": "USD",
+    "country": "US",
+    "impact": 2,
+    "frequency": "monthly",
+    "time": 1786488515437,
+    "forecast": 160,
+    "actual": null,
+    "previous": 156.8,
+    "status": "upcoming",
+    "ai": {
+      "surprise": 0.0,
+      "volatilityExpectation": 0.5,
+      "direction": "neutral",
+      "affectedCurrencies": [
+        "USD"
+      ],
+      "affectedInstruments": [
+        "EURUSD",
+        "GBPUSD",
+        "USDJPY",
+        "XAUUSD",
+        "US500"
+      ],
+      "reasoning": "Actual n/a vs forecast 160 for ADP Employment Change",
+      "confidence": 0.5
+    },
+    "createdAt": "2026-08-07T14:48:35.438101+00:00"
+  },
+  {
+    "id": "unemployment_us",
+    "name": "US Unemployment Rate",
+    "currency": "USD",
+    "country": "US",
+    "impact": 2,
+    "frequency": "monthly",
+    "time": 1786502915437,
+    "forecast": 3.9,
+    "actual": null,
+    "previous": 3.822,
+    "status": "upcoming",
+    "ai": {
+      "surprise": 0.0,
+      "volatilityExpectation": 0.5,
+      "direction": "neutral",
+      "affectedCurrencies": [
+        "USD"
+      ],
+      "affectedInstruments": [
+        "EURUSD",
+        "GBPUSD",
+        "USDJPY",
+        "XAUUSD",
+        "US500"
+      ],
+      "reasoning": "Actual n/a vs forecast 3.9 for US Unemployment Rate",
+      "confidence": 0.5
+    },
+    "createdAt": "2026-08-07T14:48:35.438105+00:00"
+  },
+  {
+    "id": "fed_speech",
+    "name": "Fed Chair Speech",
+    "currency": "USD",
+    "country": "US",
+    "impact": 3,
+    "frequency": "ad-hoc",
+    "time": 1786553315437,
+    "forecast": null,
+    "actual": null,
+    "previous": null,
+    "status": "upcoming",
+    "ai": {
+      "surprise": 0.0,
+      "volatilityExpectation": 0.5,
+      "direction": "neutral",
+      "affectedCurrencies": [
+        "USD"
+      ],
+      "affectedInstruments": [
+        "EURUSD",
+        "GBPUSD",
+        "USDJPY",
+        "XAUUSD",
+        "US500"
+      ],
+      "reasoning": "Actual n/a vs forecast n/a for Fed Chair Speech",
+      "confidence": 0.5
+    },
+    "createdAt": "2026-08-07T14:48:35.438110+00:00"
+  },
+  {
+    "id": "unemployment_us",
+    "name": "US Unemployment Rate",
+    "currency": "USD",
+    "country": "US",
+    "impact": 2,
+    "frequency": "monthly",
+    "time": 1786592915437,
+    "forecast": 3.9,
+    "actual": null,
+    "previous": 3.822,
+    "status": "upcoming",
+    "ai": {
+      "surprise": 0.0,
+      "volatilityExpectation": 0.5,
+      "direction": "neutral",
+      "affectedCurrencies": [
+        "USD"
+      ],
+      "affectedInstruments": [
+        "EURUSD",
+        "GBPUSD",
+        "USDJPY",
+        "XAUUSD",
+        "US500"
+      ],
+      "reasoning": "Actual n/a vs forecast 3.9 for US Unemployment Rate",
+      "confidence": 0.5
+    },
+    "createdAt": "2026-08-07T14:48:35.438120+00:00"
+  },
+  {
+    "id": "ppi",
+    "name": "Producer Price Index",
+    "currency": "USD",
+    "country": "US",
+    "impact": 2,
+    "frequency": "monthly",
+    "time": 1786686515437,
+    "forecast": 2.1,
+    "actual": null,
+    "previous": 2.058,
+    "status": "upcoming",
+    "ai": {
+      "surprise": 0.0,
+      "volatilityExpectation": 0.5,
+      "direction": "neutral",
+      "affectedCurrencies": [
+        "USD"
+      ],
+      "affectedInstruments": [
+        "EURUSD",
+        "GBPUSD",
+        "USDJPY",
+        "XAUUSD",
+        "US500"
+      ],
+      "reasoning": "Actual n/a vs forecast 2.1 for Producer Price Index",
+      "confidence": 0.5
+    },
+    "createdAt": "2026-08-07T14:48:35.438125+00:00"
+  },
+  {
+    "id": "boe_rate",
+    "name": "BOE Interest Rate Decision",
+    "currency": "GBP",
+    "country": "UK",
+    "impact": 3,
+    "frequency": "monthly",
+    "time": 1786657715437,
+    "forecast": 5.25,
+    "actual": null,
+    "previous": 5.145,
+    "status": "upcoming",
+    "ai": {
+      "surprise": 0.0,
+      "volatilityExpectation": 0.5,
+      "direction": "neutral",
+      "affectedCurrencies": [
+        "GBP"
+      ],
+      "affectedInstruments": [
+        "GBPUSD"
+      ],
+      "reasoning": "Actual n/a vs forecast 5.25 for BOE Interest Rate Decision",
+      "confidence": 0.5
+    },
+    "createdAt": "2026-08-07T14:48:35.438131+00:00"
+  },
+  {
+    "id": "cpi",
+    "name": "Consumer Price Index",
+    "currency": "USD",
+    "country": "US",
+    "impact": 3,
+    "frequency": "monthly",
+    "time": 1786729715437,
+    "forecast": 3.2,
+    "actual": null,
+    "previous": 3.136,
+    "status": "upcoming",
+    "ai": {
+      "surprise": 0.0,
+      "volatilityExpectation": 0.5,
+      "direction": "neutral",
+      "affectedCurrencies": [
+        "USD"
+      ],
+      "affectedInstruments": [
+        "EURUSD",
+        "GBPUSD",
+        "USDJPY",
+        "XAUUSD",
+        "US500"
+      ],
+      "reasoning": "Actual n/a vs forecast 3.2 for Consumer Price Index",
+      "confidence": 0.5
+    },
+    "createdAt": "2026-08-07T14:48:35.438136+00:00"
+  },
+  {
+    "id": "fed_speech",
+    "name": "Fed Chair Speech",
+    "currency": "USD",
+    "country": "US",
+    "impact": 3,
+    "frequency": "ad-hoc",
+    "time": 1786758515437,
+    "forecast": null,
+    "actual": null,
+    "previous": null,
+    "status": "upcoming",
+    "ai": {
+      "surprise": 0.0,
+      "volatilityExpectation": 0.5,
+      "direction": "neutral",
+      "affectedCurrencies": [
+        "USD"
+      ],
+      "affectedInstruments": [
+        "EURUSD",
+        "GBPUSD",
+        "USDJPY",
+        "XAUUSD",
+        "US500"
+      ],
+      "reasoning": "Actual n/a vs forecast n/a for Fed Chair Speech",
+      "confidence": 0.5
+    },
+    "createdAt": "2026-08-07T14:48:35.438141+00:00"
+  },
+  {
+    "id": "ecb_speech",
+    "name": "ECB President Speech",
+    "currency": "EUR",
+    "country": "EU",
+    "impact": 2,
+    "frequency": "ad-hoc",
+    "time": 1786736915437,
+    "forecast": null,
+    "actual": null,
+    "previous": null,
+    "status": "upcoming",
+    "ai": {
+      "surprise": 0.0,
+      "volatilityExpectation": 0.5,
+      "direction": "neutral",
+      "affectedCurrencies": [
+        "EUR"
+      ],
+      "affectedInstruments": [
+        "EURUSD",
+        "EURJPY"
+      ],
+      "reasoning": "Actual n/a vs forecast n/a for ECB President Speech",
+      "confidence": 0.5
+    },
+    "createdAt": "2026-08-07T14:48:35.438150+00:00"
+  },
+  {
+    "id": "employment_uk",
+    "name": "UK Employment Change",
+    "currency": "GBP",
+    "country": "UK",
+    "impact": 2,
+    "frequency": "monthly",
+    "time": 1786747715437,
+    "forecast": 95,
+    "actual": null,
+    "previous": 93.1,
+    "status": "upcoming",
+    "ai": {
+      "surprise": 0.0,
+      "volatilityExpectation": 0.5,
+      "direction": "neutral",
+      "affectedCurrencies": [
+        "GBP"
+      ],
+      "affectedInstruments": [
+        "GBPUSD"
+      ],
+      "reasoning": "Actual n/a vs forecast 95 for UK Employment Change",
+      "confidence": 0.5
+    },
+    "createdAt": "2026-08-07T14:48:35.438156+00:00"
+  },
+  {
+    "id": "ppi",
+    "name": "Producer Price Index",
+    "currency": "USD",
+    "country": "US",
+    "impact": 2,
+    "frequency": "monthly",
+    "time": 1786834115437,
+    "forecast": 2.1,
+    "actual": null,
+    "previous": 2.058,
+    "status": "upcoming",
+    "ai": {
+      "surprise": 0.0,
+      "volatilityExpectation": 0.5,
+      "direction": "neutral",
+      "affectedCurrencies": [
+        "USD"
+      ],
+      "affectedInstruments": [
+        "EURUSD",
+        "GBPUSD",
+        "USDJPY",
+        "XAUUSD",
+        "US500"
+      ],
+      "reasoning": "Actual n/a vs forecast 2.1 for Producer Price Index",
+      "confidence": 0.5
+    },
+    "createdAt": "2026-08-07T14:48:35.438161+00:00"
+  },
+  {
+    "id": "ecb_speech",
+    "name": "ECB President Speech",
+    "currency": "EUR",
+    "country": "EU",
+    "impact": 2,
+    "frequency": "ad-hoc",
+    "time": 1786834115437,
+    "forecast": null,
+    "actual": null,
+    "previous": null,
+    "status": "upcoming",
+    "ai": {
+      "surprise": 0.0,
+      "volatilityExpectation": 0.5,
+      "direction": "neutral",
+      "affectedCurrencies": [
+        "EUR"
+      ],
+      "affectedInstruments": [
+        "EURUSD",
+        "EURJPY"
+      ],
+      "reasoning": "Actual n/a vs forecast n/a for ECB President Speech",
+      "confidence": 0.5
+    },
+    "createdAt": "2026-08-07T14:48:35.438166+00:00"
+  },
+  {
+    "id": "boe_rate",
+    "name": "BOE Interest Rate Decision",
+    "currency": "GBP",
+    "country": "UK",
+    "impact": 3,
+    "frequency": "monthly",
+    "time": 1786823315437,
+    "forecast": 5.25,
+    "actual": null,
+    "previous": 5.145,
+    "status": "upcoming",
+    "ai": {
+      "surprise": 0.0,
+      "volatilityExpectation": 0.5,
+      "direction": "neutral",
+      "affectedCurrencies": [
+        "GBP"
+      ],
+      "affectedInstruments": [
+        "GBPUSD"
+      ],
+      "reasoning": "Actual n/a vs forecast 5.25 for BOE Interest Rate Decision",
+      "confidence": 0.5
+    },
+    "createdAt": "2026-08-07T14:48:35.438171+00:00"
+  },
+  {
+    "id": "unemployment_us",
+    "name": "US Unemployment Rate",
+    "currency": "USD",
+    "country": "US",
+    "impact": 2,
+    "frequency": "monthly",
+    "time": 1786841315437,
+    "forecast": 3.9,
+    "actual": null,
+    "previous": 3.822,
+    "status": "upcoming",
+    "ai": {
+      "surprise": 0.0,
+      "volatilityExpectation": 0.5,
+      "direction": "neutral",
+      "affectedCurrencies": [
+        "USD"
+      ],
+      "affectedInstruments": [
+        "EURUSD",
+        "GBPUSD",
+        "USDJPY",
+        "XAUUSD",
+        "US500"
+      ],
+      "reasoning": "Actual n/a vs forecast 3.9 for US Unemployment Rate",
+      "confidence": 0.5
+    },
+    "createdAt": "2026-08-07T14:48:35.438179+00:00"
+  },
+  {
+    "id": "interest_rate_us",
+    "name": "Fed Interest Rate Decision",
+    "currency": "USD",
+    "country": "US",
+    "impact": 3,
+    "frequency": "monthly",
+    "time": 1786895315437,
+    "forecast": 5.5,
+    "actual": null,
+    "previous": 5.39,
+    "status": "upcoming",
+    "ai": {
+      "surprise": 0.0,
+      "volatilityExpectation": 0.5,
+      "direction": "neutral",
+      "affectedCurrencies": [
+        "USD"
+      ],
+      "affectedInstruments": [
+        "EURUSD",
+        "GBPUSD",
+        "USDJPY",
+        "XAUUSD",
+        "US500"
+      ],
+      "reasoning": "Actual n/a vs forecast 5.5 for Fed Interest Rate Decision",
+      "confidence": 0.5
+    },
+    "createdAt": "2026-08-07T14:48:35.438187+00:00"
+  },
+  {
+    "id": "fed_speech",
+    "name": "Fed Chair Speech",
+    "currency": "USD",
+    "country": "US",
+    "impact": 3,
+    "frequency": "ad-hoc",
+    "time": 1786902515437,
+    "forecast": null,
+    "actual": null,
+    "previous": null,
+    "status": "upcoming",
+    "ai": {
+      "surprise": 0.0,
+      "volatilityExpectation": 0.5,
+      "direction": "neutral",
+      "affectedCurrencies": [
+        "USD"
+      ],
+      "affectedInstruments": [
+        "EURUSD",
+        "GBPUSD",
+        "USDJPY",
+        "XAUUSD",
+        "US500"
+      ],
+      "reasoning": "Actual n/a vs forecast n/a for Fed Chair Speech",
+      "confidence": 0.5
+    },
+    "createdAt": "2026-08-07T14:48:35.438192+00:00"
+  },
+  {
+    "id": "ecb_rate",
+    "name": "ECB Interest Rate Decision",
+    "currency": "EUR",
+    "country": "EU",
+    "impact": 3,
+    "frequency": "monthly",
+    "time": 1786920515437,
+    "forecast": 4.0,
+    "actual": null,
+    "previous": 3.92,
+    "status": "upcoming",
+    "ai": {
+      "surprise": 0.0,
+      "volatilityExpectation": 0.5,
+      "direction": "neutral",
+      "affectedCurrencies": [
+        "EUR"
+      ],
+      "affectedInstruments": [
+        "EURUSD",
+        "EURJPY"
+      ],
+      "reasoning": "Actual n/a vs forecast 4.0 for ECB Interest Rate Decision",
+      "confidence": 0.5
+    },
+    "createdAt": "2026-08-07T14:48:35.438199+00:00"
+  },
+  {
+    "id": "boe_rate",
+    "name": "BOE Interest Rate Decision",
+    "currency": "GBP",
+    "country": "UK",
+    "impact": 3,
+    "frequency": "monthly",
+    "time": 1786934915437,
+    "forecast": 5.25,
+    "actual": null,
+    "previous": 5.145,
+    "status": "upcoming",
+    "ai": {
+      "surprise": 0.0,
+      "volatilityExpectation": 0.5,
+      "direction": "neutral",
+      "affectedCurrencies": [
+        "GBP"
+      ],
+      "affectedInstruments": [
+        "GBPUSD"
+      ],
+      "reasoning": "Actual n/a vs forecast 5.25 for BOE Interest Rate Decision",
+      "confidence": 0.5
+    },
+    "createdAt": "2026-08-07T14:48:35.438206+00:00"
+  },
+  {
+    "id": "employment_uk",
+    "name": "UK Employment Change",
+    "currency": "GBP",
+    "country": "UK",
+    "impact": 2,
+    "frequency": "monthly",
+    "time": 1786898915437,
+    "forecast": 95,
+    "actual": null,
+    "previous": 93.1,
+    "status": "upcoming",
+    "ai": {
+      "surprise": 0.0,
+      "volatilityExpectation": 0.5,
+      "direction": "neutral",
+      "affectedCurrencies": [
+        "GBP"
+      ],
+      "affectedInstruments": [
+        "GBPUSD"
+      ],
+      "reasoning": "Actual n/a vs forecast 95 for UK Employment Change",
+      "confidence": 0.5
+    },
+    "createdAt": "2026-08-07T14:48:35.438217+00:00"
+  }
+]

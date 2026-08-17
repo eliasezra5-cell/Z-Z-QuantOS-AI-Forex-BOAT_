@@ -1,0 +1,32 @@
+[
+  {
+    "id": "44a68ca5-7092-4a03-b428-4df01293d473",
+    "target": "backend",
+    "type": "manual",
+    "status": "completed",
+    "at": 1786209297681,
+    "downtimeSec": 12,
+    "notes": "Failover to secondary zone completed",
+    "createdAt": "2026-08-08T17:14:57.681331+00:00"
+  },
+  {
+    "id": "8548f8db-c118-42ae-bdaa-ceaaf280279f",
+    "target": "backend",
+    "type": "manual",
+    "status": "completed",
+    "at": 1786209347059,
+    "downtimeSec": 8,
+    "notes": "Failover to secondary zone completed",
+    "createdAt": "2026-08-08T17:15:47.059359+00:00"
+  },
+  {
+    "id": "bba32d56-8ea2-44f7-a8e4-3a7ced22d42a",
+    "target": "backend",
+    "type": "manual",
+    "status": "completed",
+    "at": 1786210309934,
+    "downtimeSec": 8,
+    "notes": "Failover to secondary zone completed",
+    "createdAt": "2026-08-08T17:31:49.934273+00:00"
+  }
+]

@@ -1,0 +1,578 @@
+[
+  {
+    "id": "b8d15c18-f73a-48eb-9d1f-11a26cae2214",
+    "type": "summary",
+    "generatedAt": 1786209290534,
+    "report": {
+      "id": "summary-1786209290534",
+      "type": "summary",
+      "generatedAt": 1786209290534,
+      "period": "Current",
+      "portfolio": {
+        "balance": 100000,
+        "equity": 100000.0,
+        "pnl": 0.0,
+        "trades": 1,
+        "wins": 0,
+        "losses": 0,
+        "winRate": 0.0,
+        "netProfit": 0.0,
+        "avgProfit": 0.0,
+        "profitFactor": 0
+      },
+      "risk": {
+        "settings": [
+          {
+            "id": "max_risk_per_trade",
+            "value": 2,
+            "enabled": true,
+            "description": "Max risk per trade (% of equity)",
+            "createdAt": "2026-08-07T14:48:35.501606+00:00"
+          },
+          {
+            "id": "max_daily_loss",
+            "value": 5,
+            "enabled": true,
+            "description": "Max daily loss (% of equity)",
+            "createdAt": "2026-08-07T14:48:35.501625+00:00"
+          },
+          {
+            "id": "max_total_exposure",
+            "value": 30,
+            "enabled": true,
+            "description": "Max total exposure (% of equity)",
+            "createdAt": "2026-08-07T14:48:35.501631+00:00"
+          },
+          {
+            "id": "max_open_positions",
+            "value": 10,
+            "enabled": true,
+            "description": "Max open positions",
+            "createdAt": "2026-08-07T14:48:35.501636+00:00"
+          },
+          {
+            "id": "max_correlation",
+            "value": 3,
+            "enabled": true,
+            "description": "Max correlated pairs exposure",
+            "createdAt": "2026-08-07T14:48:35.501641+00:00"
+          },
+          {
+            "id": "stop_loss_required",
+            "value": true,
+            "enabled": true,
+            "description": "Stop loss required on all trades",
+            "createdAt": "2026-08-07T14:48:35.501646+00:00"
+          },
+          {
+            "id": "take_profit_required",
+            "value": false,
+            "enabled": true,
+            "description": "Take profit recommended",
+            "createdAt": "2026-08-07T14:48:35.501651+00:00"
+          }
+        ],
+        "capitalProtection": {
+          "dailyLossLimit": 5,
+          "currentDailyLoss": 0,
+          "dailyLossPct": 0.0,
+          "haltTrading": false,
+          "reason": null
+        }
+      },
+      "market": {
+        "macro": {
+          "vix": 16.94,
+          "globalM2Growth": 6.03,
+          "recessionProbability": 14.53,
+          "marketBreadth": 79.52
+        },
+        "sentiment": 0.41,
+        "topNews": [
+          {
+            "title": "Non-farm payrolls beat expectations, dollar strengthens",
+            "sentiment": 0.3,
+            "impact": 0.9
+          },
+          {
+            "title": "Crude oil climbs 2% as OPEC+ extends production cuts",
+            "sentiment": 0.6,
+            "impact": 0.65
+          },
+          {
+            "title": "Gold hits fresh record high as safe-haven demand rises",
+            "sentiment": 0.7,
+            "impact": 0.75
+          },
+          {
+            "title": "Ethereum upgrade goes live, developers report smooth transition",
+            "sentiment": 0.6,
+            "impact": 0.5
+          },
+          {
+            "title": "Non-farm payrolls beat expectations, dollar strengthens",
+            "sentiment": 0.3,
+            "impact": 0.9
+          }
+        ],
+        "upcomingEvents": []
+      },
+      "ai": {
+        "decisions": 10,
+        "recent": [
+          {
+            "symbol": "XAUUSD",
+            "direction": "no_trade",
+            "confidence": 0,
+            "time": 1786207931778
+          },
+          {
+            "symbol": "XAUUSD",
+            "direction": "no_trade",
+            "confidence": 0,
+            "time": 1786207960204
+          },
+          {
+            "symbol": "XAUUSD",
+            "direction": "no_trade",
+            "confidence": 0,
+            "time": 1786207991137
+          },
+          {
+            "symbol": "EURUSD",
+            "direction": "neutral",
+            "confidence": 0.57,
+            "time": 1786208017752
+          },
+          {
+            "symbol": "XAUUSD",
+            "direction": "no_trade",
+            "confidence": 0,
+            "time": 1786208022697
+          },
+          {
+            "symbol": "XAUUSD",
+            "direction": "no_trade",
+            "confidence": 0,
+            "time": 1786208052120
+          },
+          {
+            "symbol": "XAUUSD",
+            "direction": "no_trade",
+            "confidence": 0,
+            "time": 1786208083213
+          },
+          {
+            "symbol": "XAUUSD",
+            "direction": "no_trade",
+            "confidence": 0,
+            "time": 1786208112959
+          },
+          {
+            "symbol": "EURUSD",
+            "direction": "neutral",
+            "confidence": 0.57,
+            "time": 1786209112594
+          },
+          {
+            "symbol": "EURUSD",
+            "direction": "neutral",
+            "confidence": 0.57,
+            "time": 1786209235861
+          }
+        ]
+      },
+      "summary": {
+        "headline": "Portfolio gained 0.0 in the summary period",
+        "overallPnl": 0.0,
+        "openPositions": 0,
+        "riskLevel": "normal"
+      }
+    },
+    "createdAt": "2026-08-08T17:14:50.534698+00:00"
+  },
+  {
+    "id": "f915dd91-ec7a-4a3f-a56c-06b5bd78755e",
+    "type": "summary",
+    "generatedAt": 1786209340053,
+    "report": {
+      "id": "summary-1786209340053",
+      "type": "summary",
+      "generatedAt": 1786209340053,
+      "period": "Current",
+      "portfolio": {
+        "balance": 100000,
+        "equity": 100000.0,
+        "pnl": 0.0,
+        "trades": 1,
+        "wins": 0,
+        "losses": 0,
+        "winRate": 0.0,
+        "netProfit": 0.0,
+        "avgProfit": 0.0,
+        "profitFactor": 0
+      },
+      "risk": {
+        "settings": [
+          {
+            "id": "max_risk_per_trade",
+            "value": 2,
+            "enabled": true,
+            "description": "Max risk per trade (% of equity)",
+            "createdAt": "2026-08-07T14:48:35.501606+00:00"
+          },
+          {
+            "id": "max_daily_loss",
+            "value": 5,
+            "enabled": true,
+            "description": "Max daily loss (% of equity)",
+            "createdAt": "2026-08-07T14:48:35.501625+00:00"
+          },
+          {
+            "id": "max_total_exposure",
+            "value": 30,
+            "enabled": true,
+            "description": "Max total exposure (% of equity)",
+            "createdAt": "2026-08-07T14:48:35.501631+00:00"
+          },
+          {
+            "id": "max_open_positions",
+            "value": 10,
+            "enabled": true,
+            "description": "Max open positions",
+            "createdAt": "2026-08-07T14:48:35.501636+00:00"
+          },
+          {
+            "id": "max_correlation",
+            "value": 3,
+            "enabled": true,
+            "description": "Max correlated pairs exposure",
+            "createdAt": "2026-08-07T14:48:35.501641+00:00"
+          },
+          {
+            "id": "stop_loss_required",
+            "value": true,
+            "enabled": true,
+            "description": "Stop loss required on all trades",
+            "createdAt": "2026-08-07T14:48:35.501646+00:00"
+          },
+          {
+            "id": "take_profit_required",
+            "value": false,
+            "enabled": true,
+            "description": "Take profit recommended",
+            "createdAt": "2026-08-07T14:48:35.501651+00:00"
+          }
+        ],
+        "capitalProtection": {
+          "dailyLossLimit": 5,
+          "currentDailyLoss": 0,
+          "dailyLossPct": 0.0,
+          "haltTrading": false,
+          "reason": null
+        }
+      },
+      "market": {
+        "macro": {
+          "vix": 16.53,
+          "globalM2Growth": 6.36,
+          "recessionProbability": 19.73,
+          "marketBreadth": 61.78
+        },
+        "sentiment": 0.41,
+        "topNews": [
+          {
+            "title": "Non-farm payrolls beat expectations, dollar strengthens",
+            "sentiment": 0.3,
+            "impact": 0.9
+          },
+          {
+            "title": "Crude oil climbs 2% as OPEC+ extends production cuts",
+            "sentiment": 0.6,
+            "impact": 0.65
+          },
+          {
+            "title": "Gold hits fresh record high as safe-haven demand rises",
+            "sentiment": 0.7,
+            "impact": 0.75
+          },
+          {
+            "title": "Ethereum upgrade goes live, developers report smooth transition",
+            "sentiment": 0.6,
+            "impact": 0.5
+          },
+          {
+            "title": "Non-farm payrolls beat expectations, dollar strengthens",
+            "sentiment": 0.3,
+            "impact": 0.9
+          }
+        ],
+        "upcomingEvents": []
+      },
+      "ai": {
+        "decisions": 10,
+        "recent": [
+          {
+            "symbol": "XAUUSD",
+            "direction": "no_trade",
+            "confidence": 0,
+            "time": 1786207991137
+          },
+          {
+            "symbol": "EURUSD",
+            "direction": "neutral",
+            "confidence": 0.57,
+            "time": 1786208017752
+          },
+          {
+            "symbol": "XAUUSD",
+            "direction": "no_trade",
+            "confidence": 0,
+            "time": 1786208022697
+          },
+          {
+            "symbol": "XAUUSD",
+            "direction": "no_trade",
+            "confidence": 0,
+            "time": 1786208052120
+          },
+          {
+            "symbol": "XAUUSD",
+            "direction": "no_trade",
+            "confidence": 0,
+            "time": 1786208083213
+          },
+          {
+            "symbol": "XAUUSD",
+            "direction": "no_trade",
+            "confidence": 0,
+            "time": 1786208112959
+          },
+          {
+            "symbol": "EURUSD",
+            "direction": "neutral",
+            "confidence": 0.57,
+            "time": 1786209112594
+          },
+          {
+            "symbol": "EURUSD",
+            "direction": "neutral",
+            "confidence": 0.57,
+            "time": 1786209235861
+          },
+          {
+            "symbol": "EURUSD",
+            "direction": "neutral",
+            "confidence": 0.57,
+            "time": 1786209292557
+          },
+          {
+            "symbol": "EURUSD",
+            "direction": "neutral",
+            "confidence": 0.57,
+            "time": 1786209293942
+          }
+        ]
+      },
+      "summary": {
+        "headline": "Portfolio gained 0.0 in the summary period",
+        "overallPnl": 0.0,
+        "openPositions": 0,
+        "riskLevel": "normal"
+      }
+    },
+    "createdAt": "2026-08-08T17:15:40.054404+00:00"
+  },
+  {
+    "id": "8c59f89b-5814-4e6f-adda-0ceb63e37bf6",
+    "type": "summary",
+    "generatedAt": 1786210302440,
+    "report": {
+      "id": "summary-1786210302440",
+      "type": "summary",
+      "generatedAt": 1786210302440,
+      "period": "Current",
+      "portfolio": {
+        "balance": 100000,
+        "equity": 100000.0,
+        "pnl": 0.0,
+        "trades": 1,
+        "wins": 0,
+        "losses": 0,
+        "winRate": 0.0,
+        "netProfit": 0.0,
+        "avgProfit": 0.0,
+        "profitFactor": 0
+      },
+      "risk": {
+        "settings": [
+          {
+            "id": "max_risk_per_trade",
+            "value": 2,
+            "enabled": true,
+            "description": "Max risk per trade (% of equity)",
+            "createdAt": "2026-08-07T14:48:35.501606+00:00"
+          },
+          {
+            "id": "max_daily_loss",
+            "value": 5,
+            "enabled": true,
+            "description": "Max daily loss (% of equity)",
+            "createdAt": "2026-08-07T14:48:35.501625+00:00"
+          },
+          {
+            "id": "max_total_exposure",
+            "value": 30,
+            "enabled": true,
+            "description": "Max total exposure (% of equity)",
+            "createdAt": "2026-08-07T14:48:35.501631+00:00"
+          },
+          {
+            "id": "max_open_positions",
+            "value": 10,
+            "enabled": true,
+            "description": "Max open positions",
+            "createdAt": "2026-08-07T14:48:35.501636+00:00"
+          },
+          {
+            "id": "max_correlation",
+            "value": 3,
+            "enabled": true,
+            "description": "Max correlated pairs exposure",
+            "createdAt": "2026-08-07T14:48:35.501641+00:00"
+          },
+          {
+            "id": "stop_loss_required",
+            "value": true,
+            "enabled": true,
+            "description": "Stop loss required on all trades",
+            "createdAt": "2026-08-07T14:48:35.501646+00:00"
+          },
+          {
+            "id": "take_profit_required",
+            "value": false,
+            "enabled": true,
+            "description": "Take profit recommended",
+            "createdAt": "2026-08-07T14:48:35.501651+00:00"
+          }
+        ],
+        "capitalProtection": {
+          "dailyLossLimit": 5,
+          "currentDailyLoss": 0,
+          "dailyLossPct": 0.0,
+          "haltTrading": false,
+          "reason": null
+        }
+      },
+      "market": {
+        "macro": {
+          "vix": 16.6,
+          "globalM2Growth": 6.4,
+          "recessionProbability": 28.23,
+          "marketBreadth": 76.44
+        },
+        "sentiment": 0.41,
+        "topNews": [
+          {
+            "title": "Non-farm payrolls beat expectations, dollar strengthens",
+            "sentiment": 0.3,
+            "impact": 0.9
+          },
+          {
+            "title": "Crude oil climbs 2% as OPEC+ extends production cuts",
+            "sentiment": 0.6,
+            "impact": 0.65
+          },
+          {
+            "title": "Gold hits fresh record high as safe-haven demand rises",
+            "sentiment": 0.7,
+            "impact": 0.75
+          },
+          {
+            "title": "Ethereum upgrade goes live, developers report smooth transition",
+            "sentiment": 0.6,
+            "impact": 0.5
+          },
+          {
+            "title": "Non-farm payrolls beat expectations, dollar strengthens",
+            "sentiment": 0.3,
+            "impact": 0.9
+          }
+        ],
+        "upcomingEvents": []
+      },
+      "ai": {
+        "decisions": 10,
+        "recent": [
+          {
+            "symbol": "XAUUSD",
+            "direction": "no_trade",
+            "confidence": 0,
+            "time": 1786208052120
+          },
+          {
+            "symbol": "XAUUSD",
+            "direction": "no_trade",
+            "confidence": 0,
+            "time": 1786208083213
+          },
+          {
+            "symbol": "XAUUSD",
+            "direction": "no_trade",
+            "confidence": 0,
+            "time": 1786208112959
+          },
+          {
+            "symbol": "EURUSD",
+            "direction": "neutral",
+            "confidence": 0.57,
+            "time": 1786209112594
+          },
+          {
+            "symbol": "EURUSD",
+            "direction": "neutral",
+            "confidence": 0.57,
+            "time": 1786209235861
+          },
+          {
+            "symbol": "EURUSD",
+            "direction": "neutral",
+            "confidence": 0.57,
+            "time": 1786209292557
+          },
+          {
+            "symbol": "EURUSD",
+            "direction": "neutral",
+            "confidence": 0.57,
+            "time": 1786209293942
+          },
+          {
+            "symbol": "EURUSD",
+            "direction": "neutral",
+            "confidence": 0.57,
+            "time": 1786209341996
+          },
+          {
+            "symbol": "EURUSD",
+            "direction": "neutral",
+            "confidence": 0.57,
+            "time": 1786209343390
+          },
+          {
+            "symbol": "EURUSD",
+            "direction": "neutral",
+            "confidence": 0.57,
+            "time": 1786210295229
+          }
+        ]
+      },
+      "summary": {
+        "headline": "Portfolio gained 0.0 in the summary period",
+        "overallPnl": 0.0,
+        "openPositions": 0,
+        "riskLevel": "normal"
+      }
+    },
+    "createdAt": "2026-08-08T17:31:42.441054+00:00"
+  }
+]

@@ -1,0 +1,113 @@
+[
+  {
+    "id": "8a4ef3a7-a071-4082-a660-c6e192b66ed9",
+    "type": "stress",
+    "concurrency": 5,
+    "durationSec": 1,
+    "requests": 10,
+    "errors": 1,
+    "errorRate": 10.0,
+    "rps": 10,
+    "latency": {
+      "p50": 107,
+      "p95": 154,
+      "p99": 154,
+      "avg": 94
+    },
+    "status": "fail",
+    "startedAt": 1786209295050,
+    "completedAt": 1786209296052,
+    "passed": false,
+    "createdAt": "2026-08-08T17:14:56.052764+00:00"
+  },
+  {
+    "id": "037e034c-c651-44ad-b60b-10e8572c9e9d",
+    "type": "load",
+    "targetRps": 5,
+    "achievedRps": 4,
+    "durationSec": 1,
+    "requests": 4,
+    "errors": 0,
+    "errorRate": 0.0,
+    "p95": 46,
+    "status": "fail",
+    "passed": false,
+    "startedAt": 1786209296270,
+    "completedAt": 1786209297273,
+    "createdAt": "2026-08-08T17:14:57.273157+00:00"
+  },
+  {
+    "id": "115e0025-34e0-41a3-93e6-e9fc60d8a9ee",
+    "type": "stress",
+    "concurrency": 5,
+    "durationSec": 1,
+    "requests": 10,
+    "errors": 0,
+    "errorRate": 0.0,
+    "rps": 10,
+    "latency": {
+      "p50": 59,
+      "p95": 126,
+      "p99": 126,
+      "avg": 63
+    },
+    "status": "pass",
+    "startedAt": 1786209344490,
+    "completedAt": 1786209345491,
+    "passed": true,
+    "createdAt": "2026-08-08T17:15:45.491900+00:00"
+  },
+  {
+    "id": "564f404a-d477-4374-a472-3589af2e7606",
+    "type": "load",
+    "targetRps": 5,
+    "achievedRps": 4,
+    "durationSec": 1,
+    "requests": 4,
+    "errors": 0,
+    "errorRate": 0.0,
+    "p95": 70,
+    "status": "fail",
+    "passed": false,
+    "startedAt": 1786209345721,
+    "completedAt": 1786209346722,
+    "createdAt": "2026-08-08T17:15:46.722886+00:00"
+  },
+  {
+    "id": "0b0ee1c7-adef-4d96-b1b5-40b9fa61574e",
+    "type": "stress",
+    "concurrency": 5,
+    "durationSec": 1,
+    "requests": 10,
+    "errors": 0,
+    "errorRate": 0.0,
+    "rps": 10,
+    "latency": {
+      "p50": 93,
+      "p95": 120,
+      "p99": 120,
+      "avg": 93
+    },
+    "status": "pass",
+    "startedAt": 1786210307277,
+    "completedAt": 1786210308279,
+    "passed": true,
+    "createdAt": "2026-08-08T17:31:48.279509+00:00"
+  },
+  {
+    "id": "fcb7a7a2-4698-461c-84db-e2e2a874d432",
+    "type": "load",
+    "targetRps": 5,
+    "achievedRps": 4,
+    "durationSec": 1,
+    "requests": 4,
+    "errors": 0,
+    "errorRate": 0.0,
+    "p95": 74,
+    "status": "fail",
+    "passed": false,
+    "startedAt": 1786210308505,
+    "completedAt": 1786210309506,
+    "createdAt": "2026-08-08T17:31:49.506657+00:00"
+  }
+]

@@ -1,0 +1,167 @@
+version: "3.9"
+
+services:
+  postgres:
+    image: pgvector/pgvector:pg16
+    container_name: quantos-postgres
+    environment:
+      POSTGRES_USER: quantos
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-quantos}
+      POSTGRES_DB: quantos
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U quantos -d quantos"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+  redis:
+    image: redis:7
+    container_name: quantos-redis
+    command: ["redis-server", "--appendonly", "yes"]
+    ports:
+      - "6379:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    container_name: quantos-backend
+    user: "10001:10001"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    ports:
+      - "3001:3001"
+    volumes:
+      - ./backend-py/backend/data:/app/backend-py/backend/data
+    environment:
+      ENVIRONMENT: production
+      PORT: 3001
+      JWT_SECRET: ${JWT_SECRET:-change-me-in-production}
+      PYTHONUNBUFFERED: "1"
+      DATABASE_URL: postgresql+asyncpg://quantos:${POSTGRES_PASSWORD:-quantos}@postgres:5432/quantos
+      POSTGRES_ENABLED: "true"
+      REDIS_URL: redis://redis:6379/0
+      CELERY_ENABLED: "true"
+      CELERY_BROKER_URL: redis://redis:6379/1
+      CELERY_RESULT_BACKEND: redis://redis:6379/2
+      # Ollama on the Docker host (native install). host.docker.internal maps to
+      # the host machine; Linux needs extra_hosts above, Docker Desktop has it built-in.
+      USER_LLM_BASE_URL: http://host.docker.internal:11434/v1
+      USER_LLM_API_KEY: ""
+      USER_LLM_MODEL: qwen2.5:7b
+      # ---- Backup slots (fill keys in the root .env next to docker-compose.yml) ----
+      # ChatGPT (separate slot via custom OpenAI-compatible endpoint)
+      USER_LLM_CUSTOM_BASE_URL: ${USER_LLM_CUSTOM_BASE_URL:-}
+      USER_LLM_CUSTOM_API_KEY: ${USER_LLM_CUSTOM_API_KEY:-}
+      USER_LLM_CUSTOM_MODEL: ${USER_LLM_CUSTOM_MODEL:-gpt-4o-mini}
+      # DeepSeek (separate slot via OpenRouter routing to deepseek-chat)
+      USER_LLM_OPENROUTER_API_KEY: ${USER_LLM_OPENROUTER_API_KEY:-}
+      USER_LLM_OPENROUTER_MODEL: ${USER_LLM_OPENROUTER_MODEL:-deepseek/deepseek-chat}
+      # GLM (Zhipu)
+      USER_LLM_GLM_API_KEY: ${USER_LLM_GLM_API_KEY:-}
+      USER_LLM_GLM_MODEL: ${USER_LLM_GLM_MODEL:-glm-4-plus}
+      # Anthropic (Claude)
+      USER_LLM_ANTHROPIC_API_KEY: ${USER_LLM_ANTHROPIC_API_KEY:-}
+      # Google Gemini
+      USER_LLM_GEMINI_API_KEY: ${USER_LLM_GEMINI_API_KEY:-}
+      USER_LLM_GEMINI_MODEL: ${USER_LLM_GEMINI_MODEL:-gemini-2.0-flash}
+      # Local keyless OpenAI-compatible server (LM Studio / another Ollama)
+      USER_LLM_LMSTUDIO_BASE_URL: ${USER_LLM_LMSTUDIO_BASE_URL:-}
+      USER_LLM_LMSTUDIO_MODEL: ${USER_LLM_LMSTUDIO_MODEL:-local-model}
+      # NVIDIA NIM (free tier; additive slot)
+      USER_LLM_NVIDIA_API_KEY: ${USER_LLM_NVIDIA_API_KEY:-}
+      USER_LLM_NVIDIA_MODEL: ${USER_LLM_NVIDIA_MODEL:-deepseek-ai/deepseek-r1}
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request,sys; sys.exit(0 if urllib.request.urlopen('http://localhost:3001/api/health', timeout=5).status==200 else 1)"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+
+  celery-worker:
+    build:
+      context: .
+      dockerfile: Dockerfile.celery
+    container_name: quantos-celery-worker
+    user: "10001:10001"
+    command: celery -A app.tasks.celery_app worker --loglevel=info
+    volumes:
+      - ./backend-py/backend/data:/app/backend-py/backend/data
+    environment:
+      ENVIRONMENT: production
+      DATABASE_URL: postgresql+asyncpg://quantos:${POSTGRES_PASSWORD:-quantos}@postgres:5432/quantos
+      POSTGRES_ENABLED: "true"
+      REDIS_URL: redis://redis:6379/0
+      CELERY_BROKER_URL: redis://redis:6379/1
+      CELERY_RESULT_BACKEND: redis://redis:6379/2
+      CELERY_ENABLED: "true"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    restart: unless-stopped
+
+  celery-beat:
+    build:
+      context: .
+      dockerfile: Dockerfile.celery
+    container_name: quantos-celery-beat
+    user: "10001:10001"
+    command: celery -A app.tasks.celery_app beat --loglevel=info
+    volumes:
+      - ./backend-py/backend/data:/app/backend-py/backend/data
+    environment:
+      ENVIRONMENT: production
+      DATABASE_URL: postgresql+asyncpg://quantos:${POSTGRES_PASSWORD:-quantos}@postgres:5432/quantos
+      POSTGRES_ENABLED: "true"
+      REDIS_URL: redis://redis:6379/0
+      CELERY_BROKER_URL: redis://redis:6379/1
+      CELERY_RESULT_BACKEND: redis://redis:6379/2
+      CELERY_ENABLED: "true"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+      target: runtime
+    container_name: quantos-frontend
+    ports:
+      - "8080:80"
+    volumes:
+      - ./docker/nginx-prod.conf:/etc/nginx/conf.d/default.conf:ro
+    environment:
+      QUANTOS_STANDALONE: "false"
+    depends_on:
+      - backend
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request,sys; sys.exit(0 if urllib.request.urlopen('http://localhost/', timeout=5).status==200 else 1)"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+
+volumes:
+  pgdata:
