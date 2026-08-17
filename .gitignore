@@ -177,3 +177,10 @@
 
 # Runtime-cloned dependency (Kronos forecasting engine)
 backend-py/backend/data/kronos_repo/
+
+# Runtime state (JSON store) — written continuously by the running server.
+# Not source code: keeping it out of git keeps the repo and ZIP downloads small
+# and prevents "incomplete/corrupt" archives from live 100MB+ data files.
+backend-py/backend/data/*.json
+backend-py/backend/data/*.tmp
+backend-py/backend/data/*.csv
