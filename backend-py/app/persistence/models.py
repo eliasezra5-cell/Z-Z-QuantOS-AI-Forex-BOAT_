@@ -70,6 +70,7 @@ class NewsItem(Base):
     source: Mapped[str] = mapped_column(String(255), nullable=False)
     title: Mapped[str] = mapped_column(Text, nullable=False)
     summary: Mapped[str | None] = mapped_column(Text, nullable=True)
+    content: Mapped[str | None] = mapped_column(Text, nullable=True)
     url: Mapped[str | None] = mapped_column(Text, nullable=True)
     category: Mapped[str | None] = mapped_column(String(64), nullable=True)
     sentiment: Mapped[Decimal | None] = mapped_column(Numeric(6, 3), nullable=True)
@@ -90,6 +91,7 @@ class NewsItem(Base):
             "source": self.source,
             "title": self.title,
             "summary": self.summary,
+            "content": self.content,
             "url": self.url,
             "category": self.category,
             "sentiment": float(self.sentiment) if self.sentiment is not None else None,

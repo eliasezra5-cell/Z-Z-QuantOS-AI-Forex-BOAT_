@@ -63,6 +63,18 @@ export default function News() {
   const [pollError, setPollError] = useState('');
   const [lang, setLang] = useState('en');
   const [translations, setTranslations] = useState({});
+  const [expanded, setExpanded] = useState({});
+
+  const toggleExpand = useCallback((id) => {
+    setExpanded((prev) => ({ ...prev, [id]: !prev[id] }));
+  }, []);
+
+  const fullArticle = (n) => {
+    const content = (n?.content || '').trim();
+    if (content) return content;
+    const summary = (n?.summary || '').trim();
+    return summary || n?.title || '';
+  };
 
   const fetchTranslation = useCallback(async (item) => {
     if (!item?.id || lang === 'en') return;
@@ -214,6 +226,37 @@ export default function News() {
                 {n.entities?.map((e) => <span key={e} className="badge info">{e}</span>)}
                 {(n.keywords || []).slice(0, 4).map((k) => <span key={k} className="badge neutral" style={{ opacity: 0.6 }}>{k}</span>)}
               </div>
+              {fullArticle(n) && (
+                <div style={{ marginTop: 6 }}>
+                  <button
+                    className="btn btn-sm"
+                    onClick={() => toggleExpand(n.id)}
+                    title={expanded[n.id] ? 'Hide full article' : 'Show the full blog/article text'}
+                  >
+                    {expanded[n.id] ? '▾ Hide full article' : '▸ Read full article'}
+                  </button>
+                  {expanded[n.id] && (
+                    <div
+                      className="muted"
+                      style={{
+                        marginTop: 6,
+                        fontSize: 12.5,
+                        lineHeight: 1.55,
+                        whiteSpace: 'pre-wrap',
+                        wordBreak: 'break-word',
+                        maxHeight: 420,
+                        overflowY: 'auto',
+                        padding: 10,
+                        background: 'rgba(127,127,127,0.07)',
+                        borderRadius: 6,
+                        border: '1px solid rgba(127,127,127,0.18)',
+                      }}
+                    >
+                      {fullArticle(n)}
+                    </div>
+                  )}
+                </div>
+              )}
             </div>
           ))}
         </Panel>

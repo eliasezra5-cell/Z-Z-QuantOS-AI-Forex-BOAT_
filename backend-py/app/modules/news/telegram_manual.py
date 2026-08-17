@@ -51,6 +51,7 @@ def ingest_telegram_manual(chat_id, text):
         "sourceType": SOURCE_TYPE,
         "title": body[:300],
         "summary": body[:2000],
+        "content": body[:20000],
         "url": None,
         "category": "social",
         "impact": 0.3,

@@ -33,6 +33,27 @@ def _fetch_feed(url):
         return res.text
 
 
+def _feed_entry_content(entry):
+    """Full body of an RSS/Atom entry (additive).
+
+    Prefers the Atom ``content`` list (full article text) when present and
+    non-trivial; otherwise falls back to the entry summary. HTML is stripped
+    and the result is capped so the news pipeline never stores unbounded text.
+    """
+    raw = ""
+    content_list = entry.get("content") or []
+    for block in content_list:
+        value = block.get("value") if isinstance(block, dict) else getattr(block, "value", "")
+        if value and len(str(value).strip()) > len(raw):
+            raw = str(value)
+    if not raw:
+        raw = entry.get("summary") or ""
+    from .web import _html_to_text, MAX_ARTICLE_CHARS
+
+    text = _html_to_text(raw)
+    return text[:MAX_ARTICLE_CHARS] or None
+
+
 class RssRealtimeCollector:
     id = "rss"
     name = "RSS Feeds (live)"
@@ -62,6 +83,7 @@ class RssRealtimeCollector:
                         "source": self.config.get("sourceName") or feed_title,
                         "title": entry.get("title", "").strip(),
                         "summary": entry.get("summary", "")[:2000],
+                        "content": _feed_entry_content(entry),
                         "url": entry.get("link"),
                         "category": "macro",
                         "impact": 0.5,

@@ -28,11 +28,20 @@ from ....foundation.logger import logger
 
 TIMEOUT_SECONDS = 15
 _USER_AGENT = "Mozilla/5.0 (compatible; ZZ_QuantOS_AI_BOAT/1.0; +news collector)"
+# Full article body cap: keeps stored/published news payloads bounded while
+# still carrying the complete blog text to the UI and the AI pipeline.
+MAX_ARTICLE_CHARS = 20000
 
 
 def _fingerprint(item):
+    """Stable dedupe fingerprint for an item.
+
+    Includes the extracted article body (when present) so a page whose text
+    changes without its title/URL changing is detected as new content.
+    """
+    body = item.get("content") or item.get("summary") or ""
     return hashlib.sha256(
-        f"{item.get('url') or ''}|{item.get('title') or ''}".encode("utf-8")
+        f"{item.get('url') or ''}|{item.get('title') or ''}|{body}".encode("utf-8")
     ).hexdigest()
 
 
@@ -86,6 +95,7 @@ class WebRealtimeCollector:
                 "source": self.config.get("sourceName") or feed_title,
                 "title": title[:400],
                 "summary": (entry.get("summary") or "")[:2000],
+                "content": _feed_entry_content(entry),
                 "url": entry.get("link"),
                 "category": self.config.get("category", "macro"),
                 "impact": self.config.get("impact", 0.5),
@@ -128,10 +138,13 @@ class WebRealtimeCollector:
             resp.close()
         title = _extract_title(html) or url
         summary = _extract_meta(html, "description") or title
+        body = _extract_article_body(html)
         return {
             "source": self.config.get("sourceName") or url,
             "title": title.strip()[:400],
             "summary": summary.strip()[:2000],
+            "content": body or None,
+            "contentLength": len(body) if body else 0,
             "url": url,
             "category": self.config.get("category", "macro"),
             "impact": self.config.get("impact", 0.5),
@@ -154,6 +167,84 @@ def _extract_meta(html, name):
     if not m:
         m = re.search(rf'<meta[^>]+content=["\'](.*?)["\'][^>]+name=["\']{name}["\']', html, re.DOTALL | re.IGNORECASE)
     return _clean(m.group(1)) if m else ""
+
+
+def _html_to_text(html):
+    """Strip HTML to normalized text (paragraph/newline preserving)."""
+    text = _clean(html)
+    return re.sub(r"[ \t]+\n", "\n", text).strip()
+
+
+def _feed_entry_content(entry):
+    """Full body of an RSS/Atom entry.
+
+    Prefers the Atom ``content`` list (full article) when present and
+    non-trivial; otherwise falls back to the entry summary. HTML is stripped
+    and the result is capped at MAX_ARTICLE_CHARS.
+    """
+    raw = ""
+    content_list = entry.get("content") or []
+    for block in content_list:
+        value = block.get("value") if isinstance(block, dict) else getattr(block, "value", "")
+        if value and len(str(value).strip()) > len(raw):
+            raw = str(value)
+    if not raw:
+        raw = entry.get("summary") or ""
+    text = _html_to_text(raw)
+    return text[:MAX_ARTICLE_CHARS] or None
+
+
+def _extract_article_body(html):
+    """Extract the readable article body from a page's HTML.
+
+    Uses BeautifulSoup when available (installed): navigation, scripts,
+    styles, headers, footers and asides are removed, then paragraph/heading
+    text from the ``<article>``/``<main>`` regions is collected. Falls back to
+    a regex ``<p>`` scrape when the parser is unavailable. Never raises.
+    """
+    if not html:
+        return ""
+    try:
+        from bs4 import BeautifulSoup
+    except Exception:  # noqa: BLE001 - optional parser
+        return _regex_article_body(html)
+    try:
+        soup = BeautifulSoup(html, "html.parser")
+    except Exception:  # noqa: BLE001 - malformed HTML must never break fetching
+        return _regex_article_body(html)
+
+    for tag in soup(["script", "style", "nav", "footer", "header", "aside", "noscript", "iframe", "form", "button", "svg"]):
+        tag.decompose()
+
+    containers = soup.select("article, main")
+    if not containers:
+        containers = [soup.body] if soup.body else []
+    parts = []
+    seen = set()
+    for container in containers[:1]:
+        for tag in container.find_all(["p", "h1", "h2", "h3", "h4", "li", "blockquote", "td"]):
+            text = _clean(tag.get_text(" ", strip=True))
+            if not text:
+                continue
+            normalized = re.sub(r"\s+", " ", text)
+            if len(normalized) < 40:
+                continue
+            if normalized in seen:
+                continue
+            seen.add(normalized)
+            parts.append(normalized)
+    return "\n\n".join(parts)[:MAX_ARTICLE_CHARS]
+
+
+def _regex_article_body(html):
+    """Fallback article body extraction via ``<p>`` paragraph scraping."""
+    paragraphs = re.findall(r"<p[^>]*>(.*?)</p>", html, re.DOTALL | re.IGNORECASE)
+    parts = []
+    for p in paragraphs:
+        text = _clean(p)
+        if text:
+            parts.append(re.sub(r"\s+", " ", text))
+    return "\n\n".join(parts)[:MAX_ARTICLE_CHARS]
 
 
 def _clean(text):

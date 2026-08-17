@@ -437,9 +437,17 @@ def extract_event(item):
 
 
 def analyze_news_item(item, existing_items=None):
-    sentiment = item.get("sentiment") if item.get("sentiment") is not None else infer_sentiment(item["title"])
-    keywords = item.get("keywords") or extract_keywords(item["title"])
-    entities = item.get("entities") or extract_entities(item["title"])
+    # Full-text analysis: combine the headline, summary and the complete
+    # article body (when present) so the analysis reads the whole blog, not
+    # just the headline. Falls back to the title alone when no body exists.
+    full_text = " ".join(
+        str(p).strip() for p in (item.get("title"), item.get("summary"), item.get("content")) if str(p or "").strip()
+    ).strip()
+    if not full_text:
+        full_text = str(item.get("title") or "")
+    sentiment = item.get("sentiment") if item.get("sentiment") is not None else infer_sentiment(full_text)
+    keywords = item.get("keywords") or extract_keywords(full_text)
+    entities = item.get("entities") or extract_entities(full_text)
     src = next((s for s in SOURCES if s["name"] == item.get("source")), None)
     reliability = _source_reliability(item, src)
     fake_news_risk = detect_fake_news(item)
@@ -605,9 +613,12 @@ def init_news_engine():
         existing = col.find({"id": item.get("id")}) if item.get("id") else []
         row = col.update(item["id"], processed) if existing else col.insert(processed)
         try:
+            rag_text = " ".join(
+                str(p).strip() for p in (item.get("title"), item.get("summary"), item.get("content")) if str(p or "").strip()
+            ) or str(item.get("title") or "")
             vector_store.insert(
                 item.get("id"),
-                f"{item.get('title') or ''} {item.get('summary') or ''}",
+                rag_text,
                 {"category": "news", "source": item.get("source")},
             )
         except Exception as exc:  # noqa: BLE001 - RAG indexing must never break ingestion

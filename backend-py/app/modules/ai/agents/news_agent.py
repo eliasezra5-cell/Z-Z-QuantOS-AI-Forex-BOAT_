@@ -19,10 +19,12 @@ from .base import AgentResult, clamp01
 SYSTEM_PROMPT_NEWS = (
     "You are the News Analysis Agent of an institutional gold (XAUUSD) trading system. "
     "News determines 80% of the directional decision. Analyze ONLY the provided news "
-    "headlines and return STRICT JSON with exactly these fields:\n"
+    "articles — read the FULL article text (not just the headline) and return STRICT "
+    "JSON with exactly these fields:\n"
     '{"direction": "buy"|"sell"|"neutral", "impact_score": 0.0..1.0, '
     '"confidence": 0.0..1.0, "reason": "short explanation", "expected_pips": number}\n'
     "No extra keys. No text outside the JSON object. "
+    "Base your judgment on the substance of the article body, not only the headline. "
     "If the news is neutral or contradictory, use direction 'neutral'."
 )
 
@@ -71,6 +73,23 @@ def _strict_parse(text, provider_id):
     }
 
 
+# Max article-body chars fed to the LLM per article (keeps the prompt bounded
+# while still letting the agent read the substance of each blog post).
+_MAX_ARTICLE_CHARS = 2000
+
+
+def _format_news_article(item):
+    """Render one news item with its full article body for the LLM prompt."""
+    title = str(item.get("title") or "")
+    body = str(item.get("content") or "").strip()
+    if not body:
+        body = str(item.get("summary") or "").strip()
+    header = f"[{item.get('source')}] {title}"
+    if not body:
+        return header
+    return f"{header}\n{body[:_MAX_ARTICLE_CHARS]}"
+
+
 class NewsAnalysisAgent:
     id = "news"
     name = "NewsAnalysisAgent"
@@ -84,10 +103,13 @@ class NewsAnalysisAgent:
             return AgentResult(self.id, self.name, self.weight, direction="neutral", confidence=0.0,
                                abstention="DATA_INSUFFICIENT",
                                reasoning="No live news available for analysis", data={"newsCount": 0})
-        headlines = "\n".join(f"- [{n.get('source')}] {n.get('title')}" for n in news)
+        # Feed the LLM the full article text (content or summary) when present
+        # so the agent reads the whole blog, not just the headline. Each article
+        # body is capped so the prompt stays within token limits.
+        articles = "\n\n".join(_format_news_article(n) for n in news)
         messages = [
             {"role": "system", "content": SYSTEM_PROMPT_NEWS},
-            {"role": "user", "content": f"News headlines (gold context, current time UTC):\n{headlines}\nReturn strict JSON."},
+            {"role": "user", "content": f"News articles (gold context, current time UTC):\n\n{articles}\n\nReturn strict JSON."},
         ]
         manager = ai_provider_manager
         if manager is None:

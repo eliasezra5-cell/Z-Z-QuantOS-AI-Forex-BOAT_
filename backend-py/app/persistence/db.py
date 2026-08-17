@@ -79,5 +79,11 @@ async def init_models():
 
         await conn.execute(text("CREATE EXTENSION IF NOT EXISTS vector"))
         await conn.run_sync(models.Base.metadata.create_all)
+        # Additive column for the full-article news body. ``IF NOT EXISTS`` makes
+        # this idempotent so existing deployments gain the column on boot without
+        # a manual migration, while fresh databases get it from ``create_all``.
+        await conn.execute(
+            text("ALTER TABLE IF EXISTS news_items ADD COLUMN IF NOT EXISTS content TEXT")
+        )
     logger.info("PostgreSQL schema ensured (pgvector extension enabled)")
     return True
